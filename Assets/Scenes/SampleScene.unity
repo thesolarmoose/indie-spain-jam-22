@@ -1254,7 +1254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 496060425}
-  _offset: {x: 0, y: 0}
+  _offset: {x: 0, y: -0.1}
   _lerpSpeed: 0.05
   _freezeX: 1
   _freezeY: 0
@@ -1929,8 +1929,6 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
     - rid: 5124477816547311622
       type: {class: DOTweenAnimationStep, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
       data:
