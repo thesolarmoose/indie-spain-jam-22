@@ -582,7 +582,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 323858324}
-  - component: {fileID: 323858325}
   - component: {fileID: 323858323}
   m_Layer: 0
   m_Name: Mask
@@ -659,23 +658,6 @@ Transform:
   m_Father: {fileID: 2046113732}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &323858325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323858322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e38ad1b2d2c348a48147ce524435693d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _target: {fileID: 496060425}
-  _offset: {x: 0, y: 0}
-  _lerpSpeed: 0.1
-  _freezeX: 0
-  _freezeY: 0
 --- !u!1001 &424133885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1105,7 +1087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d287ea75be6b459ba5396816ab8af1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
 --- !u!4 &496060425
 Transform:
   m_ObjectHideFlags: 0
@@ -1320,7 +1302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &609587480
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1361,7 +1343,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -1757,6 +1739,30 @@ MonoBehaviour:
   _event:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 609587479}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 323858322}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 2046113733}
         m_TargetAssemblyTypeName: BrunoMikoski.AnimationSequencer.AnimationSequencerController,
           BrunoMikoski.AnimationSequencer
@@ -1832,6 +1838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046113732}
   - component: {fileID: 2046113733}
+  - component: {fileID: 2046113734}
   m_Layer: 0
   m_Name: LimitedVisionEffect
   m_TagString: Untagged
@@ -1943,3 +1950,20 @@ MonoBehaviour:
         isRelative: 0
         _value: 0
         _variableName: _edgeAlpha
+--- !u!114 &2046113734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046113731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e38ad1b2d2c348a48147ce524435693d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _target: {fileID: 496060425}
+  _offset: {x: 0, y: 0}
+  _lerpSpeed: 0.1
+  _freezeX: 0
+  _freezeY: 0
