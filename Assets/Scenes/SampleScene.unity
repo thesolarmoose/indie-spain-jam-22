@@ -589,7 +589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &323858323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1929,6 +1929,8 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
     - rid: 5124477816547311622
       type: {class: DOTweenAnimationStep, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
       data:
@@ -1941,7 +1943,7 @@ MonoBehaviour:
         actions:
         - rid: 5124477816547311623
     - rid: 5124477816547311623
-      type: {class: ScaleToVariableDOTweenAction, ns: AnimationSequencerExtensions, asm: com.thesolarmoose.name}
+      type: {class: ScaleToVariableDOTweenAction, ns: AnimationSequencerExtensions, asm: com.thesolarmoose.isj22}
       data:
         direction: 0
         ease:
@@ -1966,7 +1968,7 @@ MonoBehaviour:
         actions:
         - rid: 5124477816547311627
     - rid: 5124477816547311627
-      type: {class: SetShaderAlphaDOTWeenAction, ns: AnimationSequencerExtensions, asm: com.thesolarmoose.name}
+      type: {class: SetShaderAlphaDOTWeenAction, ns: AnimationSequencerExtensions, asm: com.thesolarmoose.isj22}
       data:
         direction: 0
         ease:
