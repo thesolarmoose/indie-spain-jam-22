@@ -1,8 +1,7 @@
-﻿using System;
-using UnityAtoms.BaseAtoms;
+﻿using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
-namespace Movement
+namespace DepthLogic
 {
     public class MetersUpdater : MonoBehaviour
     {
