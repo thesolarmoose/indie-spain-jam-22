@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.brunomikoski.animationsequencer": "0.4.0",
     "com.dbrizov.naughtyattributes": "2.1.4",
     "com.facticus.asyncutils": "https://github.com/mnicolas94/unity-async-utils.git",
     "com.facticus.audio": "https://github.com/mnicolas94/facticus-audio.git",
@@ -7,6 +8,7 @@
     "com.facticus.loadingutils": "https://github.com/mnicolas94/unity-loading-utils.git",
     "com.facticus.modelview": "https://github.com/mnicolas94/facticus-modelview.git",
     "com.facticus.savesystem": "https://github.com/mnicolas94/unity-save-system.git",
+    "com.facticus.serializable-predicate": "https://github.com/mnicolas94/facticus-serializable-predicate.git",
     "com.facticus.utils": "0.12.10",
     "com.lms.version_mand": "https://github.com/mnicolas94/LMS.Version.git?path=/Assets/Version",
     "com.mackysoft.serializereference-extensions": "1.1.6",
@@ -24,6 +26,7 @@
     "com.unity.ide.vscode": "1.2.5",
     "com.unity.inputsystem": "1.4.1",
     "com.unity.localization": "1.3.1",
+    "com.unity.render-pipelines.universal": "12.1.7",
     "com.unity.search.extensions": "https://github.com/Unity-Technologies/com.unity.search.extensions.git?path=package",
     "com.unity.test-framework": "1.1.31",
     "com.unity.textmeshpro": "3.0.6",
@@ -69,6 +72,7 @@
       "name": "OpenUPM",
       "url": "https://package.openupm.com",
       "scopes": [
+        "com.brunomikoski.animationsequencer",
         "com.dbrizov",
         "com.facticus.utils",
         "com.mackysoft.serializereference-extensions",
