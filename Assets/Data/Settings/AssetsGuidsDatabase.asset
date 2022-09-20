@@ -13,8 +13,20 @@ MonoBehaviour:
   m_Name: AssetsGuidsDatabase
   m_EditorClassIdentifier: 
   _assetToGuid:
-    m_keys: []
-    m_values: []
+    m_keys:
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: 07c62301ec2e2154ea2e140dce7f3344, type: 2}
+    - {fileID: 11400000, guid: 080a89b675256b744b8bf3fa54eb2741, type: 2}
+    m_values:
+    - 04c99e54b1a99514db8e8375dafa241e
+    - 07c62301ec2e2154ea2e140dce7f3344
+    - 080a89b675256b744b8bf3fa54eb2741
   _guidToAsset:
-    m_keys: []
-    m_values: []
+    m_keys:
+    - 04c99e54b1a99514db8e8375dafa241e
+    - 07c62301ec2e2154ea2e140dce7f3344
+    - 080a89b675256b744b8bf3fa54eb2741
+    m_values:
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: 07c62301ec2e2154ea2e140dce7f3344, type: 2}
+    - {fileID: 11400000, guid: 080a89b675256b744b8bf3fa54eb2741, type: 2}
