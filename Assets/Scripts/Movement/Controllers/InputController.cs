@@ -26,6 +26,15 @@ namespace Movement.Controllers
         public override Vector2 Move(Vector2 previous)
         {
             var value = _inputActions.Player.Move.ReadValue<Vector2>();
+            if (value.y > 0)
+            {
+                value.y = 0;
+            }
+            else
+            {
+                value.y = previous.y;
+            }
+            
             return value;
         }
     }
