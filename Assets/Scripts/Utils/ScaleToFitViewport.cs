@@ -9,6 +9,8 @@ namespace Utils
         [SerializeField, AutoProperty(AutoPropertyMode.Scene)]
         private Camera _camera;
 
+        [SerializeField] private float _widthScale;
+
         private void Start()
         {
             Fit();
@@ -17,7 +19,7 @@ namespace Utils
         private void Fit()
         {
             float height = _camera.orthographicSize * 2;
-            float width = _camera.aspect * height;
+            float width = _camera.aspect * height * _widthScale;
             
             var scale = new Vector3(width, height, 1);
             transform.localScale = scale;
