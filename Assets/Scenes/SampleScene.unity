@@ -589,7 +589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &323858323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1867,8 +1867,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2046113732}
-  - component: {fileID: 2046113733}
   - component: {fileID: 2046113734}
+  - component: {fileID: 2046113733}
   m_Layer: 0
   m_Name: LimitedVisionEffect
   m_TagString: Untagged
@@ -1994,6 +1994,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 496060425}
   _offset: {x: 0, y: 0}
-  _lerpSpeed: 0.1
+  _lerpSpeed: 0.2
   _freezeX: 0
   _freezeY: 0
