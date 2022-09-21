@@ -7,7 +7,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.DA94955A" = "t:scriptableobject"
+	"last_search.DA94955A" = "t:narrativeSheet"
 	"OpenInspectorPreview.DA94955A" = "0"
 	"currentGroup.DA94955A" = "all"
 }
@@ -71,13 +71,14 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"t"
+	"t:scriptab"
 ]
 searchItemFavorites = [
 ]
 savedSearchesSortOrder = 0
-showSavedSearchPanel = false
-expandedQueries = [
-]
+showSavedSearchPanel = true
+expandedQueries = [961552606]
 queryBuilder = false
 ignoredProperties = "id;name;classname;imagecontentshash"
 helperWidgetCurrentArea = "all"

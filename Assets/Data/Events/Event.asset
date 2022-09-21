@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbaadb7a996dc0b4eaa76f8a691d6966, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  _description:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _choices:
+  - _requirement:
+      mode: 1
+      unityReference: {fileID: 0}
+      rawReference:
+        rid: 5124477838190968838
+    _choice: {fileID: 0}
+    _consequence: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 5124477838190968838
+      type: {class: HasItemRequirement, ns: NarrativeEvents.Requirements, asm: com.thesolarmoose.isj22}
+      data:
+        _inventory: {fileID: 11400000, guid: 44d14a35673201344a638cd13e5b8013, type: 2}
+        _item: {fileID: 0}
+        _contains: 0

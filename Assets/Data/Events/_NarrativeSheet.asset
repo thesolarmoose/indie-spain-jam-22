@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5a99455af940cfaab8093dfec802ba, type: 3}
+  m_Name: _NarrativeSheet
+  m_EditorClassIdentifier: 
+  _events:
+  - _description: "Una peque\xF1a luz roja llama la atenci\xF3n del vig\xEDa del
+      batiscopio. Todos corren al puente de mando para ver qu\xE9 es. Al acercarse
+      a ella, descubren un submarino hundido. \"De seguro hay provisiones ah\xED
+      dentro\", comenta alguien detr\xE1s de ti. Tiene raz\xF3n, pero las probabilidades
+      de morir ah\xED afuera tambi\xE9n son grandes."
+    _decisions:
+    - _description: "Enviar al mismo tripulante que sugiri\xF3 la presencia de provisiones.
+        \"Tienes treinta minutos para regresar\"."
+      _consequences:
+      - "Todos miran a trav\xE9s del cristal al tripulante avanzar con la escafandra
+        y desaparecer dentro del submarino. Pasan diez minutos. Veinte minutos. Treinta
+        minutos. Despu\xE9s de cuarenta minutos, das la orden de partir. \"\xA1Capit\xE1n
+        espere!\". Todos corren al puente de mando. El explorador regresa cargando
+        unos bidones. Obtienes dos unidades de combustible"
+      - "El tripulante avanza inseguro dentro de su escafandra. En cada paso se nota
+        su arrepentimiento por sugerir la existencia de provisiones. Algo golpea
+        la parte trasera del submarino y hace fallar las luces. Todos miran hacia
+        atr\xE1s asustados. \"\xA1Juan! \xA1Juan! \xA1Ju\xE1n no est\xE1!\" En efecto.
+        No hay rastros de Ju\xE1n ni de la escafandra. Despu\xE9s de dos minutos
+        de silencio das la orden de partir. Pierdes un tripulante"
+    - _description: No arriesgarse, no vale la pena.
+      _consequences:
+      - "Los hombres vuelven decepcionados a sus puestos. Y aliviados, al saber que
+        ninguno saldr\xE1 ah\xED afuera."
+    - _description: Enviar a la polilla marina.
+      _consequences:
+      - "En un pesta\xF1azo la polilla marina se adentra en el submarino y regresa
+        con un bot\xEDn decente: dos unidades de combustible y dos torpedos."
+  - _description: "Las h\xE9lices han dejado de funcionar. Al parecer algo se han
+      enredado en ellas, quiz\xE1s unas algas, o quiz\xE1s sea un animal sosteni\xE9ndolas.
+      Sin mucha seguridad, re\xFAnes a tus hombres en el puente de mando para tomar
+      una decisi\xF3n."
+    _decisions:
+    - _description: "Sacrificar tres unidades de combustible para aumentar la potencia
+        de los motores. \"De 0 a 100, \xBFeh? No es mala idea\", comenta el anciano
+        encargado de las motores."
+      _consequences:
+      - "La tensi\xF3n se respira en el ambiente. No hay mucha confianza en la idea
+        del capit\xE1n. Tras una larga espera, un ruido monstruoso sale del cuarto
+        de motores. El submarino acelera de pronto mientras un alarido horrible se
+        escucha por todas partes. Todos los hombres se llevan las manos a los o\xEDdos.
+        \xBFQu\xE9 demonios fue ese ruido? \"Esperemos que las h\xE9lices hayan convencido
+        a ese monstruo de no seguirnos\", comenta el anciano mientras sale sonriente
+        y tiznado del cuarto de motores. Todos asienten con la cabeza. Pierdes tres
+        unidades de combustible"
+      - "El anciano entra al cuarto de m\xE1quinas y cierra la escotilla. Tras unos
+        minutos, el submarino comienza vibrar y luego  una gran explosi\xF3n sacude
+        a la mole de hierro. Al abrir el cuarto de m\xE1quinas, no hay rastros del
+        anciano. Solo hay un cuerpo carbonizado. De la nada, el submarino reinicia
+        la marcha. \"No creo que unas algas se hayan asustado con la explosi\xF3n\",
+        piensas mientras regresas al puente de mando. Pierdes tres unidades de combustible,
+        un tripulante y dos HP."
+    - _description: "Enviar a dos tripulantes a explorar por qu\xE9 las helices est\xE1n
+        detenidas."
+      _consequences:
+      - "Cubierto por sus escafandras, dos personas de quien desconoces sus nombres
+        salen a mirar qu\xE9 detiene al submarino. La comunicaci\xF3n es por radio.
+        \"Son unas algas capit\xE1n, demoraremos un poco pero podemos encargarnos\".
+        Son buenas noticias."
+      - "La espera se hace insoportable. Uno de los elegidos para acercarse a las
+        h\xE9lices afirma por radio que hay algo enrededados pero deben acercarse
+        para ver qu\xE9 es. Tras un silencio corto, comienza a gritar por la radio
+        que lo regresen a la nave, que usen el cable, que lo regresen. Das la orden
+        de tirar de ambos cables. Por desgracia, solo logras regresar al hombre que
+        no dej\xF3 de gritar en todo el trayecto. \"\xA1Se llev\xF3 a Natasha en
+        uno de sus tent\xE1culos! \xA1Ten\xEDa muchos dientes! \xA1Era un pulpobur\xF3n!
+        \xA1Era horrible!\". Un pulpobur\xF3n... jam\xE1s hab\xEDas o\xEDdo de eso.
+        le quitas importancia al asunto y das la orden de continuar. Pierdes un tripulante."
+  - _description: "La encargada del periscopio pide al capit\xE1n que, de ser posible,
+      se acerque a su puesto. Al preguntarle qu\xE9 pasa la joven le se\xF1ala el
+      periscopio. \"Mire. Eso lleva una hora ah\xED en el casco\". Cuando miras,
+      ves un especie de crust\xE1ceo posado sobre el submarino. \"Prefer\xED llamarlo
+      para no provocar el p\xE1nico. Usted decide\"."
+    _decisions:
+    - _description: "Ignorar, ya se ir\xE1 el solo. No vale la pena sacrificar vidas
+        por enfrentar un animal desconocido."
+      _consequences:
+      - "Tras par de horas merodeando sobre el casco, el crust\xE1ceo decide marcharse,
+        llevando consigo un peque\xF1o souvenir de la nave. Pierdes 3 HP."
+      - "Seis horas despu\xE9s, est\xE1s convencido que el insecto no se ir\xE1,
+        ha encontrado un nuevo hogar y seguir\xE1 contigo todo el viaje. Obtienes
+        un compa\xF1ero inesperado (item)"
+    - _description: Llamar a al experto arponero y pedirle que se haga cargo del
+        insecto.
+      _consequences:
+      - "Con mucha seguridad, el arponero toma sus armas, se enfunda la escafandra
+        y sale a enfrentar al crust\xE1ceo. Mientras espera en la sala de inmersi\xF3n,
+        el arp\xF3n sale del agua y se encaja en el techo. Notas que el cable de
+        la escafandra est\xE1 amarrado al arp\xF3n. Corres hacia el periscopio y
+        resbalas en un charco de v\xF3mito. La joven te mira espantada, y vuelve
+        a vomitar. \"\xBFSigue ah\xED?\", preguntas. Te hace saber que no con un
+        movimiento de cabeza. Pierdes un tripulante."

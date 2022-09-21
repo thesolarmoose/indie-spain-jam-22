@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: NarrativeEvents_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 49c75e96f0d861044820c7f37aab61ad, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 122922364928
+    m_Localized: "Una peque\xF1a luz roja llama la atenci\xF3n del vig\xEDa del batiscopio.
+      Todos corren al puente de mando para ver qu\xE9 es. Al acercarse a ella, descubren
+      un submarino hundido. \"De seguro hay provisiones ah\xED dentro\", comenta
+      alguien detr\xE1s de ti. Tiene raz\xF3n, pero las probabilidades de morir ah\xED
+      afuera tambi\xE9n son grandes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589349941248
+    m_Localized: "Las h\xE9lices han dejado de funcionar. Al parecer algo se han
+      enredado en ellas, quiz\xE1s unas algas, o quiz\xE1s sea un animal sosteni\xE9ndolas.
+      Sin mucha seguridad, re\xFAnes a tus hombres en el puente de mando para tomar
+      una decisi\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 632840679424
+    m_Localized: "La encargada del periscopio pide al capit\xE1n que, de ser posible,
+      se acerque a su puesto. Al preguntarle qu\xE9 pasa la joven le se\xF1ala el
+      periscopio. \"Mire. Eso lleva una hora ah\xED en el casco\". Cuando miras,
+      ves un especie de crust\xE1ceo posado sobre el submarino. \"Prefer\xED llamarlo
+      para no provocar el p\xE1nico. Usted decide\"."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
