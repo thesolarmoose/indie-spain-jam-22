@@ -51,6 +51,7 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _darkness: 1
     - _distortionScale: 0.5
     - _edgeAlpha: 1
     - _noiseScale: 8

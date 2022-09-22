@@ -13,6 +13,8 @@ namespace NarrativeEvents
         [SerializeField] private LocalizedString _description;
         [SerializeField] private List<ConditionChoiceConsequenceTuple> _choices;
 
+        public LocalizedString Description => _description;
+
         public List<ConditionChoiceConsequenceTuple> GetAvailableChoices()
         {
             return _choices.FindAll(choice => choice.Requirement.IsMet());

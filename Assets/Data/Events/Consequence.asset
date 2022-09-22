@@ -14,21 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _description:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:49c75e96f0d861044820c7f37aab61ad
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 632840679424
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   _image: {fileID: 0}
-  _consequences:
-  - mode: 1
-    unityReference: {fileID: 0}
-    rawReference:
-      rid: -2
+  _consequences: []
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []

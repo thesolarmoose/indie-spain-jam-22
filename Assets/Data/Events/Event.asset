@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _description:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:49c75e96f0d861044820c7f37aab61ad
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 122922364928
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -27,8 +27,8 @@ MonoBehaviour:
       unityReference: {fileID: 0}
       rawReference:
         rid: 5124477838190968838
-    _choice: {fileID: 0}
-    _consequence: {fileID: 0}
+    _choice: {fileID: 11400000, guid: f70a502b3b7586741956de86221090e8, type: 2}
+    _consequence: {fileID: 11400000, guid: 370925b7df1cea147b4f66ec27984b62, type: 2}
   references:
     version: 2
     RefIds:
