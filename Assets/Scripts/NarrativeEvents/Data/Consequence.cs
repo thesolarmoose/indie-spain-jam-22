@@ -22,5 +22,12 @@ namespace NarrativeEvents.Data
         {
             Consequences.ForEach(consequence => consequence.Execute());
         }
+
+        public static Consequence Create(LocalizedString description)
+        {
+            var consequence = CreateInstance<Consequence>();
+            consequence._description = description;
+            return consequence;
+        }
     }
 }

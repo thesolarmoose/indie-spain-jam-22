@@ -19,7 +19,14 @@ namespace NarrativeEvents.Data
         {
             return _choices.FindAll(choice => choice.Requirement == null || choice.Requirement.IsMet());
         }
-        
+
+        public static Event Create(LocalizedString description, List<ConditionChoiceConsequenceTuple> choices)
+        {
+            var e = ScriptableObject.CreateInstance<Event>();
+            e._description = description;
+            e._choices = choices;
+            return e;
+        }
     }
 
     [Serializable]
@@ -27,12 +34,18 @@ namespace NarrativeEvents.Data
     {
         [SerializeField] private SerializableInterface<ISerializablePredicate> _requirement;
         [SerializeField] private Choice _choice;
-        [SerializeField] private Consequence _consequence;
+        [SerializeField] private List<Consequence> _consequences;
 
         public ISerializablePredicate Requirement => _requirement.Value;
 
         public Choice Choice => _choice;
 
-        public Consequence Consequences => _consequence;
+        public List<Consequence> Consequences => _consequences;
+
+        public ConditionChoiceConsequenceTuple(Choice choice, List<Consequence> consequences)
+        {
+            _choice = choice;
+            _consequences = consequences;
+        }
     }
 }
