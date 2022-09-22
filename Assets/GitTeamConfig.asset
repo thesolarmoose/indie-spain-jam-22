@@ -17,4 +17,5 @@ MonoBehaviour:
   _usersData:
   - _userName: monte8902
     _defaultBranch: design
-    _workPaths: []
+    _workPaths:
+    - Assets/Data/Events/_NarrativeSheet.asset
