@@ -1,6 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using ModelView;
+using NarrativeEvents.Data;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;

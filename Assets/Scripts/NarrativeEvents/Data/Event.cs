@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Localization;
 using Utils.Serializables;
 
-namespace NarrativeEvents
+namespace NarrativeEvents.Data
 {
     [CreateAssetMenu(fileName = "Event", menuName = "Events/Event", order = 0)]
     public class Event : ScriptableObject
@@ -17,7 +17,7 @@ namespace NarrativeEvents
 
         public List<ConditionChoiceConsequenceTuple> GetAvailableChoices()
         {
-            return _choices.FindAll(choice => choice.Requirement.IsMet());
+            return _choices.FindAll(choice => choice.Requirement == null || choice.Requirement.IsMet());
         }
         
     }

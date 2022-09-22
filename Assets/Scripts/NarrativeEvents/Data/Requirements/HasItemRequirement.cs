@@ -5,7 +5,7 @@ using UnityEngine;
 using Utils.Attributes;
 using Utils.Serializables;
 
-namespace NarrativeEvents.Requirements
+namespace NarrativeEvents.Data.Requirements
 {
     [Serializable]
     public class HasItemRequirement : ISerializablePredicate, IDrawableRequirement

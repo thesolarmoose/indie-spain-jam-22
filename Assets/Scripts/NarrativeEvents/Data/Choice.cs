@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Localization;
 
-namespace NarrativeEvents
+namespace NarrativeEvents.Data
 {
     [CreateAssetMenu(fileName = "Choice", menuName = "Events/Choice", order = 0)]
     public class Choice : ScriptableObject

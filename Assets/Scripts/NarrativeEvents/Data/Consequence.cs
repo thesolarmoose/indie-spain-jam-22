@@ -3,7 +3,7 @@ using TNRD;
 using UnityEngine;
 using UnityEngine.Localization;
 
-namespace NarrativeEvents
+namespace NarrativeEvents.Data
 {
     [CreateAssetMenu(fileName = "Consequence", menuName = "Events/Consequence", order = 0)]
     public class Consequence : ScriptableObject

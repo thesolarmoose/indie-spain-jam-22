@@ -4,10 +4,12 @@ using System.Threading.Tasks;
 using AsyncUtils;
 using BrunoMikoski.AnimationSequencer;
 using DG.Tweening;
+using NarrativeEvents.Data;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.UI;
+using Event = NarrativeEvents.Data.Event;
 
 namespace NarrativeEvents.UI
 {

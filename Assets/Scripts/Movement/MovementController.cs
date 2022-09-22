@@ -15,7 +15,10 @@ namespace Movement
             Vector2 movement = Vector2.zero;
             foreach (var controller in _controllersChain)
             {
-                movement = controller.Move(movement);
+                if (controller.enabled)
+                {
+                    movement = controller.Move(movement);
+                }
             }
 
             _movement.Move(movement);

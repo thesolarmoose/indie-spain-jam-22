@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace NarrativeEvents
+namespace NarrativeEvents.Data
 {
     public interface IDrawableRequirement
     {

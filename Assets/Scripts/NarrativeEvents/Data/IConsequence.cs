@@ -1,4 +1,4 @@
-﻿namespace NarrativeEvents
+﻿namespace NarrativeEvents.Data
 {
     public interface IConsequence
     {

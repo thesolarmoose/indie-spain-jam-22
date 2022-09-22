@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace NarrativeEvents
+namespace NarrativeEvents.Data
 {
     [CreateAssetMenu(fileName = "NarrativeSheet", menuName = "Events/NarrativeSheet", order = 0)]
     public class NarrativeSheet : ScriptableObject

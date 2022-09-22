@@ -2,7 +2,8 @@
 using System.Threading;
 using AsyncUtils;
 using UnityEngine;
-using UnityEngine.Serialization;
+using UnityEngine.Events;
+using Event = NarrativeEvents.Data.Event;
 
 namespace NarrativeEvents.UI
 {
@@ -10,6 +11,9 @@ namespace NarrativeEvents.UI
     {
         [SerializeField] private EventPopup _eventPopupPrefab;
         [SerializeField] private Event _testEvent;
+
+        [SerializeField] private UnityEvent _onDisplayEvent;
+        [SerializeField] private UnityEvent _onEventEnded;
 
         private CancellationTokenSource _cts;
 
@@ -33,10 +37,12 @@ namespace NarrativeEvents.UI
             DisplayEvent(_testEvent);
         }
 
-        public void DisplayEvent(Event @event)
+        public async void DisplayEvent(Event @event)
         {
+            _onDisplayEvent.Invoke();
             var ct = _cts.Token;
-            Popups.ShowPopup(_eventPopupPrefab, @event, ct);
+            await Popups.ShowPopup(_eventPopupPrefab, @event, ct);
+            _onEventEnded.Invoke();
         }
     }
 }

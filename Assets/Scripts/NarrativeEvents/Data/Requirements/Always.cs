@@ -1,7 +1,7 @@
 ﻿using System;
 using Utils.Serializables;
 
-namespace NarrativeEvents.Requirements
+namespace NarrativeEvents.Data.Requirements
 {
     [Serializable]
     public class Always : ISerializablePredicate
