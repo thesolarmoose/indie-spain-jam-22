@@ -33,7 +33,7 @@ namespace NarrativeEvents.Data
     [Serializable]
     public class Evento
     {
-        [SerializeField, Required] private string _id;
+        [SerializeField] private string _id;
         [SerializeField, TextArea] private string _description;
         [SerializeField] private List<Decision> _decisions;
     }

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: _NarrativeSheet
   m_EditorClassIdentifier: 
   _events:
-  - _description: "Una peque\xF1a luz roja llama la atenci\xF3n del vig\xEDa del
+  - _id: 
+    _description: "Una peque\xF1a luz roja llama la atenci\xF3n del vig\xEDa del
       batiscopio. Todos corren al puente de mando para ver qu\xE9 es. Al acercarse
       a ella, descubren un submarino hundido. \"De seguro hay provisiones ah\xED
       dentro\", comenta alguien detr\xE1s de ti. Tiene raz\xF3n, pero las probabilidades
@@ -41,7 +42,8 @@ MonoBehaviour:
       _consequences:
       - "En un pesta\xF1azo la polilla marina se adentra en el submarino y regresa
         con un bot\xEDn decente: dos unidades de combustible y dos torpedos."
-  - _description: "Las h\xE9lices han dejado de funcionar. Al parecer algo se han
+  - _id: 
+    _description: "Las h\xE9lices han dejado de funcionar. Al parecer algo se han
       enredado en ellas, quiz\xE1s unas algas, o quiz\xE1s sea un animal sosteni\xE9ndolas.
       Sin mucha seguridad, re\xFAnes a tus hombres en el puente de mando para tomar
       una decisi\xF3n."
@@ -81,7 +83,8 @@ MonoBehaviour:
         uno de sus tent\xE1culos! \xA1Ten\xEDa muchos dientes! \xA1Era un pulpobur\xF3n!
         \xA1Era horrible!\". Un pulpobur\xF3n... jam\xE1s hab\xEDas o\xEDdo de eso.
         le quitas importancia al asunto y das la orden de continuar. Pierdes un tripulante."
-  - _description: "La encargada del periscopio pide al capit\xE1n que, de ser posible,
+  - _id: 
+    _description: "La encargada del periscopio pide al capit\xE1n que, de ser posible,
       se acerque a su puesto. Al preguntarle qu\xE9 pasa la joven le se\xF1ala el
       periscopio. \"Mire. Eso lleva una hora ah\xED en el casco\". Cuando miras,
       ves un especie de crust\xE1ceo posado sobre el submarino. \"Prefer\xED llamarlo
@@ -105,7 +108,8 @@ MonoBehaviour:
         resbalas en un charco de v\xF3mito. La joven te mira espantada, y vuelve
         a vomitar. \"\xBFSigue ah\xED?\", preguntas. Te hace saber que no con un
         movimiento de cabeza. Pierdes un tripulante."
-  - _description: Este es un evento de prueba para hacer push, no hay opciones de
+  - _id: 
+    _description: Este es un evento de prueba para hacer push, no hay opciones de
       nada, te vas a morir como sea.
     _decisions:
     - _description: "Ignorar, ya se ir\xE1 el solo. No vale la pena sacrificar vidas
