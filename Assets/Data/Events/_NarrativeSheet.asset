@@ -105,3 +105,24 @@ MonoBehaviour:
         resbalas en un charco de v\xF3mito. La joven te mira espantada, y vuelve
         a vomitar. \"\xBFSigue ah\xED?\", preguntas. Te hace saber que no con un
         movimiento de cabeza. Pierdes un tripulante."
+  - _description: Este es un evento de prueba para hacer push, no hay opciones de
+      nada, te vas a morir como sea.
+    _decisions:
+    - _description: "Ignorar, ya se ir\xE1 el solo. No vale la pena sacrificar vidas
+        por enfrentar un animal desconocido."
+      _consequences:
+      - "Tras par de horas merodeando sobre el casco, el crust\xE1ceo decide marcharse,
+        llevando consigo un peque\xF1o souvenir de la nave. Pierdes 3 HP."
+      - "Seis horas despu\xE9s, est\xE1s convencido que el insecto no se ir\xE1,
+        ha encontrado un nuevo hogar y seguir\xE1 contigo todo el viaje. Obtienes
+        un compa\xF1ero inesperado (item)"
+    - _description: Llamar a al experto arponero y pedirle que se haga cargo del
+        insecto.
+      _consequences:
+      - "Con mucha seguridad, el arponero toma sus armas, se enfunda la escafandra
+        y sale a enfrentar al crust\xE1ceo. Mientras espera en la sala de inmersi\xF3n,
+        el arp\xF3n sale del agua y se encaja en el techo. Notas que el cable de
+        la escafandra est\xE1 amarrado al arp\xF3n. Corres hacia el periscopio y
+        resbalas en un charco de v\xF3mito. La joven te mira espantada, y vuelve
+        a vomitar. \"\xBFSigue ah\xED?\", preguntas. Te hace saber que no con un
+        movimiento de cabeza. Pierdes un tripulante."
