@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BoolVariable
   m_EditorClassIdentifier: 
   _developerDescription: 
-  _id: 
+  _id: test
   _value: 0
   _changed: {fileID: 0}
   _changedWithHistory: {fileID: 0}
