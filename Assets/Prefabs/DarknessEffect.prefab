@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 6460070765361647703}
   - component: {fileID: 6460070765361647696}
   m_Layer: 0
-  m_Name: Mask
+  m_Name: DarknessEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
