@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 12c61d9bc1170ed46bb8c7ae0ef9df41, type: 2}
+  m_sharedMaterial: {fileID: -2206249595245480845, guid: 12c61d9bc1170ed46bb8c7ae0ef9df41, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -236,8 +236,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "New Text\ndweqwe\nweqweqwe\n qweqw"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95b80c79c10dc064fb7e1e57fda66590, type: 2}
-  m_sharedMaterial: {fileID: -4441388456140143630, guid: 95b80c79c10dc064fb7e1e57fda66590, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 12c61d9bc1170ed46bb8c7ae0ef9df41, type: 2}
+  m_sharedMaterial: {fileID: -2206249595245480845, guid: 12c61d9bc1170ed46bb8c7ae0ef9df41, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

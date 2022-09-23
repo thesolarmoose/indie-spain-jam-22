@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: _Inventory
   m_EditorClassIdentifier: 
   _developerDescription: 
-  Cleared: {fileID: 0}
+  Cleared: {fileID: 11400000, guid: ab200a11a51cb6e4fab02dd0e4b6cce7, type: 2}
   _startCleared: 0
-  Added: {fileID: 0}
-  Removed: {fileID: 0}
+  Added: {fileID: 11400000, guid: ab200a11a51cb6e4fab02dd0e4b6cce7, type: 2}
+  Removed: {fileID: 11400000, guid: ab200a11a51cb6e4fab02dd0e4b6cce7, type: 2}
   list: []
