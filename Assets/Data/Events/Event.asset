@@ -15,41 +15,23 @@ MonoBehaviour:
   _description:
     m_TableReference:
       m_TableCollectionName: GUID:49c75e96f0d861044820c7f37aab61ad
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 1
     m_TableEntryReference:
       m_KeyId: 122922364928
       m_Key: 
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 2
     m_FallbackState: 0
     m_WaitForCompletion: 0
-    m_LocaleOverride: {fileID: 0}
-    m_CurrentTable:
-      m_TableCollectionName: GUID:49c75e96f0d861044820c7f37aab61ad
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 1
-    m_CurrentTableEntry:
-      m_KeyId: 122922364928
-      m_Key: 
-      m_Valid: 0
-      <ReferenceType>k__BackingField: 2
     m_LocalVariables: []
-    m_CurrentStringChangedValue: 
-    m_WaitingForVariablesEndUpdate: 0
   _choices:
   - _requirement:
       mode: 1
       unityReference: {fileID: 0}
       rawReference:
-        rid: 5124477838190968838
+        rid: -2
     _choice: {fileID: 11400000, guid: f70a502b3b7586741956de86221090e8, type: 2}
-    _consequence: {fileID: 11400000, guid: 370925b7df1cea147b4f66ec27984b62, type: 2}
+    _consequences:
+    - {fileID: 11400000, guid: 370925b7df1cea147b4f66ec27984b62, type: 2}
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 5124477838190968838
-      type: {class: HasItemRequirement, ns: NarrativeEvents.Requirements, asm: com.thesolarmoose.isj22}
-      data: {_inventory: {fileID: 11400000, guid: 44d14a35673201344a638cd13e5b8013, type: 2}, _item: {fileID: 0}, _contains: 0}

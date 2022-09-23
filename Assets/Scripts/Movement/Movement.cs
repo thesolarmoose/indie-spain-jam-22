@@ -11,16 +11,6 @@
         
         public float Speed => speed;
 
-
-        private Vector3 _lastPos;
-        private void Update()
-        {
-            var pos = transform.position;
-            var delta = pos - _lastPos;
-//            print($"delta move {delta}");
-            _lastPos = pos;
-        }
-
         private void Awake()
         {
             _rb = GetComponent<Rigidbody2D>();
@@ -31,6 +21,18 @@
             if (!enabled)
                 return;
             _rb.velocity = dir * speed;
+
+            var scale = transform.localScale;
+            if (dir.x > 0)
+            {
+                scale.x = 1;
+            }
+            if (dir.x < 0)
+            {
+                scale.x = -1;
+            }
+
+            transform.localScale = scale;
         }
 
         public void Stop()
