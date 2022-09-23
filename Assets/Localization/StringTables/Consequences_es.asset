@@ -898,6 +898,446 @@ MonoBehaviour:
       gracia la presencia de un capit\xE1n cristiano.\r\n"
     m_Metadata:
       m_Items: []
+  - m_Id: 66453922373632
+    m_Localized: "Todos miran a trav\xE9s del cristal al tripulante avanzar con la
+      escafandra y desaparecer dentro del submarino. Pasan diez minutos. Veinte minutos.
+      Treinta minutos. Despu\xE9s de cuarenta minutos, das la orden de partir. \"\xA1Capit\xE1n
+      espere!\". Todos corren al puente de mando. El explorador regresa cargando
+      unos bidones. Obtienes dos unidades de combustible"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453943345152
+    m_Localized: "El tripulante avanza inseguro dentro de su escafandra. En cada
+      paso se nota su arrepentimiento por sugerir la existencia de provisiones. Algo
+      golpea la parte trasera del submarino y hace fallar las luces. Todos miran
+      hacia atr\xE1s asustados. \"\xA1Juan! \xA1Juan! \xA1Ju\xE1n no est\xE1!\" En
+      efecto. No hay rastros de Juan ni de la escafandra. Despu\xE9s de dos minutos
+      de silencio das la orden de partir. Pierdes un tripulante."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453947539456
+    m_Localized: "Los hombres vuelven decepcionados a sus puestos. Y aliviados, al
+      saber que ninguno saldr\xE1 ah\xED afuera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453951733760
+    m_Localized: "En un pesta\xF1azo la polilla marina se adentra en el submarino
+      y regresa con un bot\xEDn decente: dos unidades de combustible y dos torpedos.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453955928064
+    m_Localized: "La tensi\xF3n se respira en el ambiente. No hay mucha confianza
+      en la idea del capit\xE1n. Tras una larga espera, un ruido monstruoso sale
+      del cuarto de motores. El submarino acelera de pronto mientras un alarido horrible
+      se escucha por todas partes. Todos los hombres se llevan las manos a los o\xEDdos.
+      \xBFQu\xE9 demonios fue ese ruido? \u201CEsperemos que las h\xE9lices hayan
+      convencido a ese monstruo de no seguirnos\u201D, comenta el anciano mientras
+      sale sonriente y tiznado del cuarto de motores. Todos asienten con la cabeza.
+      Pierdes tres unidades de combustible"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453960122368
+    m_Localized: "El anciano entra al cuarto de m\xE1quinas y cierra la escotilla.
+      Tras unos minutos, el submarino comienza vibrar y luego una gran explosi\xF3n
+      sacude a la mole de hierro. Al abrir el cuarto de m\xE1quinas, no hay rastros
+      del anciano. Solo hay un cuerpo carbonizado. De la nada, el submarino reinicia
+      la marcha. \"No creo que unas algas se hayan asustado con la explosi\xF3n\",
+      comentas mientras regresas al puente de mando. Pierdes tres unidades de combustible
+      y un tripulante."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453960122369
+    m_Localized: "Cubierto por sus escafandras, dos personas de quien desconoces
+      sus nombres salen a mirar qu\xE9 detiene al submarino. La comunicaci\xF3n es
+      por radio. \"Son unas algas capit\xE1n, demoraremos un poco pero podemos encargarnos\".
+      Son buenas noticias."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453960122370
+    m_Localized: "La espera se hace insoportable. Uno de los elegidos para acercarse
+      a las h\xE9lices afirma por radio que hay algo enrededados pero deben acercarse
+      para ver qu\xE9 es. Tras un silencio corto, comienza a gritar por la radio
+      que lo regresen a la nave, que usen el cable, que lo regresen. Das la orden
+      de tirar de ambos cables. Por desgracia, solo logras regresar al hombre que
+      no dej\xF3 de gritar en todo el trayecto. \"\xA1Se llev\xF3 a Natasha en uno
+      de sus tent\xE1culos! \xA1Ten\xEDa muchos dientes! \xA1Era un pulpobur\xF3n!
+      \xA1Era horrible!\". Un pulpobur\xF3n... jam\xE1s hab\xEDas o\xEDdo de eso.
+      Le quitas importancia al asunto y das la orden de continuar. Pierdes un tripulante."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453964316672
+    m_Localized: "Tras par de horas merodeando sobre el casco, el crust\xE1ceo decide
+      marcharse, llevando consigo un peque\xF1o souvenir de la nave. Pierdes 3 HP."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453964316673
+    m_Localized: "Seis horas despu\xE9s, est\xE1s convencido que el insecto no se
+      ir\xE1, ha encontrado un nuevo hogar y seguir\xE1 contigo todo el viaje. Obtienes
+      un compa\xF1ero inesperado (item)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453968510976
+    m_Localized: "Con mucha seguridad, el arponero toma sus armas, se enfunda la
+      escafandra y sale a enfrentar al crust\xE1ceo. Mientras espera en la sala de
+      inmersi\xF3n, el arp\xF3n sale del agua y se encaja en el techo. Notas que
+      el cable de la escafandra est\xE1 amarrado al arp\xF3n. Corres hacia el periscopio
+      y resbalas en un charco de v\xF3mito. La joven te mira espantada, y vuelve
+      a vomitar. \"\xBFSigue ah\xED?\", preguntas. Te hace saber que no con un movimiento
+      de cabeza. Pierdes un tripulante."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453968510977
+    m_Localized: "Tranquilizas a la joven del periscopio y te dirijes al puente de
+      mando. \"Activen el escudo el\xE9ctrico\". Todos te miran extra\xF1ados por
+      unos segundos, y luego cumplen la orden. Una nueva llamada desde el perioscopio
+      te hace saber que todo ha vuelto a la normalidad."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453972705280
+    m_Localized: "El capit\xE1n Gorki comienza a proferir una serie de insultos en
+      contra de toda la ascendencia familiar del capit\xE1n. Haces un gesto para
+      que corten las comunicaciones y prosigues el viaje.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453972705281
+    m_Localized: "Mientras transportas el combustible, algunos refugiados preguntan
+      si existe espacio para incorporarse a la tripulaci\xF3n. No saben nada de submarinos,
+      pero un par de manos extras nunca est\xE1 de m\xE1s. Pierdes dos bideones combustibles,
+      ganas tres tripulantes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453976899584
+    m_Localized: "La orden es acatada lo antes posible para minimizar da\xF1os. Por
+      desgracia, la secci\xF3n inundada provoca ligeros da\xF1os en el submarino.
+      Pierdes 3 HP.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453976899585
+    m_Localized: "Jorge se ofrece de voluntario para cerrar la fisura. Se viste con
+      un traje aislante y carga con los equipos para soldar la muesca. No hay muchas
+      expectativas de \xE9xito. Algunos incluso creen que Jorge puede morir. Tras
+      dos horas de trabajo, Jorge sale triunfante del camarote. \u201CMisi\xF3n cumplida\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453976899586
+    m_Localized: "Nadie quiere entrar al camarote inundado. El capit\xE1n decide
+      echarlo a la suerte y Jorge es el elegido. Sin mucho entusiasmo, se pone el
+      traje aislante, toma los equipos y entra al camarote. Despu\xE9s de quince
+      minutos, un sonido el\xE9ctrico llama la atenci\xF3n de todos. El cuerpo de
+      Jorge sale flotando del camarote inerte, con las manos negras. Das la orden
+      de clausurar el camarote. Pierdes 3 HP y un tripulante."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453985288192
+    m_Localized: "Poco a poco varios tripulantes se re\xFAnen en la sala de inmersi\xF3n.
+      Cada uno tiene un arp\xF3n. El monstruo percibe el peligro y ataca primero.
+      Con sus tent\xE1culos, agarra de las piernas a dos tripulantes y antes de que
+      puedan dispararle se desliza de regreso al mar con sus dos trofeos. Pierdes
+      dos tripulanes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453985288193
+    m_Localized: "Sin ning\xFAn tipo de espera, el hombre que fue a buscarte a la
+      sala de mando desenfunda un arp\xF3n-revolver y le dispara en el ojo a la criatura.
+      Un liquido verdoso salpica la habitaci\xF3n. Los alaridos no se hacen esperar.
+      El monstruo entra en un frenes\xED lanzando los tent\xE1culos en todas las
+      direcciones, buscando a qu\xE9 aferrarse. Aterrados, ambos salen a la carrera
+      y cierran la puerta. M\xE1s de una hora dura la lucha a ciegas hasta que se
+      hace silencio. Cuando abren la puerta, el hedor es insoportable, pero no hay
+      rastros de la criatura. \"Un buen plan, \xBFno cree capit\xE1n?\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453985288194
+    m_Localized: "En la sala de inmersi\xF3n solo est\xE1n t\xFA y Juli\xE1n. Tal
+      vez el monstruo quiera sangre. Sigilosamente sacas tu pu\xF1al y se lo clavas
+      en la nuca de Juli\xE1n, buscando su cerebro. Ni un sonido. Colocas el cuerpo
+      en el suelo y esperas. El monstruo no ha dejado de mirarte. Cuando dejas el
+      cadaver, se acerca, lo envuelve con sus tent\xE1culos y regresa al mar. Regresas
+      al puesto de mando como si nada hubiese pasado. Es decir, nada ha pasado. Cinco
+      horas despu\xE9s alguien pregunta por Juli\xE1n. Pierdes un tripulante."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454081757184
+    m_Localized: "Tus hombres siguen las \xF3rdenes y comienza la fuga. El submarino
+      te sigue el rastro de cerca. Una explosi\xF3n repentina remueve el submarino.
+      \"\xA1Mantengan las posiciones! \xA1Conc\xE9ntrense en escapar!\". Despu\xE9s
+      de una hora de alta tensi\xF3n, dan por hecho que no los siguen. Al evaluar
+      los da\xF1os, se percatan de que el torpedo no los impact\xF3 directamente.
+      Pierdes 2 HP."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454081757185
+    m_Localized: "Todos corren a sus puestos para largarse y evitar el combate. En
+      un inicio, el submarino enemigo parece iniciar una persecusi\xF3n, pero a los
+      pocos minutos desisite."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454081757186
+    m_Localized: "Tus hombres te miran perplejos, pero una orden es una orden. M\xE1s
+      de la mitad se prepara con las escafandras, arpones, alg\xFAn explosivo, y
+      se lanzan al agua. Desde el puente de mando, el espect\xE1culo no puede ser
+      m\xE1s t\xE9trico. El submarino enemigo despliega una polilla marina y ataca
+      a tus hombres. Cuando impacta al tripulante con el explosivo, la polilla queda
+      destruida. Tus hombres corren de vuelta a la nave. El submarino enemigo comienza
+      a alejarse de la zona. Un desastre absoluto. Pierdes cinco tripulantes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454081757187
+    m_Localized: "\"\xA1Siuuuuuu!\" gritan todos al un\xEDsono y corren a enfundarse
+      las escafandras. Arpones, explosivos, m\xE1s de la mitad de la tripulaci\xF3n
+      est\xE1 lista para el ataque. Desde el puente de mando, presencias el despliegue.
+      El submarino enemigo se dispone a huir. Uno de tus hombres modifica un arp\xF3n
+      y le coloca una carga de C4 en la punta. Su punter\xEDa es impecable: de un
+      disparo golpea el cristal del puente de mando y la explosi\xF3n lo destruye
+      en pedazos. El submarino comienza a hundirse hasta descansar en una plataforma
+      a pocos metros de profundidad. Con mucha calma te dispones a saquear la nave.
+      Obtienes diez de combustible y materiales para reparar el casco de tu nave
+      (6 HP)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454085951488
+    m_Localized: "Un solo torpedo es suficiente para golpear al submarino que se
+      dispon\xEDa huir. La nave comienza a hundirse hasta caer en una plataforma.
+      Al saquearla encuentras un poco de combustible. Obtienes cinco de combustible."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454094340096
+    m_Localized: "El submarino cambia el rumbo y acelera a toda m\xE1quina. Un rastro
+      negro delata su rumbo. El megalod\xF3n no detiene su marcha. \"Capit\xE1n,
+      a\xFAn nos sigue\", se escucha desde el periscopio. Un golpe en la parte trasera
+      del submarino hace suponer que un mordisco ha alcanzado la nave. Todos quedan
+      a la espera de un segundo ataque, pero nunca llega. \"Lo hemos dejado atr\xE1s\".
+      Pierdes dos unidades de combustible y 3 HP."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454094340097
+    m_Localized: "Todos corren para cumplir las \xF3rdenes. Comienza una persecuci\xF3n
+      donde el submarino lleva las de perder. Cada tripulante espera la llegada del
+      primer mordisco. Nadie dice una palabra. El golpe no llega. Un \"lo hemos dejado
+      atr\xE1s\" rompe el silencio y devuelve el alma al cuerpo de todos. Pierdes
+      dos bidones de combustible."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454094340098
+    m_Localized: "La tripulaci\xF3n se queda estupefacta. En pocos segundos no se
+      escucha ning\xFAn sonido. Todos miran las monstruosas fauces llenas de dientes.
+      Todos esperan lo peor. De repente un golpe terrible. Nada m\xE1s. \xBFQu\xE9
+      ha pasado? \xBFPor qu\xE9 no se escuchan los dientes atravesar el hierro? No
+      importa. \"Enci\xE9ndanlo todo y largu\xE9monos de aqu\xED\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454094340099
+    m_Localized: "En un instante todo est\xE1 apagado. Solo se ve a trav\xE9s del
+      cristal una silueta negra acercarse a toda velocidad. El megalod\xF3n se detiene
+      justo frente al submarino. El ojo inmenso escrutina el interior de la nave.
+      \"\xBFPuede vernos?\". La respuesta es un mordisco. Toda la nave cruje. Por
+      suerte, la bestia no es muy amante del metal, y si no puede comerte, no est\xE1
+      interesado en ti. Pierdes diez HP."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454094340100
+    m_Localized: "A nadie le parece l\xF3gico enfrentar a esta bestia, pero deben
+      cumplir tus \xF3rdenes.\"\xA1Fuego!\". El primer torpedo no tiene efecto. \"\xA1\xA1Fuego!!\".
+      El megalod\xF3n se sacude tras las segunda explosici\xF3n y contin\xFAa rumbo
+      al submarino con las fauces abiertas. \"\xA1\xA1\xA1Fuego!!!\", gritas mientras
+      se te va un gallo. A la tercera fue la vencida. El escualo decide marcharse
+      sin probar bocado del submarino. Pierdes tres torpedos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454186614784
+    m_Localized: "La nave comienza a crujir. Estabas equivocado, este calamar gigante
+      s\xED puede aplastarlos. Todos est\xE1n aterrados. Esperan una orden de su
+      capit\xE1n, pero t\xFA tampoco reaccionas. Despu\xE9s unos minutos largos como
+      horas, el calamar se rinde y decide huir. No obstante, el da\xF1o en la nave
+      es grave. Pierdes 11 HP"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454186614785
+    m_Localized: "El calamar forcejea con la nave por treinta minutos. No hay sensaci\xF3n
+      de peligro, excepto en un momento en que sus ventosas succionaron el cristal
+      de la sala de mando. Todos pensaron que el calamar arrancar\xEDa el cristal
+      y morir\xEDan aplastados por la terrible presi\xF3n del agua."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454186614786
+    m_Localized: "Un silencio sepulcrar. Nadie te mira a los ojos. Una joven de la
+      sala de mando se ofrece de voluntaria. No recuerdas su nombre. El resto de
+      la tripulaci\xF3n la mira aliviada y con cierta l\xE1stima. Lo m\xE1s probable
+      es que no sobreviva. Mientras se dirige a la sala de inmersi\xF3n, preguntas
+      al segundo al mando cu\xE1l es su nombre. \"Estela\". Nadie se mueve de sus
+      posiciones. La joven se prepara sola. El miedo los tiene paralizados a todos.
+      El forcejeo del animal continua. De pronto, el calamar libera al submarino
+      y descarga un golpe seco con uno de sus tent\xE1culos antes de huir. La tumba
+      de Estela, una mancha en el casco que dentro de pocas horas habr\xE1 desaparecido.
+      Esperas unos minutos, como si existiese la posibilidad de un regreso triunfal.
+      Es en vano. La joven entra a la sala de mando. Sus brazos y piernas no dejan
+      de temblar \xBFTerror o fatiga muscular? Nadie emite un sonido. No saben si
+      es un espectro o si de verdad ha sobrevivido. Con profundo desprecio la joven
+      te mira a los ojos. \"Misi\xF3n cumplida... capit\xE1n\". "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454186614787
+    m_Localized: "\xBFUn voluntario? Sabes que nadie en su sano juicio saldr\xE1
+      a enfrentar a ese monstruo. \"Lo decidiremos al azar\". Y el azar, que no entiende
+      de clases, te designa a ti para enfrentar al calamar. La satisfacci\xF3n se
+      respira en el submarino. Justicia divina, dir\xEDan algunos. Marchas solo a
+      la sala de inmersi\xF3n, te enfundas la escafandra, enganchas el cable de retorno,
+      aunque sabes que nadie halar\xE1, tomas un arp\xF3n, y saltas al agua. La imagen
+      es horrenda. Quedas congelado, y no precisamente por las g\xE9lidas aguas.
+      Los tent\xE1culos cubren por completo el submarino. La cabeza de la bestia
+      sobresale por encima de la nave. Respiras profundo y comienzas acercarte a
+      uno de los ojos. En cuanto te vea terminar\xE1 todo. Cuando est\xE1s a veinte
+      metros, el calamar te detecta. Gira la cabeza y fija su mirada en ti. Uno de
+      sus tent\xE1culos comienza a moverse en tu direcci\xF3n. Vuelves a congelarte.
+      Es el final. Una sombra impacta con el calamar y sigue de largo. La cabeza
+      del cefal\xF3podo ha desaparecido. Sus tent\xE1culos comienzan a liberar al
+      submarino. La sombra pasa una segunda vez y se lleva los tent\xE1culos de otro
+      mordisco. Esta vez entiendes que has sido salvado por un megalodon. Ni el peor
+      escritor de ficci\xF3n se hubiese atrevido a semejante desenlace. Regresas
+      a la nave a toda velocidad, no sea que corten el cable."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454190809088
+    m_Localized: "Una peque\xF1a descarga es suficiente para espantar al cefal\xF3podo
+      abrazador. No obstante, antes de irse regala un golpecito a la nave. Nada grave."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454249529344
+    m_Localized: "No se escucha un sonido. Algo roza en el casco del submarino. Nadie
+      respira. Un alarido rompe el silencio. Viene del mar. \xBFSer\xE1 la serpiente?
+      El alarido vuelve a escucharse. De pronto la oscuridad aumenta y la nave comienza
+      a moverse, irregularmente y de forma brusca. \"Nos ha devorado\", anuncian
+      desde el periscopio. \"Enciendan los motores y aceleren, si nos va a matar,
+      al menos le desbaratamos las visceras. Que alguien suelte un bid\xF3n de cumbustible
+      en llamas por la sala de inmersi\xF3n\". Como una maquinaria perfecta, todas
+      las \xF3rdenes se ejecutan al instante. Los movimientos bruscos aumentan. Casi
+      nadie puede mantenerse en pie por el constante movimiento del submarino. Una
+      explosi\xF3n lejana anuncia el momento decisivo. O los vomita, o todo se termin\xF3.
+      Algo de claridad. \"Nos ha vomitado. Nos ha vomitado. Y se larga, se larga.
+      Estamos a salvo\". El j\xFAbilo del periscopio es solo el inicio. Todos gritan
+      como si hubiesen vuelto a nacer.  Pierdes tres bidones de combustible."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454249529345
+    m_Localized: "La orden demora m\xE1s de lo previsto en cumplirse. Las luces tardan
+      en apagarse. No es un buen augurio. Todos est\xE1n listos para el impacto.
+      O para morir tragados. Un ruido intenso y chill\xF3n comienza a escucharse,
+      como cientos de cuchillos que se deslizan sobre una superficie met\xE1lica.
+      El submarino tiembla como si estuviese en un terremoto. Justo cuando el ruido
+      se detiene, un golpe seco. Despu\xE9s paz y tranquilidad. Los da\xF1os han
+      sido m\xEDnimos. Pierdes tres HP."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454253723648
+    m_Localized: "El submarino acelera en direcci\xF3n contraria a la serpiente.
+      La distancia es cada vez m\xE1s corta. La huida es a ciegas, esperando en todo
+      momento una se\xF1al de que los ha alcanzado.  Nada. \"No dejen de acelerar\",
+      ordenas. Tampoco es que puedas superar la velocidad actual, pero la adrenalina
+      nos hace decir estupideces. \"\xBFAlguien puede verla?\". Nadie responde. Al
+      parecer has logrado escapar. Pierdes dos bideones de combustible.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454253723649
+    m_Localized: "A nadie le parece buena idea enfrentar a la serpiente, pero siguen
+      tus \xF3rdenes. \"Torpedos listos, capit\xE1n\". Das la orden de disparo. Desde
+      la sala de mando se ven los torpedos dirigirse a la serpiente. En el momento
+      del impacto, cuando todos esperan la explosi\xF3n, nada ocurre. Los torpedos
+      se estrellan contra los dientes la serpiente del mismo modo en que lo har\xEDa
+      un insecto contra un auto. Las cargas explosivas han sido saboteadas, y ahora
+      la serpiente se dirge a devorarte. O no. Como si no te hubiese visto, Jormungandr
+      sigue su camino sin notar la presencia del submarino. Decides pasar por alto
+      la insubordinaci\xF3n. A fin de cuentas, gracias a eso est\xE1n vivos. Pierdes
+      dos torpedos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454337609728
+    m_Localized: "El submarino intenta dejar atr\xE1s a la criatura. La fuga no es
+      exitosa, el olor revela su cercan\xEDa. Por tres horas se mantienen respirando
+      un aroma a muerte y descomposici\xF3n. Despu\xE9s de cinco horas, el aire se
+      siente puro, como si estuvieses lejos de la ciudad. Recursos de la memoria
+      olfativa para hacerte saber que est\xE1s a salvo. Pierdes dos barriles de combustible."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454337609729
+    m_Localized: "Das la se\xF1al para comenzar el avance hacia la boca del monstruo.
+      La criatura ni se inmuta. El olor es insoportable en el interior. Dos tripulantes
+      vomitan justo a tu lado. El avance del submarino poco a poco se ve frenado,
+      como si el agua fuera m\xE1s densa. Uno de tus subalternos llega corriendo
+      a la sala de mando: \"Capit\xE1n, algo est\xE1 goteando al interior de la nave,
+      parece \xE1cido\". Tiene sentido. Este monstruo descompone a sus v\xEDctimas
+      en su interior y luego las digiere. \"Largu\xE9monos de aqu\xED, fue una mala
+      idea entrar\". Por suerte, la criatura a\xFAn est\xE1 cerrando la boca y logras
+      escapar in extremis. El da\xF1o en el casco es notable. Pierdes siete HP."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454337609730
+    m_Localized: "Tus \xF3rdenes son cumplidas sin esperas. Nadie quiere entrar ah\xED
+      dentro, pero son conscientes de que nada te har\xE1 cambiar de opini\xF3n.
+      Justo al entrar a la boca, el chico del batiscopio se comunica con la sala
+      de mando: \"Capit\xE1n, hay un submarino hundido en la boca del monstruo. Parece
+      intacto. Quiz\xE1s podamos saquearlo\". Sonr\xEDes con malicia. \"\xBFVen se\xF1ores?
+      La suerte est\xE1 con los valientes\". En una operaci\xF3n de pocos minutos
+      logras recuperar algo de combustible, materiales de reaparaci\xF3n y largarte
+      de la boca del monstruo antes de ser devorados. Obtienes cuatro bideons de
+      combustible y cinco HP."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454337609731
+    m_Localized: "La bestia se acerca al submarino y comienza a abrir la boca. Con
+      un poco de demora, las luces por fin se encienden. Incluso en el interior del
+      submarino, la luz llega a ser cegadora. El pez muerto, bautizado as\xED por
+      el artista visual de este videojuego, comienza a retroceder entrecerrando los
+      ojos. El plan ha funcionado, la luz le molesta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454429884416
+    m_Localized: "Poco a poco las dos naves comienzan a acercarse. Ninguna cede un
+      \xE1pice. La colisi\xF3n es inminente. Justo en el momento del impacto, el
+      submarino fantasma desaparece. Sin rastros. Pasan m\xE1s de una hora busc\xE1ndolo.
+      Nada. Ha dejado de existir. O quiz\xE1s fue una alucinaci\xF3n colectiva."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454429884417
+    m_Localized: "La decisi\xF3n parece acertada. Por muy embrujado que est\xE9,
+      no hay forma que su casco resista un golpe. Ambas naves mantienen el curso,
+      cada segundo m\xE1s cerca. Un estruendo met\xE1lico anuncia el impacto. El
+      submarino fantasma se fractura en cientos de pedazos. Un grito espectral atraviesa
+      el silencio del mar. Los restos de la nave comienzan a caer al fondo del mar.
+      Uno de los tripulantes se hace al mar y logra recuperar unos barriles de combustible.
+      Obtienes dos bidones de combustible."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454429884418
+    m_Localized: "La espera no es muy larga, el submarino fantasma se dirige hacia
+      ti a gran velocidad. Est\xE1s dudando de tu decisi\xF3n. Quiz\xE1s debiste
+      embestirlo y no esperar por \xE9l. El golpe  ya es inevitable. Tu nave se estremece
+      y sufre alg\xFAn da\xF1o. El submarino fantasma se hace pedazos y cae al fondo
+      marino. No hay tiempo de saquearlo. Pierdes dos HP."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454429884419
+    m_Localized: "El submarino fantasma disminuye su velocidad a medida que se acerca
+      a ti. Cuando est\xE1 a punto de impactarte, se detiene. Desde el puesto de
+      mando puedes ver su interior. Cad\xE1veres que se mueven, peces y pulpos entre
+      los agujeros del submarino. No hay dudas, es una nave fantasma. Por varios
+      minutos se queda frente a ti, esperando qu\xE9 har\xE1s. Varios cad\xE1veres
+      tienen la cabeza mirando hacia el puente de mando de tu nave, o al menos eso
+      parece, porque en sus cuencas no hay ojos. Como mismo se coloc\xF3 frente a
+      ti, ahora reinicia la marcha en direcci\xF3n contraria. Al menos tienes una
+      historia interesante que contar, aunque nadie te creer\xE1."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454429884420
+    m_Localized: "Mientras Enmanuel cumple con lo indicado, uno de tus hombres te
+      comenta al o\xEDdo: \"Se\xF1or, si ese submarino es demon\xEDaco, la sal del
+      mar deber\xEDa hacerle da\xF1o. \xBFNo cree que es arriesgado enviar a Ennmanuel
+      ah\xED afuera?\". Sonr\xEDes. \"Es Enmanuel, todo estar\xE1 bien\". Colocada
+      la cruz, encienden las luces incandescentes, el submarino fantasma comienza
+      a retorcerse, y termina su existencia con una simple implosi\xF3n. Sonr\xEDes
+      aliviado. Pero el efecto en la tripulaci\xF3n es el contrario, a nadie le hace
+      gracia la presencia de un capit\xE1n cristiano.\r\n"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

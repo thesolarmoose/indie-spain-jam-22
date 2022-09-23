@@ -47,7 +47,7 @@ namespace Editor
                     
                     CreateOrUpdateLocalizationReference(ChoicesTableName, choiceId, decision.Description);
                     choiceAsset.Description.SetReference(ChoicesTableName, choiceId);
-                    EditorUtility.SetDirty(eventAsset);
+                    EditorUtility.SetDirty(choiceAsset);
 
                     var consequences = decision.Consequences;
                     var consequencesAssets = new List<Consequence>();
@@ -77,6 +77,7 @@ namespace Editor
             
             table.AddEntry(entryId, value);
             EditorUtility.SetDirty(table);
+            EditorUtility.SetDirty(table.SharedData);
         }
 
         private static T CreateOrGetAssetAtFolder<T>(string folder, string assetName) where T : ScriptableObject

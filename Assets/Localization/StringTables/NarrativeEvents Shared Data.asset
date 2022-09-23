@@ -14,7 +14,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: NarrativeEvents
   m_TableCollectionNameGuidString: 49c75e96f0d861044820c7f37aab61ad
-  m_Entries: []
+  m_Entries:
+  - m_Id: 688400901332992
+    m_Key: e0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401001996288
+    m_Key: e1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401010384896
+    m_Key: e2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401018773504
+    m_Key: e3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401022967808
+    m_Key: e4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401027162112
+    m_Key: e5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401127825408
+    m_Key: e6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401136214016
+    m_Key: e7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401228488704
+    m_Key: e8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401295597568
+    m_Key: e9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401379483648
+    m_Key: e10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688401471758336
+    m_Key: e11
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

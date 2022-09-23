@@ -32,8 +32,24 @@ namespace NarrativeEvents.UI
             var (index, choice, consequence) = model;
             _consequence = consequence;
             _indexText.text = $"{index + 1}";
-            var text = await choice.Description.GetLocalizedStringAsync().Task;
+            var task = choice.Description.GetLocalizedStringAsync().Task;
+            var text = await task;
             _descriptionText.text = text;
+            UpdateParentLayout();
+        }
+
+        private async void UpdateParentLayout()
+        {
+            await Task.Delay(200);
+            var parent = transform.parent;
+            var layout = parent.GetComponent<LayoutGroup>();
+            var rectTransform = parent.GetComponent<RectTransform>();
+            layout.enabled = false;
+            layout.CalculateLayoutInputHorizontal();
+            layout.CalculateLayoutInputHorizontal();
+            LayoutRebuilder.ForceRebuildLayoutImmediate(rectTransform);
+            LayoutRebuilder.MarkLayoutForRebuild(rectTransform);
+            layout.enabled = true;
         }
 
         public async Task<List<Consequence>> WaitPressChoice(CancellationToken ct)

@@ -300,7 +300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _eventDisplayer: {fileID: 1835738176}
   _events:
-  - {fileID: 11400000, guid: 7ca80b0435bd9944da6b5b51d0dcb9d6, type: 2}
+  - {fileID: 11400000, guid: d00a46e0929e78749a6eecceace453e0, type: 2}
   _collisionMask:
     serializedVersion: 2
     m_Bits: 64
@@ -2257,7 +2257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "New Text\xE9"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 95b80c79c10dc064fb7e1e57fda66590, type: 2}
   m_sharedMaterial: {fileID: -4441388456140143630, guid: 95b80c79c10dc064fb7e1e57fda66590, type: 2}

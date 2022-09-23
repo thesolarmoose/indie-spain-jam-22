@@ -14,7 +14,199 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: Consequences
   m_TableCollectionNameGuidString: a342b8c2f2a41354c916b0accd21093a
-  m_Entries: []
+  m_Entries:
+  - m_Id: 66453922373632
+    m_Key: e0-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453943345152
+    m_Key: e0-ch0-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453947539456
+    m_Key: e0-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453951733760
+    m_Key: e0-ch2-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453955928064
+    m_Key: e1-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453960122368
+    m_Key: e1-ch0-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453960122369
+    m_Key: e1-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453960122370
+    m_Key: e1-ch1-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453964316672
+    m_Key: e2-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453964316673
+    m_Key: e2-ch0-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453968510976
+    m_Key: e2-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453968510977
+    m_Key: e2-ch2-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453972705280
+    m_Key: e3-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453972705281
+    m_Key: e3-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453976899584
+    m_Key: e4-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453976899585
+    m_Key: e4-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453976899586
+    m_Key: e4-ch1-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453985288192
+    m_Key: e5-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453985288193
+    m_Key: e5-ch0-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66453985288194
+    m_Key: e5-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454081757184
+    m_Key: e6-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454081757185
+    m_Key: e6-ch0-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454081757186
+    m_Key: e6-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454081757187
+    m_Key: e6-ch1-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454085951488
+    m_Key: e6-ch2-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454094340096
+    m_Key: e7-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454094340097
+    m_Key: e7-ch0-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454094340098
+    m_Key: e7-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454094340099
+    m_Key: e7-ch1-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454094340100
+    m_Key: e7-ch2-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454186614784
+    m_Key: e8-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454186614785
+    m_Key: e8-ch0-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454186614786
+    m_Key: e8-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454186614787
+    m_Key: e8-ch1-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454190809088
+    m_Key: e8-ch2-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454249529344
+    m_Key: e9-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454249529345
+    m_Key: e9-ch0-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454253723648
+    m_Key: e9-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454253723649
+    m_Key: e9-ch2-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454337609728
+    m_Key: e10-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454337609729
+    m_Key: e10-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454337609730
+    m_Key: e10-ch1-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454337609731
+    m_Key: e10-ch2-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454429884416
+    m_Key: e11-ch0-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454429884417
+    m_Key: e11-ch0-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454429884418
+    m_Key: e11-ch1-c0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454429884419
+    m_Key: e11-ch1-c1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66454429884420
+    m_Key: e11-ch2-c0
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
