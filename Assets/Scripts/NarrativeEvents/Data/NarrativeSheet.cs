@@ -38,7 +38,7 @@ namespace NarrativeEvents.Data
                 var existsEvent = File.Exists(eventPath);
                 if (!existsEvent)
                 {
-                
+                    
                     var serializedEvent = ScriptableObject.CreateInstance<Event>();
                     foreach (var decision in @event.Decisions)
                     {
