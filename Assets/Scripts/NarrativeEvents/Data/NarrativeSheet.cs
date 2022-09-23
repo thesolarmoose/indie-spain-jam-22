@@ -23,7 +23,6 @@ namespace NarrativeEvents.Data
             
             foreach (var @event in _events)
             {
-                // TODO
                 // obtener id (posición en lista)
                 var id = @event.Id;
                 
