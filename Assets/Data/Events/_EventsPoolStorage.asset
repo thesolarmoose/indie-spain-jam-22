@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10c2a042005d416aa66af01de40b5e27, type: 3}
   m_Name: _EventsPoolStorage
   m_EditorClassIdentifier: 
-  _eventsPool:
-  - {fileID: 11400000, guid: 7ca80b0435bd9944da6b5b51d0dcb9d6, type: 2}
+  _eventsPool: {fileID: 11400000, guid: ad8c433ca0291b14f937e053392b10a6, type: 2}
   _triggeredEvents: []
-  _selectFirstChance: 0.8
+  _selectFirstChance: 0

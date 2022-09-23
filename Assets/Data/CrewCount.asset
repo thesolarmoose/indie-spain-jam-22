@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b46c0f62c93543f88d3eb693740d091, type: 3}
-  m_Name: Gas
+  m_Script: {fileID: 11500000, guid: cf8a67b68db3d4650908f8cf6adeda60, type: 3}
+  m_Name: CrewCount
   m_EditorClassIdentifier: 
   _developerDescription: 
   _id: 
@@ -22,4 +22,4 @@ MonoBehaviour:
   _oldValue: 0
   _initialValue: 0
   _preChangeTransformers:
-  - {fileID: 11400000, guid: 8d70edf2f2d83394084ce14431397213, type: 2}
+  - {fileID: 11400000, guid: 4f734e113ff5bed44a13dbb73d72e955, type: 2}

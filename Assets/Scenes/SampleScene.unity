@@ -1826,6 +1826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 518199182}
+  - component: {fileID: 518199183}
   m_Layer: 0
   m_Name: Gas
   m_TagString: Untagged
@@ -1855,6 +1856,22 @@ RectTransform:
   m_AnchoredPosition: {x: 25, y: -24}
   m_SizeDelta: {x: 165.0679, y: 30}
   m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &518199183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518199181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cca47fb028d412ba33164bed73b0532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gasVariable: {fileID: 11400000, guid: fabd52bb9a7381648860a2a661d31138, type: 2}
+  _maxGasVariable: {fileID: 11400000, guid: 2302778523144264b963dd35db1721bc, type: 2}
+  _gasBar: {fileID: 1444659046}
+  _gasText: {fileID: 1691206729}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,6 +2871,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1381161481}
+  - component: {fileID: 1381161482}
   m_Layer: 0
   m_Name: Crew
   m_TagString: Untagged
@@ -2883,6 +2901,21 @@ RectTransform:
   m_AnchoredPosition: {x: -194.66599, y: -24}
   m_SizeDelta: {x: 165.0679, y: 30}
   m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1381161482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381161480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3af38efa6b8c43aaa7a2f37480a398d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _crewVariable: {fileID: 11400000, guid: f95c6be73e12acf4eaff7e0a581d8dc3, type: 2}
+  _maxCrewVariable: {fileID: 11400000, guid: b73077fa932d5124694434b48a9d48da, type: 2}
+  _crewText: {fileID: 412869475}
 --- !u!1 &1420570183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3153,6 +3186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1704465763}
+  - component: {fileID: 1704465764}
   m_Layer: 0
   m_Name: Health
   m_TagString: Untagged
@@ -3181,6 +3215,22 @@ RectTransform:
   m_AnchoredPosition: {x: 16, y: -24}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0, y: 1}
+--- !u!114 &1704465764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704465762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0066452ede6411d96ddc704c96b467a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthVariable: {fileID: 11400000, guid: 1a1297357582b3348a1bd1c61200b556, type: 2}
+  _maxHealthVariable: {fileID: 11400000, guid: 147d4d099d90d05448d4fe7864120add, type: 2}
+  _healthBar: {fileID: 1371437523}
+  _healthText: {fileID: 2123673932}
 --- !u!1 &1775300793
 GameObject:
   m_ObjectHideFlags: 0
