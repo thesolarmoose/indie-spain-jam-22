@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 16}
+  - {fileID: 15}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 22
+  controlID: -1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -33,183 +33,90 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 924ffcbe75518854f97b48776d0f1939, type: 3}
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Serpent
-    m_Image: {fileID: 2800000, guid: 7129268cf102b2f45809905bcb27ce8b, type: 3}
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 280.80002
+    x: 229.6
     y: 73.6
-    width: 730
-    height: 359
+    width: 873.2001
+    height: 536.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_Selected: 7ddd8660aefb7c74c80f5456bc6db4a1
-  m_GraphObject: {fileID: 0}
-  m_LastSerializedFileContents: "{\n    \"m_SGVersion\": 3,\n    \"m_Type\": \"UnityEditor.ShaderGraph.GraphData\",\n   
-    \"m_ObjectId\": \"5924153ab7e04818aa21d096c504000b\",\n    \"m_Properties\":
-    [],\n    \"m_Keywords\": [],\n    \"m_Dropdowns\": [],\n    \"m_CategoryData\":
-    [],\n    \"m_Nodes\": [\n        {\n            \"m_Id\": \"f53c898be3a84798b85e9edeb368f111\"\n       
-    },\n        {\n            \"m_Id\": \"bad65fd643d0406cb3ff52ab9c857cf1\"\n       
-    },\n        {\n            \"m_Id\": \"349ee7636a6643938444c54e02f48627\"\n       
-    },\n        {\n            \"m_Id\": \"6771b6bb894740e4a14ad11315a47637\"\n       
-    },\n        {\n            \"m_Id\": \"e742491afdc94d60a211ef05c8204537\"\n       
-    },\n        {\n            \"m_Id\": \"2c06e7f5d99e4423bda48a1e6d86940d\"\n       
-    },\n        {\n            \"m_Id\": \"f0645e26ecea437fa33fe53ee97b0819\"\n       
-    }\n    ],\n    \"m_GroupDatas\": [],\n    \"m_StickyNoteDatas\": [],\n    \"m_Edges\":
-    [],\n    \"m_VertexContext\": {\n        \"m_Position\": {\n            \"x\":
-    0.0,\n            \"y\": 0.0\n        },\n        \"m_Blocks\": [\n           
-    {\n                \"m_Id\": \"f53c898be3a84798b85e9edeb368f111\"\n           
-    },\n            {\n                \"m_Id\": \"bad65fd643d0406cb3ff52ab9c857cf1\"\n           
-    },\n            {\n                \"m_Id\": \"349ee7636a6643938444c54e02f48627\"\n           
-    }\n        ]\n    },\n    \"m_FragmentContext\": {\n        \"m_Position\": {\n           
-    \"x\": 0.0,\n            \"y\": 200.0\n        },\n        \"m_Blocks\": [\n           
-    {\n                \"m_Id\": \"6771b6bb894740e4a14ad11315a47637\"\n           
-    },\n            {\n                \"m_Id\": \"e742491afdc94d60a211ef05c8204537\"\n           
-    },\n            {\n                \"m_Id\": \"2c06e7f5d99e4423bda48a1e6d86940d\"\n           
-    },\n            {\n                \"m_Id\": \"f0645e26ecea437fa33fe53ee97b0819\"\n           
-    }\n        ]\n    },\n    \"m_PreviewData\": {\n        \"serializedMesh\": {\n           
-    \"m_SerializedMesh\": \"{\\\"mesh\\\":{\\\"instanceID\\\":0}}\",\n           
-    \"m_Guid\": \"\"\n        },\n        \"preventRotation\": false\n    },\n   
-    \"m_Path\": \"Shader Graphs\",\n    \"m_GraphPrecision\": 1,\n    \"m_PreviewMode\":
-    2,\n    \"m_OutputNode\": {\n        \"m_Id\": \"\"\n    },\n    \"m_ActiveTargets\":
-    [\n        {\n            \"m_Id\": \"b1ad110174774982bbb03f521fbca8a4\"\n       
-    }\n    ]\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.Rendering.Universal.ShaderGraph.UniversalSpriteLitSubTarget\",\n   
-    \"m_ObjectId\": \"283449a2125843d182d56dcb03b53f94\"\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.ColorRGBAMaterialSlot\",\n    \"m_ObjectId\":
-    \"2a0b858a78274e51a662178dfed7292f\",\n    \"m_Id\": 0,\n    \"m_DisplayName\":
-    \"Sprite Mask\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n    \"m_ShaderOutputName\":
-    \"SpriteMask\",\n    \"m_StageCapability\": 2,\n    \"m_Value\": {\n        \"x\":
-    1.0,\n        \"y\": 1.0,\n        \"z\": 1.0,\n        \"w\": 1.0\n    },\n   
-    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0,\n        \"w\": 0.0\n    },\n    \"m_Labels\": []\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\":
-    \"2c06e7f5d99e4423bda48a1e6d86940d\",\n    \"m_Group\": {\n        \"m_Id\":
-    \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.NormalTS\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"efe29c9773924bb29ebd9dc66cfc6cfe\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"SurfaceDescription.NormalTS\"\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n   
-    \"m_ObjectId\": \"349ee7636a6643938444c54e02f48627\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"VertexDescription.Tangent\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"ce6eab0698e74713ac1652ba3cafdb53\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"VertexDescription.Tangent\"\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.ColorRGBMaterialSlot\",\n   
-    \"m_ObjectId\": \"38994799da5d42f38f63a1f4cfce6804\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Base Color\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\":
-    false,\n    \"m_ShaderOutputName\": \"BaseColor\",\n    \"m_StageCapability\":
-    2,\n    \"m_Value\": {\n        \"x\": 0.5,\n        \"y\": 0.5,\n        \"z\":
-    0.5\n    },\n    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n       
-    \"z\": 0.0\n    },\n    \"m_Labels\": [],\n    \"m_ColorMode\": 0,\n    \"m_DefaultColor\":
-    {\n        \"r\": 0.5,\n        \"g\": 0.5,\n        \"b\": 0.5,\n        \"a\":
-    1.0\n    }\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n   
-    \"m_ObjectId\": \"6771b6bb894740e4a14ad11315a47637\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.BaseColor\",\n   
-    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n           
-    \"serializedVersion\": \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n           
-    \"width\": 0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\":
-    [\n        {\n            \"m_Id\": \"38994799da5d42f38f63a1f4cfce6804\"\n       
-    }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"SurfaceDescription.BaseColor\"\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.NormalMaterialSlot\",\n   
-    \"m_ObjectId\": \"a3efc79022034181aa37b56d5ab16f97\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Normal\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"Normal\",\n    \"m_StageCapability\": 1,\n    \"m_Value\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n   
-    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0\n    },\n    \"m_Labels\": [],\n    \"m_Space\": 0\n}\n\n{\n    \"m_SGVersion\":
-    1,\n    \"m_Type\": \"UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget\",\n   
-    \"m_ObjectId\": \"b1ad110174774982bbb03f521fbca8a4\",\n    \"m_ActiveSubTarget\":
-    {\n        \"m_Id\": \"283449a2125843d182d56dcb03b53f94\"\n    },\n    \"m_AllowMaterialOverride\":
-    false,\n    \"m_SurfaceType\": 0,\n    \"m_ZTestMode\": 4,\n    \"m_ZWriteControl\":
-    0,\n    \"m_AlphaMode\": 0,\n    \"m_RenderFace\": 2,\n    \"m_AlphaClip\": false,\n   
-    \"m_CastShadows\": true,\n    \"m_ReceiveShadows\": true,\n    \"m_CustomEditorGUI\":
-    \"\",\n    \"m_SupportVFX\": false\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.PositionMaterialSlot\",\n    \"m_ObjectId\": \"b9a5fbc61416472e9393079a5beb4085\",\n   
-    \"m_Id\": 0,\n    \"m_DisplayName\": \"Position\",\n    \"m_SlotType\": 0,\n   
-    \"m_Hidden\": false,\n    \"m_ShaderOutputName\": \"Position\",\n    \"m_StageCapability\":
-    1,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0\n    },\n    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n       
-    \"z\": 0.0\n    },\n    \"m_Labels\": [],\n    \"m_Space\": 0\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\":
-    \"bad65fd643d0406cb3ff52ab9c857cf1\",\n    \"m_Group\": {\n        \"m_Id\":
-    \"\"\n    },\n    \"m_Name\": \"VertexDescription.Normal\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"a3efc79022034181aa37b56d5ab16f97\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"VertexDescription.Normal\"\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.Vector1MaterialSlot\",\n   
-    \"m_ObjectId\": \"c4989f36227d49d9b10bff3b7c2a2078\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Alpha\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"Alpha\",\n    \"m_StageCapability\": 2,\n    \"m_Value\":
-    1.0,\n    \"m_DefaultValue\": 1.0,\n    \"m_Labels\": []\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.TangentMaterialSlot\",\n    \"m_ObjectId\":
-    \"ce6eab0698e74713ac1652ba3cafdb53\",\n    \"m_Id\": 0,\n    \"m_DisplayName\":
-    \"Tangent\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n    \"m_ShaderOutputName\":
-    \"Tangent\",\n    \"m_StageCapability\": 1,\n    \"m_Value\": {\n        \"x\":
-    0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n    \"m_DefaultValue\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n   
-    \"m_Labels\": [],\n    \"m_Space\": 0\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\": \"e742491afdc94d60a211ef05c8204537\",\n   
-    \"m_Group\": {\n        \"m_Id\": \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.SpriteMask\",\n   
-    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n           
-    \"serializedVersion\": \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n           
-    \"width\": 0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\":
-    [\n        {\n            \"m_Id\": \"2a0b858a78274e51a662178dfed7292f\"\n       
-    }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"SurfaceDescription.SpriteMask\"\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.NormalMaterialSlot\",\n   
-    \"m_ObjectId\": \"efe29c9773924bb29ebd9dc66cfc6cfe\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Normal (Tangent Space)\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\":
-    false,\n    \"m_ShaderOutputName\": \"NormalTS\",\n    \"m_StageCapability\":
-    2,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0\n    },\n    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n       
-    \"z\": 0.0\n    },\n    \"m_Labels\": [],\n    \"m_Space\": 3\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\":
-    \"f0645e26ecea437fa33fe53ee97b0819\",\n    \"m_Group\": {\n        \"m_Id\":
-    \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.Alpha\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"c4989f36227d49d9b10bff3b7c2a2078\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"SurfaceDescription.Alpha\"\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n   
-    \"m_ObjectId\": \"f53c898be3a84798b85e9edeb368f111\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"VertexDescription.Position\",\n   
-    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n           
-    \"serializedVersion\": \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n           
-    \"width\": 0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\":
-    [\n        {\n            \"m_Id\": \"b9a5fbc61416472e9393079a5beb4085\"\n       
-    }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"VertexDescription.Position\"\n}\n\n"
-  m_AssetMaybeChangedOnDisk: 0
-  m_AssetMaybeDeleted: 0
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 873.2001, y: 515.6}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 0000000000000000000000000c000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -349.28003
+    m_HBaseRangeMax: 349.28003
+    m_VBaseRangeMin: -206.23999
+    m_VBaseRangeMax: 206.23999
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 873.2001
+      height: 515.6
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 436.60004, y: 257.8}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -436.60004
+      y: -257.8
+      width: 873.2001
+      height: 515.6
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1091.5001, y: 670.75}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000001000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,17 +131,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 13}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1012.8
+    width: 1104.8
     height: 722.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: -1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -254,12 +161,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1012.8
-    height: 380
+    width: 1104.8
+    height: 557.6
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 24
+  controlID: -1
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,8 +184,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 280.8
-    height: 380
+    width: 229.6
+    height: 557.6
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
@@ -308,8 +215,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 279.8
-    height: 359
+    width: 228.6
+    height: 536.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -317,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c87a0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1efbffff
+      m_ExpandedIDs: 8200feff9200feff9a00feffa600feff2e4afeff0e4cfeff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -353,27 +260,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: MaterialGraphEditWindow
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 280.8
+    x: 229.6
     y: 0
-    width: 732
-    height: 380
-  m_MinSize: {x: 102, y: 121}
+    width: 875.2001
+    height: 557.6
+  m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
+  - {fileID: 2}
   - {fileID: 9}
   - {fileID: 10}
   - {fileID: 11}
-  - {fileID: 12}
-  - {fileID: 2}
-  m_Selected: 5
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 2
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -394,10 +300,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 280.80002
-    y: 73.6
-    width: 730
-    height: 359
+    x: 241
+    y: 73
+    width: 658
+    height: 343
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -408,7 +314,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -632,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 356.5917, y: 317.7619, z: -0.2404364}
+    m_Target: {x: 2.5749307, y: -5.32782, z: 0.0014327914}
     speed: 2
-    m_Value: {x: 356.5917, y: 317.7619, z: -0.2404364}
+    m_Value: {x: 2.5749307, y: -5.32782, z: 0.0014327914}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -685,9 +591,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 40.588627
+    m_Target: 12.8482485
     speed: 2
-    m_Value: 40.588627
+    m_Value: 12.8482485
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -720,1217 +626,27 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 280.80002
-    y: 73.6
-    width: 730
-    height: 359
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 730, y: 338}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 0000000000000000000000000c000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -292
-    m_HBaseRangeMax: 292
-    m_VBaseRangeMin: -135.2
-    m_VBaseRangeMax: 135.2
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 730
-      height: 338
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 365, y: 169}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -365
-      y: -169
-      width: 730
-      height: 338
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 912.5, y: 448.75}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000001000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 11500000, guid: 03b8c364c5fbffe4c949a4ceb342fb8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 900, y: 600}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Test Runner
+    m_Text: Localization Tables
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 296
+    x: 229.6
     y: 73.6
-    width: 715
-    height: 393
+    width: 873.2001
+    height: 255.79999
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_Spl:
-    ID: 303
-    splitterInitialOffset: 0
-    currentActiveSplitter: -1
-    realSizes:
-    - 242.4
-    - 80.80002
-    relativeSizes:
-    - 0.75
-    - 0.25
-    minSizes:
-    - 32
-    - 32
-    maxSizes:
-    - 0
-    - 0
-    lastTotalSize: 323.2
-    splitSize: 6
-    xOffset: 0
-    m_Version: 1
-    oldRealSizes: 
-    oldMinSizes: 
-    oldMaxSizes: 
-    oldSplitSize: 0
-  m_TestTypeToolbarIndex: 1
-  m_PlayModeTestListGUI:
-    m_Window: {fileID: 10}
-    m_NewResultList:
-    - id: 1004
-      uniqueId: '[DungeonCrawl][suite]'
-      name: DungeonCrawl
-      fullName: DungeonCrawl
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    m_ResultText: 
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 991f652fffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
-    m_SelectedOption: 0
-  m_EditModeTestListGUI:
-    m_Window: {fileID: 10}
-    m_NewResultList:
-    - id: 1000
-      uniqueId: '[Resources Crush][suite]'
-      name: Resources Crush
-      fullName: Resources Crush
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    - id: 1056
-      uniqueId: '[com.thesolarmoose.resourcescrush.tests.EditorMode.dll][suite]'
-      name: com.thesolarmoose.resourcescrush.tests.EditorMode.dll
-      fullName: C:/_cosas/Desarrollo/GameDev/Projects/resources-crush/Library/ScriptAssemblies/com.thesolarmoose.resourcescrush.tests.EditorMode.dll
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[Resources Crush][suite]'
-    - id: 1057
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/[Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1056
-      parentUniqueId: '[com.thesolarmoose.resourcescrush.tests.EditorMode.dll][suite]'
-    - id: 1058
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode][suite]
-      name: EditorMode
-      fullName: Tests.EditorMode
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1057
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/[Tests][suite]
-    - id: 1001
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests][suite]
-      name: BoardRecognitionPatternTests
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1058
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode][suite]
-    - id: 1013
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatch_Test][suite]
-      name: ExistsMatch_Test
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatch_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1001
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests][suite]
-    - id: 1011
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/ExistsMatch_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatch_Test(0)]
-      name: ExistsMatch_Test(0)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatch_Test(0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1013
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatch_Test][suite]
-    - id: 1012
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/ExistsMatch_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatch_Test(1)]
-      name: ExistsMatch_Test(1)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatch_Test(1)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1013
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatch_Test][suite]
-    - id: 1010
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatchInPosition_Test][suite]
-      name: ExistsMatchInPosition_Test
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatchInPosition_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1001
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests][suite]
-    - id: 1008
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/ExistsMatchInPosition_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatchInPosition_Test(0)]
-      name: ExistsMatchInPosition_Test(0)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatchInPosition_Test(0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1010
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatchInPosition_Test][suite]
-    - id: 1009
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/ExistsMatchInPosition_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatchInPosition_Test(1)]
-      name: ExistsMatchInPosition_Test(1)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatchInPosition_Test(1)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1010
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsMatchInPosition_Test][suite]
-    - id: 1007
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolution_Test][suite]
-      name: ExistsSolution_Test
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolution_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1001
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests][suite]
-    - id: 1005
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/ExistsSolution_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolution_Test(0)]
-      name: ExistsSolution_Test(0)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolution_Test(0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1007
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolution_Test][suite]
-    - id: 1006
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/ExistsSolution_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolution_Test(1)]
-      name: ExistsSolution_Test(1)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolution_Test(1)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1007
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolution_Test][suite]
-    - id: 1004
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolutionInPosition_Test][suite]
-      name: ExistsSolutionInPosition_Test
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolutionInPosition_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1001
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests][suite]
-    - id: 1002
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/ExistsSolutionInPosition_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolutionInPosition_Test(0)]
-      name: ExistsSolutionInPosition_Test(0)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolutionInPosition_Test(0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolutionInPosition_Test][suite]
-    - id: 1003
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/ExistsSolutionInPosition_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolutionInPosition_Test(1)]
-      name: ExistsSolutionInPosition_Test(1)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolutionInPosition_Test(1)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.ExistsSolutionInPosition_Test][suite]
-    - id: 1019
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetAdjacentInPosition_Test][suite]
-      name: GetAdjacentInPosition_Test
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetAdjacentInPosition_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1001
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests][suite]
-    - id: 1017
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/GetAdjacentInPosition_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetAdjacentInPosition_Test(0)]
-      name: GetAdjacentInPosition_Test(0)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetAdjacentInPosition_Test(0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1019
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetAdjacentInPosition_Test][suite]
-    - id: 1018
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/GetAdjacentInPosition_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetAdjacentInPosition_Test(1)]
-      name: GetAdjacentInPosition_Test(1)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetAdjacentInPosition_Test(1)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1019
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetAdjacentInPosition_Test][suite]
-    - id: 1016
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetMatches_Test][suite]
-      name: GetMatches_Test
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetMatches_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1001
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests][suite]
-    - id: 1014
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/GetMatches_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetMatches_Test(0)]
-      name: GetMatches_Test(0)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetMatches_Test(0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1016
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetMatches_Test][suite]
-    - id: 1015
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/GetMatches_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetMatches_Test(1)]
-      name: GetMatches_Test(1)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetMatches_Test(1)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1016
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetMatches_Test][suite]
-    - id: 1022
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetMatchesInPosition_Test][suite]
-      name: GetMatchesInPosition_Test
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetMatchesInPosition_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1001
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests][suite]
-    - id: 1020
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/GetMatchesInPosition_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetMatchesInPosition_Test(0)]
-      name: GetMatchesInPosition_Test(0)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetMatchesInPosition_Test(0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1022
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetMatchesInPosition_Test][suite]
-    - id: 1021
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/GetMatchesInPosition_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetMatchesInPosition_Test(1)]
-      name: GetMatchesInPosition_Test(1)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetMatchesInPosition_Test(1)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1022
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetMatchesInPosition_Test][suite]
-    - id: 1025
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetSolutionsInPosition_Test][suite]
-      name: GetSolutionsInPosition_Test
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetSolutionsInPosition_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1001
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests][suite]
-    - id: 1023
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/GetSolutionsInPosition_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetSolutionsInPosition_Test(0)]
-      name: GetSolutionsInPosition_Test(0)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetSolutionsInPosition_Test(0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1025
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetSolutionsInPosition_Test][suite]
-    - id: 1024
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/GetSolutionsInPosition_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetSolutionsInPosition_Test(1)]
-      name: GetSolutionsInPosition_Test(1)
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetSolutionsInPosition_Test(1)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1025
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetSolutionsInPosition_Test][suite]
-    - id: 1026
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardRecognitionPatternTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests.GetSolutionsInPosition_WhenThereIsNoTokenToSwap_Test]
-      name: GetSolutionsInPosition_WhenThereIsNoTokenToSwap_Test
-      fullName: Tests.EditorMode.BoardRecognitionPatternTests.GetSolutionsInPosition_WhenThereIsNoTokenToSwap_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardRecognitionPatternTests][suite]
-    - id: 1027
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-      name: BoardTests
-      fullName: Tests.EditorMode.BoardTests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1058
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode][suite]
-    - id: 1039
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test][suite]
-      name: AddTokenAt_OutOfBoardShape_Test
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1034
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/AddTokenAt_OutOfBoardShape_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test(-1,0)]
-      name: AddTokenAt_OutOfBoardShape_Test(-1,0)
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test(-1,0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1039
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test][suite]
-    - id: 1035
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/AddTokenAt_OutOfBoardShape_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test(0,3)]
-      name: AddTokenAt_OutOfBoardShape_Test(0,3)
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test(0,3)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1039
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test][suite]
-    - id: 1036
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/AddTokenAt_OutOfBoardShape_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test(1,4)]
-      name: AddTokenAt_OutOfBoardShape_Test(1,4)
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test(1,4)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1039
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test][suite]
-    - id: 1037
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/AddTokenAt_OutOfBoardShape_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test(2,-5)]
-      name: AddTokenAt_OutOfBoardShape_Test(2,-5)
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test(2,-5)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1039
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test][suite]
-    - id: 1038
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/AddTokenAt_OutOfBoardShape_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test(2,20)]
-      name: AddTokenAt_OutOfBoardShape_Test(2,20)
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test(2,20)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1039
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_OutOfBoardShape_Test][suite]
-    - id: 1033
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test][suite]
-      name: AddTokenAt_Test
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1028
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/AddTokenAt_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test(0,0)]
-      name: AddTokenAt_Test(0,0)
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_Test(0,0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1033
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test][suite]
-    - id: 1029
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/AddTokenAt_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test(0,2)]
-      name: AddTokenAt_Test(0,2)
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_Test(0,2)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1033
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test][suite]
-    - id: 1030
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/AddTokenAt_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test(1,1)]
-      name: AddTokenAt_Test(1,1)
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_Test(1,1)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1033
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test][suite]
-    - id: 1031
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/AddTokenAt_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test(2,0)]
-      name: AddTokenAt_Test(2,0)
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_Test(2,0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1033
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test][suite]
-    - id: 1032
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/AddTokenAt_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test(2,2)]
-      name: AddTokenAt_Test(2,2)
-      fullName: Tests.EditorMode.BoardTests.AddTokenAt_Test(2,2)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1033
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.AddTokenAt_Test][suite]
-    - id: 1055
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test][suite]
-      name: ArePositionsAdjacent_Test
-      fullName: Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1051
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/ArePositionsAdjacent_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test(0,0,1,0)]
-      name: ArePositionsAdjacent_Test(0,0,1,0)
-      fullName: Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test(0,0,1,0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1055
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test][suite]
-    - id: 1052
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/ArePositionsAdjacent_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test(1,1,1,0)]
-      name: ArePositionsAdjacent_Test(1,1,1,0)
-      fullName: Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test(1,1,1,0)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1055
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test][suite]
-    - id: 1053
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/ArePositionsAdjacent_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test(3,2,2,2)]
-      name: ArePositionsAdjacent_Test(3,2,2,2)
-      fullName: Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test(3,2,2,2)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1055
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test][suite]
-    - id: 1054
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/ArePositionsAdjacent_Test/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test(-24,54,-24,53)]
-      name: ArePositionsAdjacent_Test(-24,54,-24,53)
-      fullName: Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test(-24,54,-24,53)
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1055
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ArePositionsAdjacent_Test][suite]
-    - id: 1043
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ExistsToken_Test]
-      name: ExistsToken_Test
-      fullName: Tests.EditorMode.BoardTests.ExistsToken_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1042
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.ExistsTokenAt_Test]
-      name: ExistsTokenAt_Test
-      fullName: Tests.EditorMode.BoardTests.ExistsTokenAt_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1050
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.GetEmptyPositions_Test]
-      name: GetEmptyPositions_Test
-      fullName: Tests.EditorMode.BoardTests.GetEmptyPositions_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1041
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.GetPositionOfToken_Test]
-      name: GetPositionOfToken_Test
-      fullName: Tests.EditorMode.BoardTests.GetPositionOfToken_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1048
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.GetPositions_Test]
-      name: GetPositions_Test
-      fullName: Tests.EditorMode.BoardTests.GetPositions_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1040
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.GetTokenAt_Test]
-      name: GetTokenAt_Test
-      fullName: Tests.EditorMode.BoardTests.GetTokenAt_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1049
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.GetTokenPositions_Test]
-      name: GetTokenPositions_Test
-      fullName: Tests.EditorMode.BoardTests.GetTokenPositions_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1046
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.MoveTokenTo_Test]
-      name: MoveTokenTo_Test
-      fullName: Tests.EditorMode.BoardTests.MoveTokenTo_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1045
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.RemoveToken_Test]
-      name: RemoveToken_Test
-      fullName: Tests.EditorMode.BoardTests.RemoveToken_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1044
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.RemoveTokenAt_Test]
-      name: RemoveTokenAt_Test
-      fullName: Tests.EditorMode.BoardTests.RemoveTokenAt_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    - id: 1047
-      uniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/BoardTests/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests.SwapPositions_Test]
-      name: SwapPositions_Test
-      fullName: Tests.EditorMode.BoardTests.SwapPositions_Test
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1027
-      parentUniqueId: com.thesolarmoose.resourcescrush.tests.EditorMode.dll/Tests/EditorMode/[com.thesolarmoose.resourcescrush.tests.EditorMode][Tests.EditorMode.BoardTests][suite]
-    m_ResultText: WhenGetAvailableMovementDirections_ResultIsTheExpected (0.075s)
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 39050a3c
-      m_LastClickedID: 1007289657
-      m_ExpandedIDs: adfeb68145cf0c8ac7b8389c7bb75cb48b7160b998cb44bb0c7849c3de245dc8cdf5d8c8bd576dc9a6c3c4d28427f0d7c3933eed860cb61362c0d61e991f652fbcc56955568b385effffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
---- !u!114 &11
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1950,10 +666,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 296
+    x: 229.6
     y: 73.6
-    width: 715
-    height: 393
+    width: 873.2001
+    height: 409.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1986,14 +702,14 @@ MonoBehaviour:
       - width: 439.7193
         sortedAscending: 0
         headerContent:
-          m_Text: 
+          m_Text: Group Name \ Addressable Name
           m_Image: {fileID: 0}
-          m_Tooltip: 
+          m_Tooltip: Address used to load asset at runtime
         contextMenuText: 
         headerTextAlignment: 0
         sortingArrowAlignment: 1
-        minWidth: 20
-        maxWidth: 1000000
+        minWidth: 100
+        maxWidth: 10000
         autoResize: 1
         allowToggleVisibility: 1
         canSort: 1
@@ -2002,28 +718,28 @@ MonoBehaviour:
         sortedAscending: 0
         headerContent:
           m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
+          m_Image: {fileID: 3147778976006948682, guid: 0000000000000000d000000000000000, type: 0}
+          m_Tooltip: Asset type
         contextMenuText: 
         headerTextAlignment: 0
         sortingArrowAlignment: 1
         minWidth: 20
-        maxWidth: 1000000
+        maxWidth: 20
         autoResize: 1
         allowToggleVisibility: 1
-        canSort: 1
+        canSort: 0
         userData: 0
       - width: 253.68422
         sortedAscending: 0
         headerContent:
-          m_Text: 
+          m_Text: Path
           m_Image: {fileID: 0}
-          m_Tooltip: 
+          m_Tooltip: Current Path of asset
         contextMenuText: 
         headerTextAlignment: 0
         sortingArrowAlignment: 1
-        minWidth: 20
-        maxWidth: 1000000
+        minWidth: 100
+        maxWidth: 10000
         autoResize: 1
         allowToggleVisibility: 1
         canSort: 1
@@ -2031,23 +747,23 @@ MonoBehaviour:
       - width: 270.5965
         sortedAscending: 0
         headerContent:
-          m_Text: 
+          m_Text: Labels
           m_Image: {fileID: 0}
-          m_Tooltip: 
+          m_Tooltip: Assets can have multiple labels
         contextMenuText: 
         headerTextAlignment: 0
         sortingArrowAlignment: 1
         minWidth: 20
-        maxWidth: 1000000
+        maxWidth: 1000
         autoResize: 1
         allowToggleVisibility: 1
         canSort: 1
         userData: 0
       m_VisibleColumns: 00000000010000000200000003000000
       m_SortedColumns: 
-    window: {fileID: 11}
+    window: {fileID: 10}
     m_VerticalSplitterPercent: 0.8
---- !u!114 &12
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2067,15 +783,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 211.2
+    x: 186.40001
     y: 73.6
-    width: 799.6
+    width: 706
     height: 392.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &13
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2091,18 +807,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 380
-    width: 1012.8
-    height: 342.8
+    y: 557.6
+    width: 1104.8
+    height: 165.20001
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 13}
   m_Panes:
+  - {fileID: 13}
   - {fileID: 14}
-  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &14
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2123,9 +839,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 453.6
-    width: 1011.8
-    height: 321.8
+    y: 631.2
+    width: 1103.8
+    height: 144.20001
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2143,22 +859,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art/Shaders
+    - Assets/Data/Events
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Art/Shaders
+  - Assets/Data/Events
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\_cosas\Desarrollo\GameDev\Projects\indie-spain-jam-22
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: be7a0000
-    m_LastClickedID: 31422
-    m_ExpandedIDs: 00000000527a0000547a0000567a0000587a00005a7a00005c7a00005e7a0000607a0000627a0000647a0000667a0000687a00006a7a00006c7a00006e7a0000707a0000727a0000747a0000767a00008a7a000000ca9a3b
+    scrollPos: {x: 0, y: 188.20001}
+    m_SelectedIDs: 8c7a0000
+    m_LastClickedID: 31372
+    m_ExpandedIDs: 00000000527a0000547a0000567a0000587a00005a7a00005c7a00005e7a0000607a0000627a0000647a0000667a0000687a00006a7a00006c7a00006e7a0000707a0000727a0000747a0000767a00008c7a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2174,7 +890,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 12}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -2186,7 +902,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000527a0000547a0000567a0000587a00005a7a00005c7a00005e7a0000607a0000627a0000647a0000667a0000687a00006a7a00006c7a00006e7a0000707a0000727a0000747a0000767a0000
+    m_ExpandedIDs: 00000000527a0000547a0000567a0000587a00005a7a00005c7a00005e7a0000607a0000627a0000647a0000667a0000687a00006a7a00006c7a00006e7a0000707a0000727a0000747a0000767a00008a7a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2211,10 +927,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c87a0000
-    m_LastClickedInstanceID: 31432
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300006a920000
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2230,7 +946,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2241,8 +957,8 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
---- !u!114 &15
+  m_DirectoriesAreaWidth: 210
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2263,14 +979,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 487.2
-    width: 1011.8
-    height: 288.19998
+    y: 631.2
+    width: 1103.8
+    height: 144.20001
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2285,18 +1001,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1012.8
+    x: 1104.8
     y: 0
-    width: 523.2
+    width: 431.19995
     height: 722.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2316,9 +1032,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1012.8
+    x: 1104.8
     y: 73.6
-    width: 522.2
+    width: 430.19995
     height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:

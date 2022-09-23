@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbaadb7a996dc0b4eaa76f8a691d6966, type: 3}
+  m_Name: e3
+  m_EditorClassIdentifier: 
+  _description:
+    m_TableReference:
+      m_TableCollectionName: NarrativeEvents
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: e3
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _choices:
+  - _requirement:
+      mode: 0
+      unityReference: {fileID: 0}
+      rawReference:
+        rid: -2
+    _choice: {fileID: 11400000, guid: 96e6487c915b6294da593ce4317a87c0, type: 2}
+    _consequences:
+    - {fileID: 11400000, guid: fd3d4fcc013d9384591f60c56568d999, type: 2}
+  - _requirement:
+      mode: 0
+      unityReference: {fileID: 0}
+      rawReference:
+        rid: -2
+    _choice: {fileID: 11400000, guid: 22d21d2d29444c34ebb16735109df488, type: 2}
+    _consequences:
+    - {fileID: 11400000, guid: d04b3bf20f5eabe4bad97acddf2bef6f, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

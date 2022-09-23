@@ -18,27 +18,89 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 122922364928
+  - m_Id: 618999971831808
     m_Localized: "Una peque\xF1a luz roja llama la atenci\xF3n del vig\xEDa del batiscopio.
-      Todos corren al puente de mando para ver qu\xE9 es. Al acercarse a ella, descubren
+      Ordenas dirigirse a ella para ver qu\xE9 es. Al acercarse a ella, descubren
       un submarino hundido. \"De seguro hay provisiones ah\xED dentro\", comenta
       alguien detr\xE1s de ti. Tiene raz\xF3n, pero las probabilidades de morir ah\xED
       afuera tambi\xE9n son grandes."
     m_Metadata:
       m_Items: []
-  - m_Id: 589349941248
+  - m_Id: 619000743583744
     m_Localized: "Las h\xE9lices han dejado de funcionar. Al parecer algo se han
-      enredado en ellas, quiz\xE1s unas algas, o quiz\xE1s sea un animal sosteni\xE9ndolas.
+      enredado en ellas. Quiz\xE1s unas algas, o quiz\xE1s sea un animal sosteni\xE9ndolas.
       Sin mucha seguridad, re\xFAnes a tus hombres en el puente de mando para tomar
       una decisi\xF3n."
     m_Metadata:
       m_Items: []
-  - m_Id: 632840679424
+  - m_Id: 619001481781248
     m_Localized: "La encargada del periscopio pide al capit\xE1n que, de ser posible,
-      se acerque a su puesto. Al preguntarle qu\xE9 pasa la joven le se\xF1ala el
+      se acerque a su puesto. Al preguntarle qu\xE9 pasa, la joven le se\xF1ala el
       periscopio. \"Mire. Eso lleva una hora ah\xED en el casco\". Cuando miras,
       ves un especie de crust\xE1ceo posado sobre el submarino. \"Prefer\xED llamarlo
-      para no provocar el p\xE1nico. Usted decide\"."
+      para no provocar p\xE1nico. Usted decide\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619002224173056
+    m_Localized: "Una se\xF1al de SOS llega hasta tu nave. Al intentar localizarla,
+      encuentras un submarino varado. Estableces comunicaci\xF3n con el capit\xE1n
+      Gorki, quien te explica que son refugiados que huyen de su pa\xEDs. Han quedado
+      sin combustible y te piden ayuda para continuar su viaje."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619002991730688
+    m_Localized: "En uno de los camarotes ha comenzado a entrar agua a gran velocidad.
+      \"Una secci\xF3n de la nave ha cedido a la presi\xF3n. \xBFQu\xE9 hacemos?\",
+      pregunta el segundo al mando."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619003734122496
+    m_Localized: "Uno de tus hombres se te acerca y murmura: \u201CCapit\xE1n\u2026
+      algo ha entrado al submarino por la sala de inmersi\xF3n. Es horrible. Tiene
+      tent\xE1culos y un hedor espantoso. Creo que quiere algo. Su unico ojo mira
+      fijo a quien entre en la sala\u201D. Con disimulo te marchas a la sala de inmersi\xF3n.
+      En efecto, es espantoso e indescriptible. El monstruo te mira fijo y no para
+      de abrir y cerrar una suerte de boca. \xBFQu\xE9 querr\xE1?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619004484902912
+    m_Localized: "Deliberadamente te has colocado en el rango de visi\xF3n de otro
+      submarino, o al menos eso cree la tripulaci\xF3n. \"\xBFCapit\xE1n?\".\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619005223100416
+    m_Localized: "\xA1Un descuido! Te has acercado demasiado a un megalod\xF3n. Una
+      mordida de esta bestia dejar\xEDa en muy mal estado el casco. Toda la tripulaci\xF3n
+      est\xE1 aterrada. Una voz temblorosa pregunta \"\xBF\xD3rdenes capit\xE1n?\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619005973880832
+    m_Localized: "Un calamar gigante se ha aferrado a la nave. Has tenido poco tiempo
+      para reaccionar, y menos tendr\xE1s para tomar una decisi\xF3n antes de que
+      el Architeuthis destruya tu submarino.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619006741438464
+    m_Localized: "\"\xA1Capit\xE1n! Una serpiente gigante se aproxima\". El grito
+      viene del periscopio. \"Es Jormungandr\", dice aterrado uno de los hombres
+      de la sala de mando. \"O Bakunawa, da igual, el punto es sobrevivir para contarlo\",
+      le respondes.\"\xBFQu\xE9 tan grande es?\", preguntas. \"Creo que puede tragarnos
+      como si fu\xE9semos una sardina\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619007488024576
+    m_Localized: "Un olor a putrefacci\xF3n inunda la nave. Todos se miran buscando
+      a un culpable. Sospechas que el olor no viene del interior, sino del mar. No
+      te equivocas, frente a ti hay un leviat\xE1n inmenso y con claras se\xF1ales
+      de descomposici\xF3n. Lentamente abre su boca. La situaci\xF3n parece bastante
+      obvia. Vas a ser devorado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 619008238804992
+    m_Localized: "Lo que en un principio parec\xEDa un submarino abandonado, es en
+      realidad un submarino fantasma: lleno de agujeros y apenas logra no hundirse.
+      \"Es un zumbierino\", te dice el segundo al mando. Todos ignoran el p\xE9simo
+      chiste y esperan tus \xF3rdenes."
     m_Metadata:
       m_Items: []
   references:

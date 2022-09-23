@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 734fbfb568154d32a89d792102f0c779, type: 3}
   m_Name: AtomGenerator
   m_EditorClassIdentifier: 
-  FullQualifiedName: Items.Item, com.thesolarmoose.isj22, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  Namespace: Items
-  BaseType: Item
+  FullQualifiedName: NarrativeEvents.Data.Event, com.thesolarmoose.isj22, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  Namespace: NarrativeEvents.Data
+  BaseType: Event
   GenerationOptions: 80
   Scripts:
   - {fileID: 0}

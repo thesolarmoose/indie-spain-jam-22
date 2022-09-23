@@ -11,26 +11,31 @@ namespace NarrativeEvents.Data
     public class Event : ScriptableObject
     {
         [SerializeField] private LocalizedString _description;
-        [SerializeField] private List<ConditionChoiceConsequenceTuple> _choices;
+        [SerializeField] private List<ConditionChoiceConsequencesTuple> _choices;
 
-        public LocalizedString Description => _description;
-
-        public List<ConditionChoiceConsequenceTuple> GetAvailableChoices()
+        public LocalizedString Description
         {
-            return _choices.FindAll(choice => choice.Requirement == null || choice.Requirement.IsMet());
+            get => _description;
+#if UNITY_EDITOR
+            set => _description = value;
+#endif
         }
 
-        public static Event Create(LocalizedString description, List<ConditionChoiceConsequenceTuple> choices)
+#if UNITY_EDITOR
+        public List<ConditionChoiceConsequencesTuple> Choices
         {
-            var e = ScriptableObject.CreateInstance<Event>();
-            e._description = description;
-            e._choices = choices;
-            return e;
+            get => _choices;
+        }
+#endif
+
+        public List<ConditionChoiceConsequencesTuple> GetAvailableChoices()
+        {
+            return _choices.FindAll(choice => choice.Requirement == null || choice.Requirement.IsMet());
         }
     }
 
     [Serializable]
-    public class ConditionChoiceConsequenceTuple
+    public class ConditionChoiceConsequencesTuple
     {
         [SerializeField] private SerializableInterface<ISerializablePredicate> _requirement;
         [SerializeField] private Choice _choice;
@@ -42,7 +47,13 @@ namespace NarrativeEvents.Data
 
         public List<Consequence> Consequences => _consequences;
 
-        public ConditionChoiceConsequenceTuple(Choice choice, List<Consequence> consequences)
+        public ConditionChoiceConsequencesTuple(Choice choice, List<Consequence> consequences)
+        {
+            _choice = choice;
+            _consequences = consequences;
+        }
+        
+        public void UpdateChoiceConsequences(Choice choice, List<Consequence> consequences)
         {
             _choice = choice;
             _consequences = consequences;

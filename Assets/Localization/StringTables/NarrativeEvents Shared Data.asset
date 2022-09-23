@@ -14,19 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: NarrativeEvents
   m_TableCollectionNameGuidString: 49c75e96f0d861044820c7f37aab61ad
-  m_Entries:
-  - m_Id: 122922364928
-    m_Key: e1-random
-    m_Metadata:
-      m_Items: []
-  - m_Id: 589349941248
-    m_Key: e2-random
-    m_Metadata:
-      m_Items: []
-  - m_Id: 632840679424
-    m_Key: e3-random
-    m_Metadata:
-      m_Items: []
+  m_Entries: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

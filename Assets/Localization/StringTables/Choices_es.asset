@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Choices_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 826d2b0af6be7c345a10473152d5fde4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11001389899776
+    m_Localized: "Enviar al mismo tripulante que sugiri\xF3 la presencia de provisiones.
+      \"Tienes treinta minutos para regresar\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11003428331520
+    m_Localized: "No arriesgarse, no vale la pena.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11409457930240
+    m_Localized: Enviar a la polilla marina.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11410573615104
+    m_Localized: "Sacrificar tres unidades de combustible para aumentar la potencia
+      de los motores. \"De 0 a 100, \xBFeh? No es mala idea\", comenta el anciano
+      encargado de las motores."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11412066787328
+    m_Localized: "Enviar a dos tripulantes a explorar por qu\xE9 las helices est\xE1n
+      detenidas.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11413568348160
+    m_Localized: "Ignorar, ya se ir\xE1 el solo. No vale la pena sacrificar vidas
+      por enfrentar a un animal desconocido.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11415095074816
+    m_Localized: "Llamar a al experto arponero y pedirle que se haga cargo del insecto.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11416101707776
+    m_Localized: "Usar escudo el\xE9ctrico.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11417112535040
+    m_Localized: Con una mueca en el rostro te niegas a brindarles ayuda. No tienes
+      tanto combustible. "Lo lamento, no nos es posible".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11418131750912
+    m_Localized: "\"Por supuesto, podemos brindarles ayuda\".\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11419129995264
+    m_Localized: "\"Clauseren esas secci\xF3n, un camarote no es tan importantes\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11420119851008
+    m_Localized: "Ordenas preparar un equipo de personas para soldar la fisura.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11421680132096
+    m_Localized: "\"Expulsen a este monstruo de mi submarino, da igual c\xF3mo lo
+      hagan\".\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11423211053056
+    m_Localized: "Un sacrificio humano\r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11424238657536
+    m_Localized: "\"Largu\xE9monos de aqu\xED, no tenemos torpedos para enfrentarlos\".\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11425748606976
+    m_Localized: "\"\xA1Al abordaje!\".\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11427300499456
+    m_Localized: "\"Preparen los torpedos. Y recemos porque ellos no tengan torpedos\".\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11428353269760
+    m_Localized: "\"Aceleren a toda m\xE1quina. Ricardo, derrame todo el aceite que
+      puedas en la sala de inmersi\xF3n\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11429846441984
+    m_Localized: '"Apaguen todos los equipos y esperemos no ser vistos".'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11431423500288
+    m_Localized: "\"Us\xE9mos los torpedos. D\xE9mosle una lecci\xF3n\".\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11432438521856
+    m_Localized: "\u201CMantengan la calma, un calamar gigante no puede da\xF1ar 
+      a un submarino\u201D, le dices a la tripulaci\xF3n, sin mucha seguridad."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11433948471296
+    m_Localized: "\"Alguien debe salir ah\xED afuera y herir a esa bestia\".\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11435479392256
+    m_Localized: "\"Activen el escudo el\xE9ctrico, no sabr\xE1 qu\xE9 lo golpe\xF3\".\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11436477636608
+    m_Localized: "\"Apaguen la nave, todos los sistema, TODO\". \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11438021140480
+    m_Localized: '"Aceleren, da igual cuanto combustible gastemos, solo aceleren".'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11439023579136
+    m_Localized: '"Disparen los torpedos, intenten apuntar a la boca".
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11440038600704
+    m_Localized: "Es lento. Das la orden de huir. Es mejor no andar provocando a
+      estos monstruos.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11441024262144
+    m_Localized: "\"No tiene dientes\u2026 quiz\xE1s esta sea una buena oportunidad
+      para explorar el interior de un leviat\xE1n\". A nadie parece gustarle la idea,
+      pero t\xFA eres el capit\xE1n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11442588737536
+    m_Localized: El animal parece tener unos ojos delicados. "Enciendan las luces
+      incandescentes".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11443603759104
+    m_Localized: "\"Embist\xE1moslo, esa chatarra se est\xE1 cayendo a pedazos\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11445126291456
+    m_Localized: "\"No hagamos nada. Esperemos a ver qu\xE9 hace\".\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11446632046592
+    m_Localized: "\"Enmanuel, toma la cruz de la capillaa y col\xF3cala en la luz
+      incadescente. Si es un submarino fantasma, de seguro le teme a Dios\".\r\n"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
