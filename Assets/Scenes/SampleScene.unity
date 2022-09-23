@@ -2358,6 +2358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 829709175}
   - component: {fileID: 829709176}
+  - component: {fileID: 829709177}
   m_Layer: 0
   m_Name: Inventory
   m_TagString: Untagged
@@ -2382,8 +2383,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -16, y: -24}
+  m_SizeDelta: {x: 200, y: 150}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &829709176
 MonoBehaviour:
@@ -2400,7 +2401,31 @@ MonoBehaviour:
   _inventory: {fileID: 11400000, guid: 44d14a35673201344a638cd13e5b8013, type: 2}
   _inventoryChangedEvent: {fileID: 11400000, guid: ab200a11a51cb6e4fab02dd0e4b6cce7, type: 2}
   _container: {fileID: 829709175}
-  _itemViewPrefab: {fileID: 0}
+  _itemViewPrefab: {fileID: 1094815919684516911, guid: 456a2bc123a78ea48bc05e26b4cd9018, type: 3}
+--- !u!114 &829709177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829709174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 4
+    m_Right: 4
+    m_Top: 4
+    m_Bottom: 4
+  m_ChildAlignment: 2
+  m_StartCorner: 1
+  m_StartAxis: 0
+  m_CellSize: {x: 50, y: 50}
+  m_Spacing: {x: 8, y: 8}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1 &869470396
 GameObject:
   m_ObjectHideFlags: 0
