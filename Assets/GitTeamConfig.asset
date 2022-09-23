@@ -19,7 +19,3 @@ MonoBehaviour:
     _defaultBranch: design
     _workPaths:
     - Assets/Data/Events/_NarrativeSheet.asset
-  - _userName: mnicolas94
-    _defaultBranch: test
-    _workPaths:
-    - Assets/TestGit
