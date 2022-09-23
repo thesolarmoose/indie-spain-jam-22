@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: _NarrativeSheet
   m_EditorClassIdentifier: 
   _events:
-  - _description: "Una peque\xF1a luz roja llama la atenci\xF3n del vig\xEDa del
+  - _id: 
+    _description: "Una peque\xF1a luz roja llama la atenci\xF3n del vig\xEDa del
       batiscopio. Ordenas dirigirse a ella para ver qu\xE9 es. Al acercarse a ella,
       descubren un submarino hundido. \"De seguro hay provisiones ah\xED dentro\",
       comenta alguien detr\xE1s de ti. Tiene raz\xF3n, pero las probabilidades de
@@ -41,7 +42,8 @@ MonoBehaviour:
       _consequences:
       - "En un pesta\xF1azo la polilla marina se adentra en el submarino y regresa
         con un bot\xEDn decente: dos unidades de combustible y dos torpedos.\r"
-  - _description: "Las h\xE9lices han dejado de funcionar. Al parecer algo se han
+  - _id: 
+    _description: "Las h\xE9lices han dejado de funcionar. Al parecer algo se han
       enredado en ellas. Quiz\xE1s unas algas, o quiz\xE1s sea un animal sosteni\xE9ndolas.
       Sin mucha seguridad, re\xFAnes a tus hombres en el puente de mando para tomar
       una decisi\xF3n."
@@ -81,7 +83,8 @@ MonoBehaviour:
         uno de sus tent\xE1culos! \xA1Ten\xEDa muchos dientes! \xA1Era un pulpobur\xF3n!
         \xA1Era horrible!\". Un pulpobur\xF3n... jam\xE1s hab\xEDas o\xEDdo de eso.
         Le quitas importancia al asunto y das la orden de continuar. Pierdes un tripulante."
-  - _description: "La encargada del periscopio pide al capit\xE1n que, de ser posible,
+  - _id: 
+    _description: "La encargada del periscopio pide al capit\xE1n que, de ser posible,
       se acerque a su puesto. Al preguntarle qu\xE9 pasa, la joven le se\xF1ala el
       periscopio. \"Mire. Eso lleva una hora ah\xED en el casco\". Cuando miras,
       ves un especie de crust\xE1ceo posado sobre el submarino. \"Prefer\xED llamarlo
@@ -111,7 +114,8 @@ MonoBehaviour:
         \"Activen el escudo el\xE9ctrico\". Todos te miran extra\xF1ados por unos
         segundos, y luego cumplen la orden. Una nueva llamada desde el perioscopio
         te hace saber que todo ha vuelto a la normalidad."
-  - _description: "Una se\xF1al de SOS llega hasta tu nave. Al intentar localizarla,
+  - _id: 
+    _description: "Una se\xF1al de SOS llega hasta tu nave. Al intentar localizarla,
       encuentras un submarino varado. Estableces comunicaci\xF3n con el capit\xE1n
       Gorki, quien te explica que son refugiados que huyen de su pa\xEDs. Han quedado
       sin combustible y te piden ayuda para continuar su viaje."
@@ -128,7 +132,8 @@ MonoBehaviour:
         espacio para incorporarse a la tripulaci\xF3n. No saben nada de submarinos,
         pero un par de manos extras nunca est\xE1 de m\xE1s. Pierdes dos bideones
         combustibles, ganas tres tripulantes."
-  - _description: "En uno de los camarotes ha comenzado a entrar agua a gran velocidad.
+  - _id: 
+    _description: "En uno de los camarotes ha comenzado a entrar agua a gran velocidad.
       \"Una secci\xF3n de la nave ha cedido a la presi\xF3n. \xBFQu\xE9 hacemos?\",
       pregunta el segundo al mando."
     _decisions:
@@ -149,7 +154,8 @@ MonoBehaviour:
         el\xE9ctrico llama la atenci\xF3n de todos. El cuerpo de Jorge sale flotando
         del camarote inerte, con las manos negras. Das la orden de clausurar el camarote.
         Pierdes 3 HP y un tripulante."
-  - _description: "Uno de tus hombres se te acerca y murmura: \u201CCapit\xE1n\u2026
+  - _id: 
+    _description: "Uno de tus hombres se te acerca y murmura: \u201CCapit\xE1n\u2026
       algo ha entrado al submarino por la sala de inmersi\xF3n. Es horrible. Tiene
       tent\xE1culos y un hedor espantoso. Creo que quiere algo. Su unico ojo mira
       fijo a quien entre en la sala\u201D. Con disimulo te marchas a la sala de inmersi\xF3n.
@@ -181,7 +187,8 @@ MonoBehaviour:
         se acerca, lo envuelve con sus tent\xE1culos y regresa al mar. Regresas al
         puesto de mando como si nada hubiese pasado. Es decir, nada ha pasado. Cinco
         horas despu\xE9s alguien pregunta por Juli\xE1n. Pierdes un tripulante."
-  - _description: "Deliberadamente te has colocado en el rango de visi\xF3n de otro
+  - _id: 
+    _description: "Deliberadamente te has colocado en el rango de visi\xF3n de otro
       submarino, o al menos eso cree la tripulaci\xF3n. \"\xBFCapit\xE1n?\".\r"
     _decisions:
     - _description: "\"Largu\xE9monos de aqu\xED, no tenemos torpedos para enfrentarlos\".\r"
@@ -217,7 +224,8 @@ MonoBehaviour:
       - "Un solo torpedo es suficiente para golpear al submarino que se dispon\xEDa
         huir. La nave comienza a hundirse hasta caer en una plataforma. Al saquearla
         encuentras un poco de combustible. Obtienes cinco de combustible."
-  - _description: "\xA1Un descuido! Te has acercado demasiado a un megalod\xF3n.
+  - _id: 
+    _description: "\xA1Un descuido! Te has acercado demasiado a un megalod\xF3n.
       Una mordida de esta bestia dejar\xEDa en muy mal estado el casco. Toda la tripulaci\xF3n
       est\xE1 aterrada. Una voz temblorosa pregunta \"\xBF\xD3rdenes capit\xE1n?\"."
     _decisions:
@@ -256,7 +264,8 @@ MonoBehaviour:
         al submarino con las fauces abiertas. \"\xA1\xA1\xA1Fuego!!!\", gritas mientras
         se te va un gallo. A la tercera fue la vencida. El escualo decide marcharse
         sin probar bocado del submarino. Pierdes tres torpedos."
-  - _description: "Un calamar gigante se ha aferrado a la nave. Has tenido poco tiempo
+  - _id: 
+    _description: "Un calamar gigante se ha aferrado a la nave. Has tenido poco tiempo
       para reaccionar, y menos tendr\xE1s para tomar una decisi\xF3n antes de que
       el Architeuthis destruya tu submarino.\r"
     _decisions:
@@ -311,7 +320,8 @@ MonoBehaviour:
       _consequences:
       - "Una peque\xF1a descarga es suficiente para espantar al cefal\xF3podo abrazador.
         No obstante, antes de irse regala un golpecito a la nave. Nada grave."
-  - _description: "\"\xA1Capit\xE1n! Una serpiente gigante se aproxima\". El grito
+  - _id: 
+    _description: "\"\xA1Capit\xE1n! Una serpiente gigante se aproxima\". El grito
       viene del periscopio. \"Es Jormungandr\", dice aterrado uno de los hombres
       de la sala de mando. \"O Bakunawa, da igual, el punto es sobrevivir para contarlo\",
       le respondes.\"\xBFQu\xE9 tan grande es?\", preguntas. \"Creo que puede tragarnos
@@ -362,7 +372,8 @@ MonoBehaviour:
         su camino sin notar la presencia del submarino. Decides pasar por alto la
         insubordinaci\xF3n. A fin de cuentas, gracias a eso est\xE1n vivos. Pierdes
         dos torpedos."
-  - _description: "Un olor a putrefacci\xF3n inunda la nave. Todos se miran buscando
+  - _id: 
+    _description: "Un olor a putrefacci\xF3n inunda la nave. Todos se miran buscando
       a un culpable. Sospechas que el olor no viene del interior, sino del mar. No
       te equivocas, frente a ti hay un leviat\xE1n inmenso y con claras se\xF1ales
       de descomposici\xF3n. Lentamente abre su boca. La situaci\xF3n parece bastante
@@ -408,7 +419,8 @@ MonoBehaviour:
         la luz llega a ser cegadora. El pez muerto, bautizado as\xED por el artista
         visual de este videojuego, comienza a retroceder entrecerrando los ojos.
         El plan ha funcionado, la luz le molesta."
-  - _description: "Lo que en un principio parec\xEDa un submarino abandonado, es
+  - _id: 
+    _description: "Lo que en un principio parec\xEDa un submarino abandonado, es
       en realidad un submarino fantasma: lleno de agujeros y apenas logra no hundirse.
       \"Es un zumbierino\", te dice el segundo al mando. Todos ignoran el p\xE9simo
       chiste y esperan tus \xF3rdenes."

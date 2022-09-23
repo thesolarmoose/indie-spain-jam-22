@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Threading.Tasks;
 using AsyncUtils;
 using UnityEngine;
 using UnityEngine.Events;
@@ -37,12 +38,23 @@ namespace NarrativeEvents.UI
             DisplayEvent(_testEvent);
         }
 
-        public async void DisplayEvent(Event @event)
+        public void DisplayEvent(Event @event)
+        {
+            DisplayEvent(@event, null);
+        }
+        
+        public void DisplayEvent(Event @event, Action endCallback)
+        {
+            DisplayEventAsync(@event, endCallback);
+        }
+        
+        private async void DisplayEventAsync(Event @event, Action endCallback)
         {
             _onDisplayEvent.Invoke();
             var ct = _cts.Token;
             await Popups.ShowPopup(_eventPopupPrefab, @event, ct);
             _onEventEnded.Invoke();
+            endCallback?.Invoke();
         }
     }
 }

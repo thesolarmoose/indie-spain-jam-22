@@ -9,5 +9,12 @@ namespace NarrativeEvents.Data
         [SerializeField] private LocalizedString _description;
 
         public LocalizedString Description => _description;
+
+        public static Choice Create(LocalizedString description)
+        {
+            var choice = CreateInstance<Choice>();
+            choice._description = description;
+            return choice;
+        }
     }
 }

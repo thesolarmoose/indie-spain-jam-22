@@ -9,6 +9,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.UI;
+using Utils.Extensions;
 using Event = NarrativeEvents.Data.Event;
 
 namespace NarrativeEvents.UI
@@ -28,7 +29,8 @@ namespace NarrativeEvents.UI
         {
             var tasks = _populatedViews.ConvertAll(choiceView => choiceView.WaitPressChoice(ct));
             var task = await Task.WhenAny(tasks);
-            var consequence = await task;
+            var consequences = await task;
+            var consequence = consequences.GetRandom();
             
             // disappear choices
             _choicesContainer.gameObject.SetActive(false);
@@ -59,13 +61,13 @@ namespace NarrativeEvents.UI
             PopulateChoices(choices);
         }
 
-        private void PopulateChoices(IList<(Choice, Consequence)> choices)
+        private void PopulateChoices(IList<(Choice, List<Consequence>)> choices)
         {
             _populatedViews = new List<ChoiceView>();
             for (int i = 0; i < choices.Count; i++)
             {
-                var (choice, consequence) = choices[i];
-                var model = (i, choice, consequence);
+                var (choice, consequences) = choices[i];
+                var model = (i, choice, consequences);
                 var view = Instantiate(_choiceViewPrefab, _choicesContainer);
                 view.Initialize(model);
                 _populatedViews.Add(view);

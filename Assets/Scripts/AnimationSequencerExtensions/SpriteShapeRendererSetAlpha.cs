@@ -2,30 +2,34 @@
 using BrunoMikoski.AnimationSequencer;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.U2D;
 
 namespace AnimationSequencerExtensions
 {
     [Serializable]
-    public class SetShaderAlphaDOTWeenAction : DOTweenActionBase
+    public class SpriteShapeRendererSetAlpha : DOTweenActionBase
     {
         public override string DisplayName => "Set Shader Alpha";
 
-        public override Type TargetComponentType => typeof(SpriteRenderer);
+        public override Type TargetComponentType => typeof(SpriteShapeRenderer);
 
         [SerializeField] private float _value;
-        [SerializeField] private string _variableName;
         
         private float? _previousState;
-        private Material _previousTarget;
+        private SpriteShapeRenderer _previousTarget;
 
         protected override Tweener GenerateTween_Internal(GameObject target, float duration)
         {
-            var sr = target.GetComponent<SpriteRenderer>();
-            var material = sr.material;
+            var sr = target.GetComponent<SpriteShapeRenderer>();
 
             var tweener = DOTween.To(
-                () => material.GetFloat(_variableName),
-                value => material.SetFloat(_variableName, value),
+                () => sr.color.a,
+                value =>
+                {
+                    var color = sr.color;
+                    color.a = value;
+                    sr.color = color;
+                },
                 _value,
                 duration
             );
@@ -38,7 +42,9 @@ namespace AnimationSequencerExtensions
             if (!_previousState.HasValue)
                 return;
 
-            _previousTarget.SetFloat(_variableName, _previousState.Value);
+            var color = _previousTarget.color;
+            color.a = _previousState.Value;
+            _previousTarget.color = color;
         }
     }
 }
