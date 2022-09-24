@@ -16,7 +16,7 @@ namespace NarrativeEvents
         [SerializeField, AutoProperty(AutoPropertyMode.Asset)] private RandomEventsStorage _storage;
         [SerializeField, AutoProperty(AutoPropertyMode.Scene)] private EventDisplayer _displayer;
 
-        private List<DepthEvent> _depthValuesToTriggerEvents;
+        private List<DepthEvent> _depthValuesToTriggerEvents = new List<DepthEvent>();
 
         private void Start()
         {
@@ -35,7 +35,6 @@ namespace NarrativeEvents
 
         private void CreateRandomTriggerValues()
         {
-            _depthValuesToTriggerEvents = new List<DepthEvent>();
             foreach (var range in _ranges)
             {
                 var random = Random.Range(range.Min, range.Max);

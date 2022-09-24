@@ -10,7 +10,10 @@ namespace DepthLogic
 
         private void Update()
         {
-            _metersVariable.Value = Mathf.Abs(_target.position.y);
+            var depth = _target.position.y;
+            depth = depth > 0 ? 0 : depth;
+            depth = depth < -100 ? -100 : depth;
+            _metersVariable.Value = Mathf.Abs(depth);
         }
     }
 }

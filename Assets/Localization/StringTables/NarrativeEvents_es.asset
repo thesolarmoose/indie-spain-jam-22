@@ -274,15 +274,48 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 965593146486784
-    m_Localized: "Se te acab\xF3 el combustible :("
+    m_Localized: "Los motores del submarino se detienen. La temperatura comienza
+      a descender. Hay pocos escenarios m\xE1s horribles que una muerte por congelamiento.
+      Quiz\xE1s este sea un buen momento para ser devorado por uno monstruo marino.
+      Un golpe, un mordisco, algo que termine con el fr\xEDo. Nada. Al cabo de una
+      hora, tus hombres comienzan a caer. Es el final. T\xFA y tu tripulaci\xF3n
+      mueren congelados."
     m_Metadata:
       m_Items: []
   - m_Id: 965776823447552
-    m_Localized: "El casco del submarino ha sufrido muchos da\xF1os"
+    m_Localized: "Un crujido met\xE1lico anuncia el final. El casco ha cedido a la
+      presi\xF3n del mar. Era l\xF3gico, con todo el da\xF1o recibido, era cuesti\xF3n
+      de tiempo. El agua entra e inunda cada sala. Algunas secciones son aplastas
+      por la presi\xF3n. \u201CSe\xF1ores, ha sido un placer vi\u2026\u201D. No logras
+      terminar la frase, el agua se apodera de la sala de mando. Todos mueren ahogados."
     m_Metadata:
       m_Items: []
   - m_Id: 965942984994816
-    m_Localized: Pierdes por falta de tripulantes
+    m_Localized: "Est\xE1s sentado en la sala de mando. No hay forma de que t\xFA
+      solo puedas mantener el submarino en movimiento. Sacas tu revolver y lo colocas
+      frente a ti. Es una decisi\xF3n dura. Esperar a que el combustible se termine
+      y morir congelado, o acabar con todo lo m\xE1s r\xE1pido posible. Sea cual
+      sea la decisi\xF3n, el viaje ha llegado a su fin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042075327819776
+    m_Localized: "\u201CCapit\xE1n, esto es un mot\xEDn. No pretendemos morir como
+      lo han hecho el resto de nuestros compa\xF1eros. Por favor, no haga esto m\xE1s
+      dif\xEDcil\u201D. El segundo al mando te apunta con su arma. Demoras unos segundos
+      en procesar la traici\xF3n. \u201C\xBFQu\xE9 har\xE1n?\u201D, les preguntas.
+      \u201CRegresar a la superficie\u201D. Debes detenerlos, debes cumplir la misi\xF3n.
+      Intentas desenfundar tu arma, pero es en vano, un disparo detiene tus movimientos
+      y caes inerte al suelo. El submarino regresa a la superficie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042027512754176
+    m_Localized: "\u201CCapit\xE1n, usted y yo solo no vamos a sobrevivir\u201D.
+      La joven del periscopio tiene raz\xF3n. Las posibilidades de llegar a la base
+      submarina son m\xEDnimas. \u201C\xBFAlguna sugerencia?\u201D. La idea de la
+      joven no es tan descabellada. Morir explorando el mar, en una zambullida final.
+      Ambos se visten con las escafandras en la sala de inmersi\xF3n y se sumergen
+      sin enganchar el cable de retorno. Un \xFAltimo viaje. Ninguno de los dos regresa
+      al submarino."
     m_Metadata:
       m_Items: []
   references:

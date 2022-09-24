@@ -72,7 +72,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 965942984994816
-    m_Key: defeat_crew
+    m_Key: defeat_crew_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042027512754176
+    m_Key: defeat_crew_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1042075327819776
+    m_Key: defeat_crew_2
     m_Metadata:
       m_Items: []
   m_Metadata:

@@ -11,6 +11,10 @@ namespace Movement
         [Range(0.0f, 1.0f)]
         [SerializeField] private float _lerpSpeed;
 
+        [SerializeField] private bool _bounded;
+        [SerializeField] private Vector2 _xBounds;
+        [SerializeField] private Vector2 _yBounds;
+        
         [SerializeField] private bool _freezeX;
         [SerializeField] private bool _freezeY;
 
@@ -26,6 +30,13 @@ namespace Movement
 
             Vector3 newPosition = Vector2.Lerp(selfPosition, targetPosition, _lerpSpeed);
             newPosition.z = selfPosition.z;
+            
+            if (_bounded)
+            {
+                newPosition.x = Mathf.Clamp(newPosition.x, _xBounds.x, _xBounds.y);
+                newPosition.y = Mathf.Clamp(newPosition.y, _yBounds.x, _yBounds.y);
+            }
+            
             if (_freezeX)
             {
                 newPosition.x = selfPosition.x;
