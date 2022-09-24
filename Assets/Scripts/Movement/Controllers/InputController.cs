@@ -7,6 +7,17 @@ namespace Movement.Controllers
     {
         private GameInputActions _inputActions;
 
+        public bool IsRunning
+        {
+            get
+            {
+                var value = _inputActions.Player.Move.ReadValue<Vector2>();
+                bool breaking = value.y > 0.1f;
+                bool lateralMove = Mathf.Abs(value.x) > 0.1f;
+                return breaking || lateralMove;
+            }
+        }
+
         private void Start()
         {
             _inputActions = new GameInputActions();

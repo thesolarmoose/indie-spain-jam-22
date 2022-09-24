@@ -31,7 +31,8 @@ namespace UI
         {
             var gallons = (int) _gasVariable.Value;
             var currentGallonPercent = _gasVariable.Value - gallons;
-            if (currentGallonPercent < Mathf.Epsilon)
+            
+            if (currentGallonPercent < Mathf.Epsilon && gallons > 1)
             {
                 currentGallonPercent = 1;
             }
