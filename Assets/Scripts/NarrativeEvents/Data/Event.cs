@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using NarrativeEvents.UI;
 using TNRD;
 using UnityEngine;
 using UnityEngine.Localization;
@@ -25,6 +26,29 @@ namespace NarrativeEvents.Data
         public List<ConditionChoiceConsequencesTuple> Choices
         {
             get => _choices;
+        }
+
+        [ContextMenu("Display", true)]
+        private bool CanDisplay()
+        {
+            return Application.isPlaying;
+        }
+        
+        [ContextMenu("Display")]
+        private void DisplayEvent()
+        {
+            var popup = FindObjectOfType<EventPopup>();
+            if (popup != null)
+            {
+                popup.Initialize(this);
+                return;
+            }
+
+            var displayer = FindObjectOfType<EventDisplayer>();
+            if (displayer != null)
+            {
+                displayer.DisplayEvent(this);
+            }
         }
 #endif
 

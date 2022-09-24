@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
+using NaughtyAttributes;
 using TNRD;
 using UnityEngine;
 using UnityEngine.Localization;
+using UnityEngine.Localization.Tables;
 
 namespace NarrativeEvents.Data
 {

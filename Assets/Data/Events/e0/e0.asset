@@ -40,10 +40,10 @@ MonoBehaviour:
     _consequences:
     - {fileID: 11400000, guid: 6069115199a788c47b1be99560eff820, type: 2}
   - _requirement:
-      mode: 0
+      mode: 1
       unityReference: {fileID: 0}
       rawReference:
-        rid: -2
+        rid: 5124477906072895494
     _choice: {fileID: 11400000, guid: a2c05b27ab0e98542a0b9d3d26a1cacd, type: 2}
     _consequences:
     - {fileID: 11400000, guid: 07f0541a9a8314c4db2c0e18a3326b67, type: 2}
@@ -52,3 +52,9 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+    - rid: 5124477906072895494
+      type: {class: HasItemRequirement, ns: NarrativeEvents.Data.Requirements, asm: com.thesolarmoose.isj22}
+      data:
+        _inventory: {fileID: 11400000, guid: 44d14a35673201344a638cd13e5b8013, type: 2}
+        _item: {fileID: 11400000, guid: 5714519e5ad4f504ab5dad2a9fe3bc87, type: 2}
+        _contains: 1

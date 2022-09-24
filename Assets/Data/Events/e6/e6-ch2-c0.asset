@@ -22,7 +22,29 @@ MonoBehaviour:
     m_WaitForCompletion: 0
     m_LocalVariables: []
   _image: {fileID: 0}
-  _consequences: []
+  _consequences:
+  - mode: 1
+    unityReference: {fileID: 0}
+    rawReference:
+      rid: 5124477906072895519
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 5124477906072895519
+      type: {class: ConsequenceUnityEvent, ns: NarrativeEvents.Data.ConsequecesActions, asm: com.thesolarmoose.isj22}
+      data:
+        _event:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 11400000, guid: fabd52bb9a7381648860a2a661d31138, type: 2}
+              m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.FloatVariable, UnityAtoms.UnityAtomsBaseAtoms.Runtime
+              m_MethodName: Add
+              m_Mode: 4
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 5
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2

@@ -63,6 +63,7 @@ namespace NarrativeEvents.UI
 
         private void PopulateChoices(IList<(Choice, List<Consequence>)> choices)
         {
+            _choicesContainer.ClearChildren();
             _populatedViews = new List<ChoiceView>();
             for (int i = 0; i < choices.Count; i++)
             {

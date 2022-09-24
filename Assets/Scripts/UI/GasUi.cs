@@ -31,6 +31,10 @@ namespace UI
         {
             var gallons = (int) _gasVariable.Value;
             var currentGallonPercent = _gasVariable.Value - gallons;
+            if (currentGallonPercent < Mathf.Epsilon)
+            {
+                currentGallonPercent = 1;
+            }
             _gasBar.fillAmount = currentGallonPercent;
             _gasText.text = $"{gallons}/{_maxGasVariable.Value}";
         }
