@@ -64,15 +64,14 @@ namespace NarrativeEvents.UI
             await _hideAnimation.PlayingSequence.AsyncWaitForCompletion();
         }
 
-        public override void Initialize(Event popupData)
+        public override void Initialize(Event @event)
         {
-            SetDescription(popupData.Description);
+            SetDescription(@event.Description);
 
-            _hasChoices = popupData.Choices.Count > 0;
-            if (_hasChoices)
+            if (@event.HasChoices)
             {
                 _continueButton.gameObject.SetActive(false);
-                var choices = popupData.GetAvailableChoices().ConvertAll(choice => (choice.Choice, choice.Consequences));
+                var choices = @event.GetAvailableChoices().ConvertAll(choice => (choice.Choice, choice.Consequences));
                 PopulateChoices(choices);
             }
             else

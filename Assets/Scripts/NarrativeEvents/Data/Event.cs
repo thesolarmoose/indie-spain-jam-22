@@ -23,7 +23,7 @@ namespace NarrativeEvents.Data
         }
 
 #if UNITY_EDITOR
-        public List<ConditionChoiceConsequencesTuple> Choices
+        public List<ConditionChoiceConsequencesTuple> Editor_Choices
         {
             get => _choices;
         }
@@ -52,6 +52,8 @@ namespace NarrativeEvents.Data
         }
 #endif
 
+        public bool HasChoices => _choices.Count > 0;
+        
         public List<ConditionChoiceConsequencesTuple> GetAvailableChoices()
         {
             return _choices.FindAll(choice => choice.Requirement == null || choice.Requirement.IsMet());
