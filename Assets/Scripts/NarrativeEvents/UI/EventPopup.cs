@@ -24,41 +24,62 @@ namespace NarrativeEvents.UI
         [SerializeField] private AnimationSequencerController _hideAnimation;
 
         private List<ChoiceView> _populatedViews;
+        private bool _hasChoices;
         
         public override async Task Show(CancellationToken ct)
         {
-            var tasks = _populatedViews.ConvertAll(choiceView => choiceView.WaitPressChoice(ct));
-            var task = await Task.WhenAny(tasks);
-            var consequences = await task;
-            var consequence = consequences.GetRandom();
-            
-            // disappear choices
-            _choicesContainer.gameObject.SetActive(false);
-            
-            // display consequence 
-            await SetDescription(consequence.Description);
-            
+            if (_hasChoices)
+            {
+                var tasks = _populatedViews.ConvertAll(choiceView => choiceView.WaitPressChoice(ct));
+                var task = await Task.WhenAny(tasks);
+                var consequences = await task;
+                var consequence = consequences.GetRandom();
+                
+                // disappear choices
+                _choicesContainer.gameObject.SetActive(false);
+                
+                // display consequence 
+                await SetDescription(consequence.Description);
+                
+                await WaitForContinue(ct);
+
+                // apply consequences
+                consequence.ExecuteConsequences();
+            }
+            else
+            {
+                await WaitForContinue(ct);
+            }
+        }
+
+        private async Task WaitForContinue(CancellationToken ct)
+        {
             // display continue... button
             _continueButton.gameObject.SetActive(true);
             // wait for continue press
             await AsyncUtils.Utils.WaitPressButtonAsync(_continueButton, ct);
-            
+
             // hide popup
             _hideAnimation.Play();
             await _hideAnimation.PlayingSequence.AsyncWaitForCompletion();
-            
-            // apply consequences
-            consequence.ExecuteConsequences();
         }
 
         public override void Initialize(Event popupData)
         {
-            // hide continue button
-            _continueButton.gameObject.SetActive(false);
-            
             SetDescription(popupData.Description);
-            var choices = popupData.GetAvailableChoices().ConvertAll(choice => (choice.Choice, choice.Consequences));
-            PopulateChoices(choices);
+
+            _hasChoices = popupData.Choices.Count > 0;
+            if (_hasChoices)
+            {
+                _continueButton.gameObject.SetActive(false);
+                var choices = popupData.GetAvailableChoices().ConvertAll(choice => (choice.Choice, choice.Consequences));
+                PopulateChoices(choices);
+            }
+            else
+            {
+                _choicesContainer.gameObject.SetActive(false);
+                _continueButton.gameObject.SetActive(true);
+            }
         }
 
         private void PopulateChoices(IList<(Choice, List<Consequence>)> choices)

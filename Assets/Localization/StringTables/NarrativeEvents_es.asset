@@ -273,6 +273,18 @@ MonoBehaviour:
       chiste y esperan tus \xF3rdenes."
     m_Metadata:
       m_Items: []
+  - m_Id: 965593146486784
+    m_Localized: "Se te acab\xF3 el combustible :("
+    m_Metadata:
+      m_Items: []
+  - m_Id: 965776823447552
+    m_Localized: "El casco del submarino ha sufrido muchos da\xF1os"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 965942984994816
+    m_Localized: Pierdes por falta de tripulantes
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

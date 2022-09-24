@@ -63,6 +63,18 @@ MonoBehaviour:
     m_Key: e11
     m_Metadata:
       m_Items: []
+  - m_Id: 965593146486784
+    m_Key: defeat_gas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 965776823447552
+    m_Key: defeat_health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 965942984994816
+    m_Key: defeat_crew
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
