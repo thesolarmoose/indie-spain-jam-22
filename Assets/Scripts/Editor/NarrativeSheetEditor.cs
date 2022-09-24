@@ -43,7 +43,7 @@ namespace Editor
                     var choiceId = $"{eventId}-ch{i}";
                     var choiceAsset = CreateOrGetAssetAtFolder<Choice>(eventId, choiceId);
 
-                    eventAsset.Choices.Exists(cc => cc.Choice == choiceAsset);
+                    eventAsset.Editor_Choices.Exists(cc => cc.Choice == choiceAsset);
                     
                     CreateOrUpdateLocalizationReference(ChoicesTableName, choiceId, decision.Description);
                     choiceAsset.Description.SetReference(ChoicesTableName, choiceId);
@@ -108,11 +108,11 @@ namespace Editor
 
         private static void UpdateChoiceConsequencesInEventAsset(Event @event, Choice choice, List<Consequence> consequences)
         {
-            var tuple = @event.Choices.Find(cc => cc.Choice == choice);
+            var tuple = @event.Editor_Choices.Find(cc => cc.Choice == choice);
             if (tuple == null)
             {
                 tuple = new ConditionChoiceConsequencesTuple(choice, consequences);
-                @event.Choices.Add(tuple);
+                @event.Editor_Choices.Add(tuple);
             }
             else
             {

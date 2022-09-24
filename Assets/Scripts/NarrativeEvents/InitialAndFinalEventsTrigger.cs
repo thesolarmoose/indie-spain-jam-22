@@ -2,7 +2,6 @@
 using NarrativeEvents.UI;
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using Utils.Attributes;
 using Event = NarrativeEvents.Data.Event;
 
@@ -15,6 +14,9 @@ namespace NarrativeEvents
         [SerializeField] private FloatVariable _depth;
         [SerializeField,AutoProperty(AutoPropertyMode.Scene)] private EventDisplayer _eventDisplayer;
 
+        private bool _initialTriggered;
+        private bool _finalTriggered;
+        
         private void OnEnable()
         {
             _depth.Changed.Register(OnDepthChanged);
@@ -22,14 +24,16 @@ namespace NarrativeEvents
 
         private void OnDepthChanged()
         {
-            if (_depth.Value > 0.1)
+            if (_depth.Value > 0.1 && !_initialTriggered)
             {
+                _initialTriggered = true;
                 var initialEvent = GetInitialEvent();
                 _eventDisplayer.DisplayEvent(initialEvent);
             }
 
-            if (_depth.Value >= 100)
+            if (_depth.Value >= 100 && !_finalTriggered)
             {
+                _finalTriggered = true;
                 var finalEvent = GetFinalEvent();
                 _eventDisplayer.DisplayEvent(finalEvent);
             }

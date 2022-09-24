@@ -11,10 +11,15 @@ namespace Movement.Controllers
         {
             get
             {
-                var value = _inputActions.Player.Move.ReadValue<Vector2>();
-                bool breaking = value.y > 0.1f;
-                bool lateralMove = Mathf.Abs(value.x) > 0.1f;
-                return breaking || lateralMove;
+                if (_inputActions != null)
+                {
+                    var value = _inputActions.Player.Move.ReadValue<Vector2>();
+                    bool breaking = value.y > 0.1f;
+                    bool lateralMove = Mathf.Abs(value.x) > 0.1f;
+                    return breaking || lateralMove;
+                }
+
+                return false;
             }
         }
 

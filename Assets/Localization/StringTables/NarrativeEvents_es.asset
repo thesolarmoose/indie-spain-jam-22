@@ -318,6 +318,70 @@ MonoBehaviour:
       al submarino."
     m_Metadata:
       m_Items: []
+  - m_Id: 1060804623233024
+    m_Localized: "\u201CBuen d\xEDa capit\xE1n. Su misi\xF3n ser\xE1 llevar esta
+      esfera dorada a la nueva base submarina en la fosa de los leviatanes. No se
+      deje enga\xF1ar por el nombre, de momento no hemos visto ning\xFAn pez mayor
+      que el submarino que usted guiar\xE1. Aun as\xED, sus hombres no est\xE1n muy
+      convencidos, hay ciertas reticencias y temores, pero supersticiones en su mayor\xEDa.
+      Nada preocupante\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1061025965043712
+    m_Localized: "\u201CBuen d\xEDa capit\xE1n. Su expedici\xF3n ser\xE1 la segunda
+      que lleve suministros a la nueva base submarina instalada en la fosa\u2026
+      en la fosa que tenemos a nuestros pies. Su objetivo es llegar con diez bidones
+      de combustibles, pues como comprender\xE1, no es f\xE1cil la obtenci\xF3n de
+      este recurso ah\xED abajo. Debo advertirle que hay ciertos rumores de monstruos
+      submarinos entre su tripulaci\xF3n, pero no debe preocuparse, la expedici\xF3n
+      anterior no inform\xF3 de nada extra\xF1o. Tenga usted buen viaje\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1061155757780992
+    m_Localized: "\u201CBuen d\xEDa capit\xE1n. De seguro conoce de la nueva base
+      submarina establecida en el fondo de esta fosa. Al parecer necesitan m\xE1s
+      personal. De seguro est\xE1n expandi\xE9ndose. Nada que ver con esos rumores
+      del ataque de un leviat\xE1n. Su misi\xF3n ser\xE1 llegar con diez de sus tripulantes
+      a la base, para que se incorporen a las actividades de esta. Ser\xE1 mejor
+      que no se lo mencione a sus hombres\u2026 digamos que es una sorpresa\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1061252121915392
+    m_Localized: "\u201C\xA1Capit\xE1n! Llevamos d\xEDas esperando su llegada, ya
+      tem\xEDamos lo peor. Por desgracia, no hay comunicaci\xF3n directa entre esta
+      base submarina y la superficie, a\xFAn estamos trabajando en ello. \xBFTrajo
+      la esfera? Perfecto. Esto nos ayudar\xE1 a terminar de instalar la base, y
+      con suerte, crear un sistema que revolucione las comunicaciones submarinas.
+      Ahora solo queda esperar los pr\xF3ximos env\xEDos\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1061335571787776
+    m_Localized: "\u201C\xBFTrajeron el combustible? \xA1Bendito sea! Apenas nos
+      quedaba para mantener este sitio por unos d\xEDas. Ahora podremos centrarnos
+      nuevamente en el sistema de comunicaciones y un nuevo sonar revolucionario.
+      As\xED podremos disipar los comentarios de monstruos marinos de \xE9pocas prehist\xF3ricas.
+      El mar es inmenso, pero es absurdo creer en criaturas gigantescas que se desayunan
+      submarinos de un bocado\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1061386608078848
+    m_Localized: "\u201C\xA1Bienvenidos! \xA1Bienvenidos! Pasen, pasen. \xA1Oh! Qu\xE9
+      alegr\xEDa verlos. Hac\xEDa semanas no ve\xEDa a otro ser humano, solo dientes
+      y tent\xE1culos. Estoy por pensar que no somos bienvenidos en este fondo marino.
+      Es hora de trabajar, no perdamos tiempo, sabe Dios cu\xE1ndo ser\xE1 el pr\xF3ximo
+      ataque. Debemos dejar todo listo por si no conseguimos sobrevivir. El experimento
+      no puede quedar a medias. El mar pertenecer\xE1 a los humanos\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1066613214179328
+    m_Localized: "Al llegar a la base submarina, ocurre una desgracia. El crust\xE1ceo
+      que viaj\xF3 contigo en el casco, se lanza hacia la base antes de que puedas
+      hacer nada. La velocidad del animal es impresionante. En pocos minutos puedes
+      observar m\xFAltiples fugas de aire, explosiones, incluso crees ver alg\xFAn
+      cuerpo flotando. Horrorizado antes el espect\xE1culo, te preguntas en voz baja:
+      \u201C\xBFQu\xE9 hemos hecho?\u201D."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

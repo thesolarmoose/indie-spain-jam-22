@@ -21,14 +21,16 @@ namespace UI
             _meters.Changed.UnregisterListener(this);
         }
 
-        public void OnEventRaised(float value)
+        public void OnEventRaised(float depth)
         {
             const float max = 100;
-            var normalized = value / max;
+            depth = depth < 0 ? 0 : depth;
+            depth = depth > 100 ? 100 : depth;
+            var normalized = depth / max;
             var anchor = new Vector2(0.5f, 1 - normalized);
             _submarineIcon.anchorMin = anchor;
             _submarineIcon.anchorMax = anchor;
-            _text.text = $"{(int)value}";
+            _text.text = $"{(int)depth}";
         }
     }
 }

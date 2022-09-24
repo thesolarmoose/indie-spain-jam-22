@@ -68,7 +68,8 @@ namespace NarrativeEvents.UI
         {
             SetDescription(@event.Description);
 
-            if (@event.HasChoices)
+            _hasChoices = @event.HasChoices;
+            if (_hasChoices)
             {
                 _continueButton.gameObject.SetActive(false);
                 var choices = @event.GetAvailableChoices().ConvertAll(choice => (choice.Choice, choice.Consequences));
