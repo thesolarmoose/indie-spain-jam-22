@@ -22,6 +22,22 @@ MonoBehaviour:
     m_Localized: Continuar
     m_Metadata:
       m_Items: []
+  - m_Id: 54561456680960
+    m_Localized: Sumergirse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70623535460352
+    m_Localized: frenar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70852301189120
+    m_Localized: derecha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70885595574272
+    m_Localized: izquierda
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
