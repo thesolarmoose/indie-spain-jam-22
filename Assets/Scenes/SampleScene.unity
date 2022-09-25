@@ -588,414 +588,6 @@ MonoBehaviour:
   _meters: {fileID: 11400000, guid: b220ae5bc4d5a3349b08307b010e1362, type: 2}
   _submarineIcon: {fileID: 1340324143}
   _text: {fileID: 1488267496}
---- !u!1 &105782913
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 105782914}
-  - component: {fileID: 105782917}
-  - component: {fileID: 105782920}
-  - component: {fileID: 105782918}
-  - component: {fileID: 105782921}
-  m_Layer: 0
-  m_Name: Shark
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &105782914
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105782913}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.1, y: -11.9, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2059935426}
-  m_Father: {fileID: 267528538}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &105782917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105782913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1293fdc3ccaa4ce2af7ed791acf1dede, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _eventDisplayer: {fileID: 1835738176}
-  _events:
-  - {fileID: 11400000, guid: d00a46e0929e78749a6eecceace453e0, type: 2}
-  _collisionMask:
-    serializedVersion: 2
-    m_Bits: 64
-  _onEventStarted:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 105782921}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2059935427}
-        m_TargetAssemblyTypeName: BrunoMikoski.AnimationSequencer.AnimationSequencerController,
-          BrunoMikoski.AnimationSequencer
-        m_MethodName: Kill
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _onEventEnded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 105782918}
-        m_TargetAssemblyTypeName: BrunoMikoski.AnimationSequencer.AnimationSequencerController,
-          BrunoMikoski.AnimationSequencer
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &105782918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105782913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c10d422b52559da41aa9676770a8fc65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animationSteps:
-  - rid: 5124477860775723027
-  - rid: 5124477860775723028
-  updateType: 0
-  timeScaleIndependent: 0
-  autoplayMode: 0
-  playOnAwake: 0
-  pauseOnAwake: 0
-  playbackSpeed: 1
-  playType: 0
-  loops: 0
-  loopType: 0
-  autoKill: 1
-  onStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  onFinishedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  onProgressEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  references:
-    version: 2
-    RefIds:
-    - rid: 5124477860775723027
-      type: {class: DOTweenAnimationStep, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
-      data:
-        delay: 0
-        flowType: 0
-        target: {fileID: 105782913}
-        duration: 1
-        loopCount: 0
-        loopType: 0
-        actions:
-        - rid: 5124477883790131204
-    - rid: 5124477860775723028
-      type: {class: InvokeCallbackAnimationStep, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
-      data:
-        delay: 0
-        flowType: 0
-        callback:
-          m_PersistentCalls:
-            m_Calls:
-            - m_Target: {fileID: 105782913}
-              m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-              m_MethodName: SetActive
-              m_Mode: 6
-              m_Arguments:
-                m_ObjectArgument: {fileID: 0}
-                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-                m_IntArgument: 0
-                m_FloatArgument: 0
-                m_StringArgument: 
-                m_BoolArgument: 0
-              m_CallState: 2
-    - rid: 5124477883790131204
-      type: {class: SetSpriteRendererAlpha, ns: AnimationSequencerExtensions, asm: com.thesolarmoose.isj22}
-      data:
-        direction: 0
-        ease:
-          ease: 7
-          curve:
-            serializedVersion: 2
-            m_Curve: []
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-        isRelative: 0
-        _value: 0
---- !u!212 &105782920
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105782913}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 1267501534}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8ad2496132febe346af820d1cd3e5262, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.985, y: 0.8425}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!60 &105782921
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105782913}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.94, y: 3.37}
-    newSize: {x: 1.985, y: 0.8425}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 1.1899999, y: -0.965}
-      - {x: 1.4599999, y: -0.85499996}
-      - {x: 1.52, y: -0.755}
-      - {x: 1.76, y: -0.755}
-      - {x: 1.99, y: -0.78499997}
-      - {x: 2.12, y: -0.905}
-      - {x: 2.32, y: -1.145}
-      - {x: 2.4299998, y: -1.165}
-      - {x: 2.47, y: -1.115}
-      - {x: 2.54, y: -1.005}
-      - {x: 2.6799998, y: -0.98499995}
-      - {x: 3.02, y: -0.885}
-      - {x: 3.33, y: -0.755}
-      - {x: 3.49, y: -0.685}
-      - {x: 3.6299999, y: -0.545}
-      - {x: 3.6799998, y: -0.435}
-      - {x: 3.7099998, y: -0.33499998}
-      - {x: 3.7099998, y: -0.295}
-      - {x: 3.6499999, y: -0.24499999}
-      - {x: 3.22, y: -0.24499999}
-      - {x: 3.05, y: -0.205}
-      - {x: 2.86, y: -0.13499999}
-      - {x: 2.71, y: -0.024999999}
-      - {x: 2.58, y: 0.035}
-      - {x: 2.34, y: 0.145}
-      - {x: 2.28, y: 0.355}
-      - {x: 2.24, y: 0.405}
-      - {x: 2.18, y: 0.405}
-      - {x: 2.1399999, y: 0.385}
-      - {x: 2.05, y: 0.475}
-      - {x: 1.9499999, y: 0.675}
-      - {x: 1.9499999, y: 0.835}
-      - {x: 1.89, y: 0.885}
-      - {x: 1.78, y: 0.905}
-      - {x: 1.74, y: 0.865}
-      - {x: 1.74, y: 0.615}
-      - {x: 1.67, y: 0.715}
-      - {x: 1.5899999, y: 0.865}
-      - {x: 1.51, y: 0.885}
-      - {x: 1.48, y: 0.775}
-      - {x: 1.3299999, y: 1.0749999}
-      - {x: 1.24, y: 1.095}
-      - {x: 1.0799999, y: 0.895}
-      - {x: 0.84999996, y: 1.135}
-      - {x: 0.56, y: 1.3349999}
-      - {x: 0.35, y: 1.475}
-      - {x: 0.089999996, y: 1.605}
-      - {x: 0.06, y: 1.615}
-      - {x: -0.04, y: 1.635}
-      - {x: -0.06, y: 1.605}
-      - {x: 0.03, y: 1.475}
-      - {x: 0.14, y: 1.245}
-      - {x: 0.13, y: 1.035}
-      - {x: 0.12, y: 0.92499995}
-      - {x: 0.02, y: 0.885}
-      - {x: -0.07, y: 1.045}
-      - {x: -0.089999996, y: 1.1949999}
-      - {x: -0.11, y: 1.235}
-      - {x: -0.22, y: 1.375}
-      - {x: -0.26, y: 1.375}
-      - {x: -0.34, y: 1.3249999}
-      - {x: -0.32999998, y: 1.255}
-      - {x: -0.24, y: 1.045}
-      - {x: -0.21, y: 0.875}
-      - {x: -0.31, y: 0.865}
-      - {x: -0.44, y: 0.955}
-      - {x: -0.48, y: 1.145}
-      - {x: -0.56, y: 1.245}
-      - {x: -0.63, y: 1.235}
-      - {x: -0.76, y: 1.145}
-      - {x: -0.71999997, y: 1.0849999}
-      - {x: -0.62, y: 0.85499996}
-      - {x: -0.76, y: 0.775}
-      - {x: -0.90999997, y: 1.055}
-      - {x: -0.98999995, y: 1.095}
-      - {x: -1.05, y: 1.045}
-      - {x: -1.1, y: 0.97499996}
-      - {x: -1.1, y: 0.91499996}
-      - {x: -1.02, y: 0.755}
-      - {x: -1.1, y: 0.66499996}
-      - {x: -1.2099999, y: 0.84499997}
-      - {x: -1.25, y: 0.84499997}
-      - {x: -1.3199999, y: 0.765}
-      - {x: -1.36, y: 0.515}
-      - {x: -1.38, y: 0.625}
-      - {x: -1.4399999, y: 0.695}
-      - {x: -1.5799999, y: 0.625}
-      - {x: -1.54, y: 0.49499997}
-      - {x: -1.5899999, y: 0.42499998}
-      - {x: -1.65, y: 0.49499997}
-      - {x: -1.75, y: 0.505}
-      - {x: -1.87, y: 0.375}
-      - {x: -1.91, y: 0.39499998}
-      - {x: -1.9599999, y: 0.415}
-      - {x: -2.03, y: 0.385}
-      - {x: -2.2, y: 0.575}
-      - {x: -2.24, y: 0.565}
-      - {x: -2.31, y: 0.295}
-      - {x: -2.45, y: 0.285}
-      - {x: -2.55, y: 0.315}
-      - {x: -2.69, y: 0.145}
-      - {x: -2.76, y: 0.21499999}
-      - {x: -2.81, y: 0.225}
-      - {x: -2.8899999, y: 0.155}
-      - {x: -3, y: 0.16499999}
-      - {x: -3.21, y: 0.33499998}
-      - {x: -3.29, y: 0.385}
-      - {x: -3.53, y: 0.515}
-      - {x: -3.6999998, y: 0.685}
-      - {x: -3.74, y: 0.695}
-      - {x: -3.76, y: 0.685}
-      - {x: -3.76, y: 0.635}
-      - {x: -3.7099998, y: 0.42499998}
-      - {x: -3.5, y: 0.095}
-      - {x: -3.35, y: -0.145}
-      - {x: -3.4199998, y: -0.48499998}
-      - {x: -3.46, y: -0.755}
-      - {x: -3.46, y: -0.875}
-      - {x: -3.4499998, y: -0.98499995}
-      - {x: -3.4299998, y: -1.005}
-      - {x: -3.3999999, y: -0.995}
-      - {x: -2.97, y: -0.36499998}
-      - {x: -2.84, y: -0.205}
-      - {x: -2.59, y: -0.085}
-      - {x: -2.3799999, y: -0.065}
-      - {x: -2.37, y: -0.044999998}
-      - {x: -2.3899999, y: -0.015}
-      - {x: -2.29, y: -0.024999999}
-      - {x: -2.05, y: -0.024999999}
-      - {x: -1.9, y: -0.044999998}
-      - {x: -1.75, y: -0.035}
-      - {x: -1.31, y: 0.024999999}
-      - {x: -1.0699999, y: 0.024999999}
-      - {x: -0.96999997, y: -0.015}
-      - {x: -0.47, y: -0.265}
-      - {x: -0.28, y: -0.49499997}
-      - {x: -0.28, y: -0.53499997}
-      - {x: -0.26999998, y: -0.625}
-      - {x: -0.14999999, y: -0.765}
-      - {x: 0.11, y: -1.035}
-      - {x: 0.25, y: -1.155}
-      - {x: 0.35, y: -1.145}
-      - {x: 0.41, y: -1.1949999}
-      - {x: 0.32999998, y: -1.435}
-      - {x: 0.26999998, y: -1.555}
-      - {x: 0.38, y: -1.5949999}
-      - {x: 0.45, y: -1.5949999}
-      - {x: 0.51, y: -1.5849999}
-      - {x: 0.64, y: -1.515}
-      - {x: 0.9, y: -1.3149999}
-      - {x: 1.1, y: -1.045}
 --- !u!1 &129709752
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,8 +1678,8 @@ Transform:
   - {fileID: 2046113732}
   - {fileID: 496060425}
   - {fileID: 186607698}
-  - {fileID: 105782914}
   - {fileID: 1740502469}
+  - {fileID: 1192229151}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2256,7 +1848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8ea3b6b1b736445bee142c556a14a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transitionDuration: 0.4
+  _transitionDuration: 2
   _audioSources:
   - {fileID: 1118244487}
   - {fileID: 1306563793}
@@ -3973,7 +3565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 496060425}
   _metersVariable: {fileID: 11400000, guid: b220ae5bc4d5a3349b08307b010e1362, type: 2}
-  _scale: 5
+  _depthScale: {fileID: 11400000, guid: 68e4e07c77101244a9c4caf8d9e59261, type: 2}
 --- !u!1 &787687088
 GameObject:
   m_ObjectHideFlags: 0
@@ -5492,6 +5084,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1068864456}
+  - component: {fileID: 1068864458}
   - component: {fileID: 1068864457}
   m_Layer: 0
   m_Name: Backgorund
@@ -5567,6 +5160,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1068864458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068864455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52e0bc655c4da8f45b5acc4f347dfa93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _depthScale: {fileID: 11400000, guid: 68e4e07c77101244a9c4caf8d9e59261, type: 2}
+  _desiredDepth: 120
+  _unitsPerScale: 10
 --- !u!1 &1080890716
 GameObject:
   m_ObjectHideFlags: 0
@@ -5905,51 +5513,61 @@ RectTransform:
   m_AnchoredPosition: {x: -16, y: -24}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 1, y: 1}
---- !u!21 &1267501534
-Material:
-  serializedVersion: 8
+--- !u!1 &1192229150
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sprite-Lit-Default (Instance)
-  m_Shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
-  m_ValidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MaskTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1192229151}
+  - component: {fileID: 1192229152}
+  m_Layer: 0
+  m_Name: EnemiesSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1192229151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192229150}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 267528538}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1192229152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192229150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b76ef51d0a0d4bb58f65ad73740c8c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _depthRanges:
+  - Min: 38
+    Max: 42
+  - Min: 63
+    Max: 67
+  - Min: 88
+    Max: 92
+  _depthScale: {fileID: 11400000, guid: 68e4e07c77101244a9c4caf8d9e59261, type: 2}
+  _prefabsPool: {fileID: 11400000, guid: dfc5ffd568016aa49b8ce0cc8ab97880, type: 2}
+  _minDelay: 0
+  _maxDelay: 2
 --- !u!1 &1274396493
 GameObject:
   m_ObjectHideFlags: 0
@@ -7744,7 +7362,7 @@ Transform:
   - {fileID: 858290308}
   - {fileID: 1059480838}
   m_Father: {fileID: 267528538}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1740502470
 MonoBehaviour:
@@ -8170,7 +7788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _eventPopupPrefab: {fileID: 8102557001156460412, guid: bc6df3d1e5d181c408069258d62bcc8e, type: 3}
-  _testEvent: {fileID: 11400000, guid: 7ca80b0435bd9944da6b5b51d0dcb9d6, type: 2}
+  _testEvent: {fileID: 0}
   _onDisplayEvent:
     m_PersistentCalls:
       m_Calls:
@@ -8801,183 +8419,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -8}
   m_SizeDelta: {x: -16.000004, y: 60}
   m_Pivot: {x: 0.5, y: 1}
---- !u!1 &2059935425
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2059935426}
-  - component: {fileID: 2059935427}
-  m_Layer: 0
-  m_Name: PatrolAnimation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2059935426
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2059935425}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 105782914}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2059935427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2059935425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c10d422b52559da41aa9676770a8fc65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animationSteps:
-  - rid: 5124477860775723032
-  - rid: 5124477860775723030
-  - rid: 5124477860775723036
-  - rid: 5124477860775723034
-  updateType: 0
-  timeScaleIndependent: 0
-  autoplayMode: 0
-  playOnAwake: 1
-  pauseOnAwake: 0
-  playbackSpeed: 1
-  playType: 0
-  loops: 1000
-  loopType: 0
-  autoKill: 1
-  onStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  onFinishedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  onProgressEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  references:
-    version: 2
-    RefIds:
-    - rid: 5124477860775723030
-      type: {class: DOTweenAnimationStep, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
-      data:
-        delay: 0
-        flowType: 0
-        target: {fileID: 105782913}
-        duration: 4
-        loopCount: 0
-        loopType: 0
-        actions:
-        - rid: 5124477860775723031
-    - rid: 5124477860775723031
-      type: {class: MoveToPositionDOTweenActionBase, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
-      data:
-        direction: 0
-        ease:
-          ease: 4
-          curve:
-            serializedVersion: 2
-            m_Curve: []
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-        isRelative: 1
-        localMove: 0
-        axisConstraint: 0
-        position: {x: -25, y: 0, z: 0}
-    - rid: 5124477860775723032
-      type: {class: DOTweenAnimationStep, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
-      data:
-        delay: 0
-        flowType: 0
-        target: {fileID: 105782913}
-        duration: 1
-        loopCount: 0
-        loopType: 0
-        actions:
-        - rid: 5124477860775723033
-    - rid: 5124477860775723033
-      type: {class: ScaleDOTweenAction, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
-      data:
-        direction: 0
-        ease:
-          ease: 7
-          curve:
-            serializedVersion: 2
-            m_Curve: []
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-        isRelative: 0
-        scale: {x: -1, y: 1, z: 1}
-        axisConstraint: 0
-    - rid: 5124477860775723034
-      type: {class: DOTweenAnimationStep, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
-      data:
-        delay: 0
-        flowType: 0
-        target: {fileID: 105782913}
-        duration: 4
-        loopCount: 0
-        loopType: 0
-        actions:
-        - rid: 5124477860775723035
-    - rid: 5124477860775723035
-      type: {class: MoveToPositionDOTweenActionBase, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
-      data:
-        direction: 0
-        ease:
-          ease: 4
-          curve:
-            serializedVersion: 2
-            m_Curve: []
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-        isRelative: 1
-        localMove: 0
-        axisConstraint: 0
-        position: {x: 25, y: 0, z: 0}
-    - rid: 5124477860775723036
-      type: {class: DOTweenAnimationStep, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
-      data:
-        delay: 0
-        flowType: 0
-        target: {fileID: 105782913}
-        duration: 1
-        loopCount: 0
-        loopType: 0
-        actions:
-        - rid: 5124477860775723037
-    - rid: 5124477860775723037
-      type: {class: ScaleDOTweenAction, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
-      data:
-        direction: 0
-        ease:
-          ease: 7
-          curve:
-            serializedVersion: 2
-            m_Curve: []
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-        isRelative: 0
-        scale: {x: 1, y: 1, z: 1}
-        axisConstraint: 0
 --- !u!1 &2081180496
 GameObject:
   m_ObjectHideFlags: 0

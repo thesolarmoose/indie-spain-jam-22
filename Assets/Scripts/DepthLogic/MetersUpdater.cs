@@ -7,12 +7,12 @@ namespace DepthLogic
     {
         [SerializeField] private Transform _target;
         [SerializeField] private FloatVariable _metersVariable;
-        [SerializeField] private float _scale;
+        [SerializeField] private FloatVariable _depthScale;
         
         private void Update()
         {
             var depth = _target.position.y;
-            depth /= _scale;
+            depth /= _depthScale.Value;
             _metersVariable.Value = -depth;
         }
     }

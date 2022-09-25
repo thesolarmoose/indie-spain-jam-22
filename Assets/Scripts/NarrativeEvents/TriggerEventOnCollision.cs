@@ -17,7 +17,12 @@ namespace NarrativeEvents
         
         [SerializeField] private UnityEvent _onEventStarted;
         [SerializeField] private UnityEvent _onEventEnded;
-        
+
+        private void Start()
+        {
+            _eventDisplayer = FindObjectOfType<EventDisplayer>();
+        }
+
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (_collisionMask.IsLayerInMask(other.gameObject.layer))
