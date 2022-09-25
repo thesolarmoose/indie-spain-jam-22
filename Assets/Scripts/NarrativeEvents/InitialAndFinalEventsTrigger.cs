@@ -1,7 +1,9 @@
 ﻿using System;
+using BrunoMikoski.AnimationSequencer;
 using NarrativeEvents.UI;
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Utils.Attributes;
 using Event = NarrativeEvents.Data.Event;
 
@@ -13,6 +15,7 @@ namespace NarrativeEvents
         [SerializeField] private Event _finalEvent;
         [SerializeField] private FloatVariable _depth;
         [SerializeField,AutoProperty(AutoPropertyMode.Scene)] private EventDisplayer _eventDisplayer;
+        [SerializeField] private AnimationSequencerController _restartAnimation;
 
         private bool _initialTriggered;
         private bool _finalTriggered;
@@ -35,7 +38,7 @@ namespace NarrativeEvents
             {
                 _finalTriggered = true;
                 var finalEvent = GetFinalEvent();
-                _eventDisplayer.DisplayEvent(finalEvent);
+                _eventDisplayer.DisplayEvent(finalEvent, () => { _restartAnimation.Play(); });
             }
         }
 
