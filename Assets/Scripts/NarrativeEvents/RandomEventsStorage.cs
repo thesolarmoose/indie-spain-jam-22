@@ -18,34 +18,19 @@ namespace NarrativeEvents
         [SerializeField, DisableIf(nameof(Always))] private List<Event> _triggeredEvents;
         [SerializeField, Range(0, 1)] private float _selectFirstChance;
 
-//        private void OnEnable()
-//        {
-//            LoadData();
-//        }
-//
-//        private async void LoadData()
-//        {
-//            var loadReport = new SaveUtils.LoadReport {Success = false};
-//            try
-//            {
-//                loadReport = await this.Load();
-//            }
-//            catch (Exception e)
-//            {
-//                Debug.LogError(e.ToString());
-//            }
-//
-//            if (!loadReport.Success)
-//            {
-//                this.ResetToDefault();
-//                await this.Save();
-//            }
-//        }
-
         public Event Next()
         {
             // TODO
-            return _eventsPool.GetRandom();
+            var remaining = _eventsPool.List.FindAll(ev => !_triggeredEvents.Contains(ev));
+            if (remaining.Count == 0)
+            {
+                _triggeredEvents.Clear();
+                remaining = _eventsPool.List;
+            }
+
+            var random = remaining.GetRandom();
+            _triggeredEvents.Add(random);
+            return random;
         }
 
         private bool Always()
