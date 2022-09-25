@@ -3815,7 +3815,7 @@ MonoBehaviour:
           value: 44
         - localeIdentifier:
             m_Code: en
-          value: 60
+          value: 44
     - rid: 5124477906072895567
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -3826,7 +3826,7 @@ MonoBehaviour:
           value: 44
         - localeIdentifier:
             m_Code: en
-          value: 60
+          value: 44
 --- !u!1 &606670664
 GameObject:
   m_ObjectHideFlags: 0
@@ -9488,7 +9488,7 @@ MonoBehaviour:
           value: 270
         - localeIdentifier:
             m_Code: en
-          value: 250
+          value: 270
 --- !u!1 &2046113731
 GameObject:
   m_ObjectHideFlags: 0
