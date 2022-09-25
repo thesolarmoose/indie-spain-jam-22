@@ -23,14 +23,12 @@ namespace Movement.Controllers
             }
         }
 
-        private void Start()
-        {
-            _inputActions = new GameInputActions();
-            _inputActions.Enable();
-        }
-
         private void OnEnable()
         {
+            if (_inputActions == null)
+            {
+                _inputActions = new GameInputActions();
+            }
             _inputActions?.Enable();
         }
 

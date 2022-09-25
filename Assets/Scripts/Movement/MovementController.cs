@@ -15,7 +15,7 @@ namespace Movement
             Vector2 movement = Vector2.zero;
             foreach (var controller in _controllersChain)
             {
-                if (controller.enabled)
+                if (controller.enabled && controller.gameObject.activeInHierarchy)
                 {
                     movement = controller.Move(movement);
                 }
