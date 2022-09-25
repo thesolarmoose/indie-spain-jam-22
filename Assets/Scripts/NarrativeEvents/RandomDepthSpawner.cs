@@ -8,7 +8,7 @@ using Random = UnityEngine.Random;
 
 namespace NarrativeEvents
 {
-    public class RandomObjectSpawner : MonoBehaviour
+    public class RandomDepthSpawner : MonoBehaviour
     {
         [SerializeField] private List<Range> _depthRanges;
         [SerializeField] private FloatVariable _depthScale;

@@ -20,7 +20,6 @@ namespace AnimationSequencerExtensions
         protected override Tweener GenerateTween_Internal(GameObject target, float duration)
         {
             var sr = target.GetComponent<SpriteRenderer>();
-            var material = sr.material;
 
             var tweener = DOTween.To(
                 () => sr.color.a,
