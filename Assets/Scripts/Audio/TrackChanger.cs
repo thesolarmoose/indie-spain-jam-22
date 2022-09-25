@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TNRD;
 using UnityEngine;
 using Utils;
 using Utils.Tweening;
@@ -9,35 +10,25 @@ namespace Audio
     public class TrackChanger : MonoBehaviour
     {
         [SerializeField] private float _transitionDuration;
-        [SerializeField] private List<AudioSource> _audioSources;
+        [SerializeField] private List<SerializableInterface<IAudioSource>> _audioSources;
 
         private int _currentIndexPlaying;
 
-        private AudioSource Current => _audioSources[_currentIndexPlaying];
-        private AudioSource Next => _audioSources[++_currentIndexPlaying % _audioSources.Count];
-
-        public void Play()
-        {
-            Current.UnPause();
-        }
-
-        public void Pause()
-        {
-            Current.Pause();
-        }
-
-        public void ChangeTrack(AudioClip clip)
+        private IAudioSource Current => _audioSources[_currentIndexPlaying].Value;
+        
+        public void ChangeTrack(int index)
         {
             var current = Current;
-            var next = Next;
-            next.volume = 0;
-            next.clip = clip;
+            _currentIndexPlaying = index;
+            
+            var next = _audioSources[index].Value;
+            next.Volume = 0;
             next.Play();
             var transitionCoroutine = TweeningUtils.TweenTimeCoroutine(
                 time =>
                 {
-                    current.volume = 1 - time;
-                    next.volume = time;
+                    current.Volume = 1 - time;
+                    next.Volume = time;
                 },
                 _transitionDuration,
                 Curves.Linear
@@ -45,7 +36,12 @@ namespace Audio
             var coroutine = CoroutineUtils.CoroutineSequence(new List<IEnumerator>
             {
                 transitionCoroutine,
-                CoroutineUtils.ActionCoroutine(() => current.Stop())
+                CoroutineUtils.ActionCoroutine(() =>
+                {
+                    current.Volume = 0;
+                    next.Volume = 1;
+                    current.Stop();
+                })
             });
 
             StartCoroutine(coroutine);
