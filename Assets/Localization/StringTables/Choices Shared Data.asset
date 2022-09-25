@@ -143,6 +143,22 @@ MonoBehaviour:
     m_Key: e11-ch2
     m_Metadata:
       m_Items: []
+  - m_Id: 814823516303360
+    m_Key: e12-ch0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 814826217435136
+    m_Key: e12-ch1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 814829912616960
+    m_Key: e13-ch0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 814836271181824
+    m_Key: e13-ch1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

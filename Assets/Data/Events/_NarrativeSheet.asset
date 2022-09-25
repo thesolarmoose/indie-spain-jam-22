@@ -510,7 +510,7 @@ MonoBehaviour:
       - "-\tUn peque\xF1o temblor estremece el submarino. Al parecer la plataforma
         no es muy estable. Das la orden de cancelar la exploraci\xF3n. La prioridad
         es largarse de ah\xED, no sea que ocurra una desgracia."
-    _id: 
+    _id: e12
   - _description: "Con muchos problemas, logras \u201Cposar\u201D el submarino en
       una plataforma. El lugar no es el ideal, pero no has encontrado otro sitio.
       De cualquier forma, una parada se hac\xEDa inminente. Todos est\xE1n a la espera
@@ -550,4 +550,4 @@ MonoBehaviour:
         est\xE1 de vuelta. Traen consigo mucho combustible, materiales de reparaci\xF3n
         y varios torpedos. La espera ha valido la pena (obtienes seis bidones de
         combustible, cuatro HP y tres torpedos)."
-    _id: 
+    _id: e13

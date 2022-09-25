@@ -190,10 +190,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 688400901332992
     m_Localized: "Una peque\xF1a luz roja llama la atenci\xF3n del vig\xEDa del batiscopio.
-      Ordenas dirigirse a ella para ver qu\xE9 es. Al acercarse a ella, descubren
-      un submarino hundido. \"De seguro hay provisiones ah\xED dentro\", comenta
-      alguien detr\xE1s de ti. Tiene raz\xF3n, pero las probabilidades de morir ah\xED
-      afuera tambi\xE9n son grandes."
+      Diriges el submarino en esa direcci\xF3n para ver qu\xE9 es. Al acercarse a
+      ella, descubren un submarino hundido. \"De seguro hay provisiones ah\xED dentro\",
+      comenta alguien detr\xE1s de ti. Tiene raz\xF3n, pero las probabilidades de
+      morir ah\xED afuera tambi\xE9n son grandes."
     m_Metadata:
       m_Items: []
   - m_Id: 688401001996288
@@ -207,7 +207,7 @@ MonoBehaviour:
     m_Localized: "La encargada del periscopio pide al capit\xE1n que, de ser posible,
       se acerque a su puesto. Al preguntarle qu\xE9 pasa, la joven le se\xF1ala el
       periscopio. \"Mire. Eso lleva una hora ah\xED en el casco\". Cuando miras,
-      ves un especie de crust\xE1ceo posado sobre el submarino. \"Prefer\xED llamarlo
+      ves una especie de crust\xE1ceo posado sobre el submarino. \"Prefer\xED llamarlo
       para no provocar p\xE1nico. Usted decide\"."
     m_Metadata:
       m_Items: []
@@ -227,10 +227,10 @@ MonoBehaviour:
   - m_Id: 688401027162112
     m_Localized: "Uno de tus hombres se te acerca y murmura: \u201CCapit\xE1n\u2026
       algo ha entrado al submarino por la sala de inmersi\xF3n. Es horrible. Tiene
-      tent\xE1culos y un hedor espantoso. Creo que quiere algo. Su unico ojo mira
-      fijo a quien entre en la sala\u201D. Con disimulo te marchas a la sala de inmersi\xF3n.
-      En efecto, es espantoso e indescriptible. El monstruo te mira fijo y no para
-      de abrir y cerrar una suerte de boca. \xBFQu\xE9 querr\xE1?"
+      tent\xE1culos y un hedor espantoso. Creo que quiere algo\u201D. Con disimulo
+      te marchas a la sala de inmersi\xF3n. En efecto, es espantoso e indescriptible.
+      El monstruo te mira fijo y no para de abrir y cerrar una suerte de boca. \xBFQu\xE9
+      querr\xE1?"
     m_Metadata:
       m_Items: []
   - m_Id: 688401127825408
@@ -246,8 +246,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 688401228488704
     m_Localized: "Un calamar gigante se ha aferrado a la nave. Has tenido poco tiempo
-      para reaccionar, y menos tendr\xE1s para tomar una decisi\xF3n antes de que
-      el Architeuthis destruya tu submarino.\r"
+      para reaccionar, y menos tiempo tendr\xE1s para tomar una decisi\xF3n antes
+      de que el Architeuthis destruya tu submarino.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 688401295597568
@@ -268,9 +268,9 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 688401471758336
     m_Localized: "Lo que en un principio parec\xEDa un submarino abandonado, es en
-      realidad un submarino fantasma: lleno de agujeros y apenas logra no hundirse.
-      \"Es un zumbierino\", te dice el segundo al mando. Todos ignoran el p\xE9simo
-      chiste y esperan tus \xF3rdenes."
+      realidad un submarino fantasma. Est\xE1 lleno de agujeros y apenas logra no
+      hundirse. \"Es un zumbierino\", te dice el segundo al mando. Todos ignoran
+      el p\xE9simo chiste y esperan tus \xF3rdenes."
     m_Metadata:
       m_Items: []
   - m_Id: 965593146486784
@@ -380,6 +380,19 @@ MonoBehaviour:
       observar m\xFAltiples fugas de aire, explosiones, incluso crees ver alg\xFAn
       cuerpo flotando. Horrorizado antes el espect\xE1culo, te preguntas en voz baja:
       \u201C\xBFQu\xE9 hemos hecho?\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436726346018816
+    m_Localized: "Sin muchas dificultades logras \u201Caterrizar\u201D sobre la arena
+      del fondo marino. Lo m\xE1s l\xF3gico es aprovechar y reparar la nave, pero
+      tus subordinados sospechan que tienes otros planes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436732746526720
+    m_Localized: "Con muchos problemas, logras \u201Cposar\u201D el submarino en
+      una plataforma. El lugar no es el ideal, pero no has encontrado otro sitio.
+      De cualquier forma, una parada se hac\xEDa inminente. Todos est\xE1n a la espera
+      de tus \xF3rdenes."
     m_Metadata:
       m_Items: []
   references:

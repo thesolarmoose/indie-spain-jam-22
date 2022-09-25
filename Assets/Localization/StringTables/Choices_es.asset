@@ -326,7 +326,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 66497622827008
-    m_Localized: "Enviar a dos tripulantes a explorar por qu\xE9 las helices est\xE1n
+    m_Localized: "Enviar a dos tripulantes a explorar por qu\xE9 las h\xE9lices est\xE1n
       detenidas.\r"
     m_Metadata:
       m_Items: []
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 66497639604224
-    m_Localized: "\"Clauseren esas secci\xF3n, un camarote no es tan importantes\"."
+    m_Localized: "\"Clausuren esas secci\xF3n, un camarote no es tan importantes\"."
     m_Metadata:
       m_Items: []
   - m_Id: 66497639604225
@@ -370,7 +370,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 66497744461824
-    m_Localized: "\"Largu\xE9monos de aqu\xED, no tenemos torpedos para enfrentarlos\".\r"
+    m_Localized: "\"Largu\xE9monos de aqu\xED, no tenemos torpedos para enfrentarlo\".\r"
     m_Metadata:
       m_Items: []
   - m_Id: 66497744461825
@@ -391,7 +391,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 66497757044737
-    m_Localized: "\"Us\xE9mos los torpedos. D\xE9mosle una lecci\xF3n\".\r\n"
+    m_Localized: "\"Usemos los torpedos. D\xE9mosle una lecci\xF3n\".\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 66497849319424
@@ -428,8 +428,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 66498000314368
     m_Localized: "\"No tiene dientes\u2026 quiz\xE1s esta sea una buena oportunidad
-      para explorar el interior de un leviat\xE1n\". A nadie parece gustarle la idea,
-      pero t\xFA eres el capit\xE1n."
+      para explorar el interior de un leviat\xE1n\". A nadie le gusta la idea, pero
+      t\xFA eres el capit\xE1n."
     m_Metadata:
       m_Items: []
   - m_Id: 66498000314369
@@ -446,8 +446,29 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 66498092589057
-    m_Localized: "\"Enmanuel, toma la cruz de la capillaa y col\xF3cala en la luz
-      incadescente. Si es un submarino fantasma, de seguro le teme a Dios\".\r\n"
+    m_Localized: "\"Enmanuel, toma la cruz de la capilla y col\xF3cala en la luz
+      incandescente. Si es un submarino fantasma, de seguro le teme a Dios\".\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 814823516303360
+    m_Localized: "\u201CReparemos la nave, el casco no se encuentra en \xF3ptimas
+      condiciones\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 814826217435136
+    m_Localized: "\u201CDeber\xEDamos explorar la zona, quiz\xE1s encontremos algo
+      \xFAtil\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 814829912616960
+    m_Localized: "\u201CIntentemos reparar la nave, es probable que sigamos teniendo
+      problemas, y lo ideal es que el casco est\xE9 lo menos da\xF1ado posible\u201D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 814836271181824
+    m_Localized: "Desde la sala de mando se puede ver una peque\xF1a luz roja parpadeando
+      a lo lejos. \xBFSer\xE1 un submarino? Das la orden a un grupo de investigar
+      qu\xE9 es esa luz."
     m_Metadata:
       m_Items: []
   references:
