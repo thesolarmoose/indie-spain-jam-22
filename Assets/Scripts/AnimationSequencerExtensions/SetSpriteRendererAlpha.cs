@@ -31,6 +31,11 @@ namespace AnimationSequencerExtensions
         
         protected override Tweener GenerateTween_Internal(GameObject target, float duration)
         {
+            if (target == null)
+            {
+                return Empty();
+            }
+            
             var sr = target.GetComponent<SpriteRenderer>();
 
             if (sr == null)

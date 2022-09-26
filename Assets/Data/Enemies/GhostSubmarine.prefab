@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 2641124097072250402}
   - component: {fileID: 2641124097072250415}
   - component: {fileID: 2641124097072250401}
-  - component: {fileID: 2641124097072250414}
+  - component: {fileID: 7336853892366222105}
   m_Layer: 0
   m_Name: GhostSubmarine
   m_TagString: Untagged
@@ -266,7 +266,7 @@ MonoBehaviour:
   _onEventStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2641124097072250414}
+      - m_Target: {fileID: 7336853892366222105}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
@@ -348,9 +348,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8ad2496132febe346af820d1cd3e5262, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4031eb85dc7101848b36b6fff5d4c525, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.985, y: 0.8425}
@@ -441,8 +441,8 @@ MonoBehaviour:
             m_RotationOrder: 4
         isRelative: 0
         _value: 0
---- !u!60 &2641124097072250414
-PolygonCollider2D:
+--- !u!61 &7336853892366222105
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -454,29 +454,16 @@ PolygonCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.14978981, y: 0.16227198}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.831385, y: 0.40983728}
-    oldSize: {x: 7.94, y: 3.37}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.69, y: 2.54}
     newSize: {x: 1.985, y: 0.8425}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.7485775, y: -0.4433201}
-      - {x: -0.1853, y: -0.7747416}
-      - {x: -1.1466684, y: -0.44560337}
-      - {x: -2.255435, y: -1.3419533}
-      - {x: -3.0523806, y: 0.025205612}
-      - {x: -4.3820763, y: 0.3272667}
-      - {x: -5.2853503, y: 0.19779396}
-      - {x: -6.043041, y: -0.60464096}
-      - {x: -5.985254, y: 0.19077778}
-      - {x: -6.386767, y: 0.9464817}
-      - {x: -5.49138, y: 0.36846924}
-      - {x: -3.8717823, y: 0.93680763}
-      - {x: -2.6534429, y: 1.9135953}
-      - {x: 0.99754405, y: -0.012609363}
+  serializedVersion: 2
+  m_Size: {x: 3.6928043, y: 1.1169958}
+  m_EdgeRadius: 0
