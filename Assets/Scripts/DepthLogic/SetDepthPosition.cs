@@ -8,12 +8,13 @@ namespace DepthLogic
     {
         [SerializeField] private float _depth;
         [SerializeField] private FloatVariable _depthScale;
+        [SerializeField] private Vector2 _offset;
 
         private void Start()
         {
             var pos = transform.position;
             pos.y = -_depth * _depthScale.Value;
-            transform.position = pos;
+            transform.position = pos + (Vector3)_offset;
         }
     }
 }
