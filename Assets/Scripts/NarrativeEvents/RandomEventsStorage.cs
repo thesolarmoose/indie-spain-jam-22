@@ -24,8 +24,11 @@ namespace NarrativeEvents
             var remaining = _eventsPool.List.FindAll(ev => !_triggeredEvents.Contains(ev));
             if (remaining.Count == 0)
             {
-                _triggeredEvents.Clear();
-                remaining = _eventsPool.List;
+                while (_triggeredEvents.Count > 2)
+                {
+                    _triggeredEvents.RemoveAt(0);
+                }
+                remaining = _eventsPool.List.FindAll(ev => !_triggeredEvents.Contains(ev));
             }
 
             var random = remaining.GetRandom();
