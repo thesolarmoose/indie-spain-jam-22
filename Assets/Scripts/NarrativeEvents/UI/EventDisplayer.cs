@@ -16,6 +16,7 @@ namespace NarrativeEvents.UI
         [SerializeField] private UnityEvent _onDisplayEvent;
         [SerializeField] private UnityEvent _onEventEnded;
 
+        private bool _displaying;
         private CancellationTokenSource _cts;
 
         private void OnEnable()
@@ -50,12 +51,18 @@ namespace NarrativeEvents.UI
         
         private async void DisplayEventAsync(Event @event, Action endCallback)
         {
+            while (_displaying)
+            {
+                await Task.Yield();  // wait for another event being displayed
+            }
+            _displaying = true;
             _onDisplayEvent.Invoke();
             var ct = _cts.Token;
             var consequence = await Popups.ShowPopup(_eventPopupPrefab, @event, ct);
             _onEventEnded.Invoke();
             endCallback?.Invoke();
             consequence.ExecuteConsequences();
+            _displaying = false;
         }
     }
 }
