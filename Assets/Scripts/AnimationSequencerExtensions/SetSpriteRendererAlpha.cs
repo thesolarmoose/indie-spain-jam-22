@@ -17,10 +17,27 @@ namespace AnimationSequencerExtensions
         private float? _previousState;
         private SpriteRenderer _previousTarget;
 
+        private Tweener Empty()
+        {
+            return DOTween.To(
+                () => 0,
+                value =>
+                {
+                },
+                _value,
+                0
+            );
+        }
+        
         protected override Tweener GenerateTween_Internal(GameObject target, float duration)
         {
             var sr = target.GetComponent<SpriteRenderer>();
 
+            if (sr == null)
+            {
+                return Empty();
+            }
+            
             var tweener = DOTween.To(
                 () => sr.color.a,
                 value =>
