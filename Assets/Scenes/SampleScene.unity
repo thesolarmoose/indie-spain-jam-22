@@ -3274,6 +3274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gasVariable: {fileID: 11400000, guid: fabd52bb9a7381648860a2a661d31138, type: 2}
   _maxGasVariable: {fileID: 11400000, guid: 2302778523144264b963dd35db1721bc, type: 2}
+  _initialValue: {fileID: 11400000, guid: c58aa2a2f75c77a43b507ae9df33a2ff, type: 2}
   _gasBar: {fileID: 1444659046}
   _gasText: {fileID: 1691206729}
 --- !u!1 &519420028
@@ -4684,6 +4685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _torpedosVariable: {fileID: 11400000, guid: 9eb370d342a93e14996796348393e92b, type: 2}
+  _initialValue: {fileID: 11400000, guid: ee3c90a79156e6748af42bcdbac2f622, type: 2}
   _torpedosText: {fileID: 172340274}
 --- !u!1 &900258878
 GameObject:

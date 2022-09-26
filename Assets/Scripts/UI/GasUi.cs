@@ -9,12 +9,13 @@ namespace UI
     {
         [SerializeField] private FloatVariable _gasVariable;
         [SerializeField] private FloatConstant _maxGasVariable;
+        [SerializeField] private FloatConstant _initialValue;
         [SerializeField] private Image _gasBar;
         [SerializeField] private TextMeshProUGUI _gasText;
 
         private void Start()
         {
-            _gasVariable.Value = _maxGasVariable.Value;
+            _gasVariable.Value = _initialValue.Value;
         }
 
         private void OnEnable()
