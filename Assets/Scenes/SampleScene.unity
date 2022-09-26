@@ -13440,6 +13440,7 @@ MonoBehaviour:
   animationSteps:
   - rid: 5124477951540199434
   - rid: 5124477951540199435
+  - rid: 5124477951540199454
   - rid: 5124477951540199450
   updateType: 0
   timeScaleIndependent: 0
@@ -13520,7 +13521,28 @@ MonoBehaviour:
         duration: 1
         loopCount: 0
         loopType: 0
-        actions: []
+        actions:
+        - rid: 5124477951540199453
+    - rid: 5124477951540199453
+      type: {class: SetSpriteRendererAlpha, ns: AnimationSequencerExtensions, asm: com.thesolarmoose.isj22}
+      data:
+        direction: 0
+        ease:
+          ease: 7
+          curve:
+            serializedVersion: 2
+            m_Curve: []
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        isRelative: 0
+        _value: 0
+    - rid: 5124477951540199454
+      type: {class: PlaySequenceAnimationStep, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
+      data:
+        delay: 0
+        flowType: 0
+        sequencer: {fileID: 298217611}
 --- !u!1 &1649493548
 GameObject:
   m_ObjectHideFlags: 0
