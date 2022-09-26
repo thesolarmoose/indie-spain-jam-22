@@ -47,7 +47,7 @@ MonoBehaviour:
       Sin mucha seguridad, re\xFAnes a tus hombres en el puente de mando para tomar
       una decisi\xF3n."
     _decisions:
-    - _description: "Sacrificar tres unidades de combustible para aumentar la potencia
+    - _description: "Sacrificar tres bideons de combustible para aumentar la potencia
         de los motores. \"De 0 a 100, \xBFeh? No es mala idea\", comenta el anciano
         encargado de las motores."
       _consequences:
@@ -465,9 +465,10 @@ MonoBehaviour:
         aliviado. Pero el efecto en la tripulaci\xF3n es el contrario, a nadie le
         hace gracia la presencia de un capit\xE1n cristiano."
     _id: e11
-  - _description: "Sin muchas dificultades logras \u201Caterrizar\u201D sobre la
-      arena del fondo marino. Lo m\xE1s l\xF3gico es aprovechar y reparar la nave,
-      pero tus subordinados sospechan que tienes otros planes."
+  - _description: "\xBFUna estaci\xF3n marina? No hab\xEDas recibido ning\xFAn reporte
+      sobre este tipo de estructuras. No importa, lo mejor es sacarle beneficios.
+      Otro d\xEDa preguntas qu\xE9 hacen estas estaciones aqu\xED o qui\xE9n las
+      coloc\xF3."
     _decisions:
     - _description: "\u201CReparemos la nave, el casco no se encuentra en \xF3ptimas
         condiciones\u201D."
@@ -478,8 +479,8 @@ MonoBehaviour:
         secci\xF3n que pod\xEDa ceder en cualquier momento a causa de la presi\xF3n
         (recuperas 6 HP)."
       - "Mientras intentan trabajar, varios tripulantes se quejan de ataques de cangrejos.
-        Al parecer, la arena donde has descendido pertenece a una colonia de crust\xE1ceos
-        territoriales. No es posible emprender las reparaciones."
+        Al parecer, la estaci\xF3n pertenece a una colonia de crust\xE1ceos territoriales.
+        No es posible emprender las reparaciones."
       - "Una explosi\xF3n en el exterior del submarino provoca una grieta en la sala
         de motores. El agua comienza a entrar y todos los tripulantes se centran
         en solucionar el nuevo problema. Las reparaciones son canceladas y el submarino
@@ -511,10 +512,10 @@ MonoBehaviour:
         no es muy estable. Das la orden de cancelar la exploraci\xF3n. La prioridad
         es largarse de ah\xED, no sea que ocurra una desgracia."
     _id: e12
-  - _description: "Con muchos problemas, logras \u201Cposar\u201D el submarino en
-      una plataforma. El lugar no es el ideal, pero no has encontrado otro sitio.
-      De cualquier forma, una parada se hac\xEDa inminente. Todos est\xE1n a la espera
-      de tus \xF3rdenes."
+  - _description: "A lo lejos divisas una estructura de construcci\xF3n humana. Al
+      acercarte descubres una estaci\xF3n abandonada. La habr\xE1n construido las
+      mismas personas que convirtieron esto en un campo minado. No importa, lo ideal
+      es aprovecharla para reparar el submarino."
     _decisions:
     - _description: "\u201CIntentemos reparar la nave, es probable que sigamos teniendo
         problemas, y lo ideal es que el casco est\xE9 lo menos da\xF1ado posible\u201D."
