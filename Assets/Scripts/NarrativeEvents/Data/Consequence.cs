@@ -25,10 +25,10 @@ namespace NarrativeEvents.Data
             Consequences.ForEach(consequence => consequence.Execute());
         }
 
-        public static Consequence Create(LocalizedString description)
+        public static Consequence Empty()
         {
             var consequence = CreateInstance<Consequence>();
-            consequence._description = description;
+            consequence._consequences = new List<SerializableInterface<IConsequence>>();
             return consequence;
         }
     }

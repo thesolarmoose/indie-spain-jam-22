@@ -52,9 +52,10 @@ namespace NarrativeEvents.UI
         {
             _onDisplayEvent.Invoke();
             var ct = _cts.Token;
-            await Popups.ShowPopup(_eventPopupPrefab, @event, ct);
+            var consequence = await Popups.ShowPopup(_eventPopupPrefab, @event, ct);
             _onEventEnded.Invoke();
             endCallback?.Invoke();
+            consequence.ExecuteConsequences();
         }
     }
 }

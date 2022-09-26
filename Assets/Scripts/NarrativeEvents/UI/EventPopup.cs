@@ -14,7 +14,7 @@ using Event = NarrativeEvents.Data.Event;
 
 namespace NarrativeEvents.UI
 {
-    public class EventPopup : AsyncPopupInitializable<Event>
+    public class EventPopup : AsyncPopup<Consequence, Event>
     {
         [SerializeField] private TextMeshProUGUI _eventDescriptionText;
         
@@ -26,7 +26,7 @@ namespace NarrativeEvents.UI
         private List<ChoiceView> _populatedViews;
         private bool _hasChoices;
         
-        public override async Task Show(CancellationToken ct)
+        public override async Task<Consequence> Show(CancellationToken ct)
         {
             if (_hasChoices)
             {
@@ -44,11 +44,13 @@ namespace NarrativeEvents.UI
                 await WaitForContinue(ct);
 
                 // apply consequences
-                consequence.ExecuteConsequences();
+                return consequence;
             }
             else
             {
                 await WaitForContinue(ct);
+                
+                return Consequence.Empty();
             }
         }
 
