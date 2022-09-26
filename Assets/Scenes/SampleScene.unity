@@ -9579,7 +9579,7 @@ MonoBehaviour:
         delay: 0
         flowType: 0
         target: {fileID: 323858322}
-        duration: 1
+        duration: 2
         loopCount: 0
         loopType: 0
         actions:
@@ -9604,7 +9604,7 @@ MonoBehaviour:
         delay: 0
         flowType: 1
         target: {fileID: 102305318}
-        duration: 1
+        duration: 2
         loopCount: 0
         loopType: 0
         actions:
