@@ -7307,6 +7307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _crewVariable: {fileID: 11400000, guid: f95c6be73e12acf4eaff7e0a581d8dc3, type: 2}
+  _initialValue: {fileID: 11400000, guid: 5efb7f8139303a241b6cf2a06b3c3910, type: 2}
   _maxCrewVariable: {fileID: 11400000, guid: b73077fa932d5124694434b48a9d48da, type: 2}
   _crewText: {fileID: 412869475}
 --- !u!1 &1411149865

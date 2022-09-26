@@ -8,12 +8,13 @@ namespace UI
     public class CrewUi : MonoBehaviour
     {
         [SerializeField] private IntVariable _crewVariable;
+        [SerializeField] private IntConstant _initialValue;
         [SerializeField] private IntConstant _maxCrewVariable;
         [SerializeField] private TextMeshProUGUI _crewText;
 
         private void Start()
         {
-            _crewVariable.Value = _maxCrewVariable.Value;
+            _crewVariable.Value = _initialValue.Value;
         }
 
         private void OnEnable()
